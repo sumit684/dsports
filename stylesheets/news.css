@@ -1,0 +1,16 @@
+  .card h4{
+  	font-size: 23px;
+
+  }
+.dd{
+	background-image: url(images/signboard.jpg);
+	background-size: cover;
+
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+@media only screen and (max-width: 768px) {
+	.display-4{
+		font-size:34px!important;
+	}
+}

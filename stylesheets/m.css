@@ -1,0 +1,264 @@
+
+
+        .bg-color{
+            background-color: #2980b9;
+        }
+        .navbar{
+            padding: 0.1rem 1rem
+        }
+        @media (min-width: 1100px){
+            .linetransition>li:before{
+                content: ''; 
+                display: block;
+                margin: auto; 
+                height: 3px;
+                width: 0px;
+                background: transparent;
+                transition: width 0.3s ;	
+
+
+            }
+            .linetransition>li:hover:before{
+                width:100%;
+                background: azure;
+            }
+        }
+        .nav-item{
+            padding-left: 14px;
+            padding-right: 5px;
+
+        }
+        .navbar-dark .navbar-nav .nav-link{
+            color:antiquewhite;
+        }
+        .dropdown-item:hover{
+            background-color:#2980b9 ;    /*#4267b2*/
+            color:white;
+            box-shadow: inset 0 0 20px #0c3996;
+        }
+
+
+        }
+        .dropdown-item{
+            font-weight: 500;
+            line-height: 30px;
+        }
+        .dropdown-toggle::after{
+            display: none;
+
+        }
+        .dropdown-menu{
+            background-color: white;
+            box-shadow: inset 0 0 20px #4267b2;
+            box-shadow: 2px 2px 5px grey;
+        }
+        
+        /* @media (min-width: 1360px){
+        .navbar-expand-md .navbar-toggler {
+        display: none; 
+        }
+        }
+        @media (min-width: 1360px){
+        .navbar-expand-md .navbar-collapse {
+        display: -ms-flexbox!important;
+        display: flex!important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+        } */
+
+       @media (min-width: 1100px){
+.mynavbar-expand-md {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}}
+
+  .mynavbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.navbar-dark .mynavbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,.1);
+}
+   
+@media (min-width: 1100px){
+.mynavbar-expand-md .mynavbar-toggler {
+    display: none;
+}
+}
+  
+.mynavbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+  
+@media (min-width: 1100px){
+.mynavbar-expand-md .mynavbar-collapse {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+}
+}
+
+  .mynavbar-collapse {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-align: center;
+    align-items: center;
+}
+@media (min-width: 1100px){
+.navbar-nav .dropdown-menu {
+    position: absolute;}
+}
+@media (min-width: 1100px){
+.mynavbar-expand-md .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+}}
+@media (min-width: 1100px) and (max-width:1150px)
+{
+    .navbar-nav{
+        font-size: 14px;
+    }
+    .navbar-nav .nav-link{
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+}
+@media (min-width: 1150px) and (max-width:1200px)
+{
+    .navbar-nav{
+        font-size: 14px;
+    }
+    .navbar-nav .nav-link{
+        padding-left: 7px;
+        padding-right: 6px;
+    }
+}
+@media (min-width: 1200px) and (max-width:1250px)
+{
+    .navbar-nav{
+        font-size: 15px;
+    }
+    .navbar-nav .nav-link{
+        padding-left: 7px;
+        padding-right: 6px;
+    }
+}
+   
+
+@media (min-width: 1251px) and (max-width:1300px)
+{
+    
+        
+    .navbar-nav .nav-link{
+        padding-left: 7px;
+        padding-right: 6px;
+    }
+}
+@media (min-width: 1300px){
+   
+    .navbar-nav .nav-link{
+        padding-left: 9px;
+        padding-right: 9px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+/* *********NAME LOGO START******** */
+.logod{
+    background-color: #f4f8f8;
+    color: black;
+    box-shadow: inset 0px 3px 15px 1px rgba(130, 137, 142, 0.83);
+    padding-top: 3px;
+    padding-bottom: 5px;
+/*    height: 130px;*/
+    /*width: 103%;*/
+}
+.heading{
+    padding-left: 2%;
+    float: left;
+    margin-top: 13px;
+    /*lineb-height: 0.8;*/
+}
+.davvlogo{
+    height: 120px; 
+    margin-top: 5px; 
+    float: left;
+    width: 120px;
+}
+.heading h5{
+    font-family: 'Merriweather';
+    font-size: 24px;
+    padding-top: 9px;
+    font-weight: 500;
+}
+.heading .one{
+    font-family: 'Merriweather';
+    font-size: 19px; 
+    margin-top: 1px; 
+    font-weight: 500;
+    /*lineb-height: 1;*/
+}
+
+.heading .two{
+    font-family: 'Merriweather';
+    font-size: 15px; 
+    /*lineb-height: 1.2; */
+    font-weight: 500;
+}
+
+@media screen and (max-width: 768px )
+{.davvlogo{
+    height: 90px;
+    width: 90px; 
+    margin-top: 12px; 
+    float: left;
+    margin-left: -11px;
+    }
+
+    .heading{
+        width: 234px;
+        margin-left: 7px;
+    }
+
+    .heading h5{
+        font-family: 'Merriweather';
+        width: 234px;
+        font-size: 18px;
+        padding-top: 5px;
+    }
+    .heading .one{
+        font-family: 'Merriweather';
+        font-size: 13px;
+        width: 234px; 
+        margin-top: 1px; 
+        /*lineb-height: 1.2;*/
+    }
+
+    .heading .two{
+        font-family: 'Merriweather';
+        font-size: 10px;
+        width: 234px; 
+        /*lineb-height: 1.2; */
+    }
+   
+}
+/* *********NAME LOGO end******** */
