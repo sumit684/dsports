@@ -93,7 +93,7 @@
         </div>
     </div>
 
-
+<?php include('include/footer.html');?>
     <!--*******************contact us page end**************-->
 
     </body>
