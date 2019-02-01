@@ -110,60 +110,61 @@
         <!--**************************************NEWS and Events START*******************************************-->
 
 
-        <!-- <*****news start****> -->
+        <!-- <*****NITI news start****> -->
+        
         <div class="container-fluid" style="/*background-color:white;*/ padding: 0px;">
             <div class="container-fluid" style="background-color: #2f2424; padding: 27px; width:100%; padding-top: 5px;">
                 <h1 class="display-4 news" style="text-align: center; color: white; padding-bottom: 5px; ">News and Events</h1>
                 <div class="card-deck">
                     <div class="card" >
-                        <img class="card-img-top img-fluid" src="images/news.gif" alt="Card image" style="width:100%">
+                        <img class="card-img-top img-fluid" src="images/basket.jpeg" alt="Card image" style="width:100%">
                         <div style="position: relative; top: -24px; left: 18px; background-color: #2f2424; height: 50px; width: 50px; text-align: center;  color: white;">
                             <span>Nov</span>
                             <span>29</span>
                         </div>
                         <div class="card-body" style="padding-top: 0px;">
-                            <h4 class="card-title">John Doe</h4>
-                            <p class="card-text">Some example text some example text. John Doe is an architect and engineer.Some example text some example text. John Doe is an architect and engineer.Some example text some example text. John Doe is an architect and engineer.</p>
+                            <h4 class="card-title">BasketBall</h4>
                             <a href="#" class="btn btn-primary">Read More</a>
                         </div>
                     </div>
                     <div class="card">
-                        <img class="card-img-top img-fluid" src="images/tenor.gif" alt="Card image" style="width:100%; height:170px;">
+                        <img class="card-img-top img-fluid" src="images/hockey.jpg" alt="Card image" style="width:100%; height:170px;">
                         <div style="position: relative; top: -24px; left: 18px; background-color: #2f2424; height: 50px; width: 50px; text-align: center;  color: white;">
                             <span>Nov</span>
                             <span>29</span>
                         </div>
                         <div class="card-body" style="padding-top: 0px;">
-                            <h4 class="card-title" >John Doe</h4>
-                            <p class="card-text">Some example text some example text. John Doe is an architect and engineer.Some example text some example text. John Doe is an architect and engineer.Some example text some example text. John Doe is an architect and engineer.</p>
+                            <h4 class="card-title" >Hockey</h4>
+                           
                             <a href="#" class="btn btn-primary">Read More</a>
                         </div>
                     </div>
                     <div class="card" >
-                        <img class="card-img-top img-fluid" src="images/news2.gif" alt="Card image" style="width:100%">
+                        <img class="card-img-top img-fluid" src="images/kho-kho.jpg" alt="Card image" style="width:100%">
                         <div style="position: relative; top: -24px; left: 18px; background-color: #2f2424; height: 50px; width: 50px; text-align: center;  color: white;">
                             <span>Nov</span>
                             <span>29</span>
                         </div>
                         <div class="card-body" style="padding-top: 0px;">
-                            <h4 class="card-title">John Doe</h4>
-                            <p class="card-text">Some example text some example text. John Doe is an architect and engineer.Some example text some example text. John Doe is an architect and engineer.Some example text some example text. John Doe is an architect and engineer.</p>
+                            <h4 class="card-title">Kho-Kho</h4>
+                           
                             <a href="#" class="btn btn-primary">Read More</a>
                         </div>
                     </div>
                     <div class="card" >
-                        <img class="card-img-top img-fluid" src="images/clock.gif" alt="Card image" style="width:100%; height:169px;">
+                        <img class="card-img-top img-fluid" src="images/volleyball.jpeg" alt="Card image" style="width:100%; height:169px;">
                         <div style="position: relative; top: -24px; left: 18px; background-color: #2f2424; height: 50px; width: 50px; text-align: center;  color: white;">
                             <span>Nov</span>
                             <span>29</span>
                         </div>
                         <div class="card-body" style="padding-top: 0px;">
-                            <h4 class="card-title">John Doe </h4>
-                            <p class="card-text">Some example text some example text. John Doe is an architect and engineer.Some example text some example text. John Doe is an architect and engineer.Some example text some example text. John Doe is an architect and engineer.</p>
+                            <h4 class="card-title">VolleyBall</h4>
+                           
                             <a href="#" class="btn btn-primary">Read More</a>
                         </div>
                     </div>
-                </div></div>
+                </div>
+            </div>
             <!-- ************ -->
             <div class="container-fluid dd" id="aboutdavv" style="" align="center">
 
@@ -171,9 +172,12 @@
 
 
             </div>
-
+            
         </div>
         <!--**************************************NEWS and Events ENDS*******************************************-->
+        <!-------------------------------------SUMIT NEWS & EVENTS----------------------------------------------------------->
+        
+         <!------------------------------------------SUMIT NEW & EVENTS ENDS------------------------------------------------------>
 
 
 
