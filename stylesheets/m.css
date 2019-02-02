@@ -206,7 +206,7 @@
 }
 .heading h5{
     font-family: 'Merriweather';
-    font-size: 24px;
+    font-size: 26px;
     padding-top: 9px;
     font-weight: 500;
 }
@@ -262,3 +262,10 @@
    
 }
 /* *********NAME LOGO end******** */
+
+
+
+
+.footer_link a{
+    color:white;
+}
