@@ -108,7 +108,18 @@
 
 
         <!--**************************************NEWS and Events START*******************************************-->
-
+        <style>
+            .dates{
+                position: relative; 
+                top: -24px; left: 18px;
+                background-color: #2f2424;
+                height: 50px; 
+                width: 50px; 
+                text-align: center;
+                color: white;
+                border-radius:6px;
+            }
+        </style>
 
         <!-- <*****NITI news start****> -->
         
@@ -117,19 +128,26 @@
                 <h1 class="display-4 news" style="text-align: center; color: white; padding-bottom: 5px; ">News and Events</h1>
                 <div class="card-deck">
                     <div class="card" >
-                        <img class="card-img-top img-fluid" src="images/basket.jpeg" alt="Card image" style="width:100%">
-                        <div style="position: relative; top: -24px; left: 18px; background-color: #2f2424; height: 50px; width: 50px; text-align: center;  color: white;">
-                            <span>Nov</span>
-                            <span>29</span>
+                        <img class="card-img-top img-fluid" src="images/basket.jpeg" alt="Card image" style="width:100%; height:170px; ">
+                        <div class="dates">
+                            <span>Feb<br></span>
+                            <span>25</span>
                         </div>
                         <div class="card-body" style="padding-top: 0px;">
                             <h4 class="card-title">BasketBall</h4>
-                            <a href="#" class="btn btn-primary">Read More</a>
+                            <h5>Inter College Tournament</h5>
+<!--
+                            <h6>- Govt. PG College, Khargone</h6>
+                            <b>Faculty Incharge:</b> Dr.V,F.Peter<br>
+                            <b>Contact :</b> 9131354861<br>
+                            <b>Department :</b> SOPE<br>
+-->
+                            <a href="#" class="btn btn-primary">View PDF</a>
                         </div>
                     </div>
                     <div class="card">
-                        <img class="card-img-top img-fluid" src="images/hockey.jpg" alt="Card image" style="width:100%; height:170px;">
-                        <div style="position: relative; top: -24px; left: 18px; background-color: #2f2424; height: 50px; width: 50px; text-align: center;  color: white;">
+                        <img class="card-img-top img-fluid" src="images/hockey.jpg" alt="Card image" style="width:100%; ; height:170px;">
+                        <div class="dates">
                             <span>Nov</span>
                             <span>29</span>
                         </div>
@@ -140,8 +158,8 @@
                         </div>
                     </div>
                     <div class="card" >
-                        <img class="card-img-top img-fluid" src="images/kho-kho.jpg" alt="Card image" style="width:100%">
-                        <div style="position: relative; top: -24px; left: 18px; background-color: #2f2424; height: 50px; width: 50px; text-align: center;  color: white;">
+                        <img class="card-img-top img-fluid" src="images/kho-kho.jpg" alt="Card image" style="width:100% ; height:170px;">
+                        <div class="dates">
                             <span>Nov</span>
                             <span>29</span>
                         </div>
@@ -152,8 +170,8 @@
                         </div>
                     </div>
                     <div class="card" >
-                        <img class="card-img-top img-fluid" src="images/volleyball.jpeg" alt="Card image" style="width:100%; height:169px;">
-                        <div style="position: relative; top: -24px; left: 18px; background-color: #2f2424; height: 50px; width: 50px; text-align: center;  color: white;">
+                        <img class="card-img-top img-fluid" src="images/volleyball.jpeg" alt="Card image" style="width:100%;; height:170px;">
+                        <div class="dates">
                             <span>Nov</span>
                             <span>29</span>
                         </div>
@@ -196,12 +214,12 @@
                 </div>
             </div>
             <div class="col-md-7" style="color:#3b2f2f;  padding: 20px; padding-left: 50px;">
-                <h1 style="font-family: 'Lobster', cursive;"><center>About Directorate</center></h1>
+                <h1 style="font-family: 'Asul', cursive;"><center>About Directorate</center></h1>
                 <hr>
-                <span style="font-family: 'Cardo' ,sans-serif; font-size: 20px;">Devi Ahilya Vishwavidyalaya (DAVV),
+                <span style="font-family: 'Brawler' ,sans-serif; font-size: 20px;">Devi Ahilya Vishwavidyalaya (DAVV),
                     formerly University of Indore, is a premier University in Central India, has completed 54th years 
                     of establishment, educational commitment and services. It is the First State University of Madhya
-                    Pradesh which has been accredited with “A” grade by NAAC. It was established in 1964,by an
+                    Pradesh which has been accredited with “A” grade by NAAC. It was established in 1964, by an
                     Act of Legislature of Madhya Pradesh. </span>        
             </div>
         </div>
