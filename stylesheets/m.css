@@ -30,6 +30,7 @@
         }
         .navbar-dark .navbar-nav .nav-link{
             color:antiquewhite;
+            font-weight: 600;
         }
         .dropdown-item:hover{
             background-color:#2980b9 ;    /*#4267b2*/
