@@ -9,7 +9,7 @@
         <style>
 
             .dd{
-                background-image: url(images/blue2.jpg);
+                background-image: url(images/blue.jpg);
                 background-size: cover;
 
                 background-repeat: no-repeat;
