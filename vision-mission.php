@@ -5,7 +5,7 @@
     </head>
     <style>
         .dd{
-            background-image: url(images/vision-mission/skyy.png);
+            background-image: url(images/blue.jpg);
             background-size: 100%;
         }    
         .vission-mission-content{
@@ -25,6 +25,9 @@
         padding-left: 30px;
         }
         */
+        .jumbotron{
+            background-color: azure;
+        }
     </style>
     <script>
        
@@ -48,7 +51,7 @@
             </map>
 
         </div>
-        <div class="container" style="background-color: #97d5f6; padding-top: 0px; box-shadow: 10px 10px 500px 10px #97d5f6">
+        <div class="container" style="background-image:url('images/blue.jpg');padding-top: 0px; box-shadow: 10px 10px 500px 10px azure">
             <div class="jumbotron" id="vision" >
                 <h1>Vision <i class="fas fa-eye"></i></h1>
                 <div class="content-margin">
@@ -80,7 +83,7 @@
                 </h1>
                 <span class="vission-mission-content">
                     <ul style="list-style:disc;">
-                        <li>To ensure "MASS PATICIPATION" of Students in Game & Sports.</li>
+                        <li>To ensure "MASS PARTICIPATION" of Students in Game & Sports.</li>
                         <li>To motivate Students to achieve Health, Fitness & Social qualities. </li>
                         <li>Special efforts to take Games & Sports to the Tribal Areas which dominate the university 
                             jurisdiction in order to harness & develop physical skills & capabilities of tribal Students.</li>

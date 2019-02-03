@@ -5,6 +5,11 @@
         <title>Contact US | Diretorate of Physical Edu and Sports</title>
 
         <?php include('include/link.html');?>
+        <style>
+            body{
+                overflow-x: hidden;
+            }
+        </style>
     </head>
     <body>
         <?php include('include/nav.html');?>
@@ -42,7 +47,7 @@
                         </i>
                     </div>
                     <b style="font-size: 20px; ">Phone</b><br><br>
-                    <span class="contactus">     Phone: +91-731- etr2527532
+                    <span class="contactus">     Phone: +91-731-2527532
                         <br><br>                       <div style="padding-bottom: 3%;">   <!--see this is line-->
                         <svg height="3" width="100" style="" >
 
@@ -93,7 +98,7 @@
         </div>
     </div>
 
-
+<?php include('include/footer.html');?>
     <!--*******************contact us page end**************-->
 
     </body>

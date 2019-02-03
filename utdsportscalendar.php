@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
 
-        <title>CALENDER| Diretorate of Physical Edu and Sports</title>
+        <title>CALENDAR| Diretorate of Physical Edu and Sports</title>
 
         <?php include('include/link.html');?>
         <style>
@@ -12,10 +12,10 @@
                 font-family: 'Times New Roman';
             }
             .calendar tr:hover{
-                background-color: rgba(245, 255, 0, 0.35)!important;
+                background-color: rgba(192, 193, 193, 0.38)!important;
             }
             .calendar th{
-                background-color: #2da4f3;
+                background-color: #aad5f1;
                 
             }
             /*
@@ -39,9 +39,9 @@
         $conn=mysqli_connect($host,$username,$password,$dbname);
         ?>
         <div style="margin-top:10px;" align="center">
-        <font face="Cooper Black" size=7 color="#000000">UTD SPORTS ASSOCIATION</font><br>
+        <font face="Belleza" size=7 color="#000000">UTD SPORTS ASSOCIATION</font><br>
         
-        <font face="Baskerville Old Face" size=6 color="#000000">SPORTS CALENDER 2018 &ndash; 2019 </font><br>
+        <font face="sans-serif" size=6 color="#000000">SPORTS CALENDAR 2018 &ndash; 2019 </font><br>
         </div>
         <table class="container calendar">
             <tr>
@@ -80,7 +80,7 @@
             ?>
         </table>
         <br>
-        <center><a href="http://www.dauniv.ac.in/sports/UTD%20Sports%20Calender%202018-2019.pdf" class="btn btn-primary" >Download Calendar</a></center><br>
+        <center><a href="http://www.dauniv.ac.in/sports/UTD%20Sports%20CALENDAR%202018-2019.pdf" class="btn btn-primary" >Download Calendar</a></center><br>
         <?php include('include/footer.html');?>
     </body>
 </html>
