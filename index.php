@@ -154,7 +154,7 @@
                         <div class="card-body" style="padding-top: 0px;">
                             <h4 class="card-title" >Hockey</h4>
                              <h5>Inter University Tournament</h5>
-                            <a href="#" class="btn btn-primary">Read More</a>
+                            <a href="#" class="btn btn-primary">View PDF</a>
                         </div>
                     </div>
                     <div class="card" >
@@ -166,7 +166,7 @@
                         <div class="card-body" style="padding-top: 0px;">
                             <h4 class="card-title">Kho-Kho</h4>
                              <h5>Inter College Tournament</h5>
-                            <a href="#" class="btn btn-primary">Read More</a>
+                            <a href="#" class="btn btn-primary">View PDF</a>
                         </div>
                     </div>
                     <div class="card" >
@@ -178,7 +178,7 @@
                         <div class="card-body" style="padding-top: 0px;">
                             <h4 class="card-title">VolleyBall</h4>
                              <h5>Inter College Tournament</h5>
-                            <a href="#" class="btn btn-primary">Read More</a>
+                            <a href="#" class="btn btn-primary">View PDF</a>
                         </div>
                     </div>
                 </div>
