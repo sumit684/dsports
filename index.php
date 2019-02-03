@@ -9,7 +9,7 @@
         <style>
 
             .dd{
-                background-image: url(images/vision-mission/skyy.png);
+                background-image: url(images/blue2.jpg);
                 background-size: cover;
 
                 background-repeat: no-repeat;
@@ -153,7 +153,7 @@
                         </div>
                         <div class="card-body" style="padding-top: 0px;">
                             <h4 class="card-title" >Hockey</h4>
-                           
+                             <h5>Inter University Tournament</h5>
                             <a href="#" class="btn btn-primary">Read More</a>
                         </div>
                     </div>
@@ -165,7 +165,7 @@
                         </div>
                         <div class="card-body" style="padding-top: 0px;">
                             <h4 class="card-title">Kho-Kho</h4>
-                           
+                             <h5>Inter College Tournament</h5>
                             <a href="#" class="btn btn-primary">Read More</a>
                         </div>
                     </div>
@@ -177,7 +177,7 @@
                         </div>
                         <div class="card-body" style="padding-top: 0px;">
                             <h4 class="card-title">VolleyBall</h4>
-                           
+                             <h5>Inter College Tournament</h5>
                             <a href="#" class="btn btn-primary">Read More</a>
                         </div>
                     </div>
