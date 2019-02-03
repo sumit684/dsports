@@ -68,7 +68,7 @@
             }
             .downloads h1{
                 font-family: 'Merriweather';
-                color: chocolate;
+                color: #100e33d6;
             }
             .icon_style{
                 padding-right:8px;
