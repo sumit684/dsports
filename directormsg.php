@@ -38,7 +38,7 @@
             }
             .jumbotron h1
             {
-                padding-left: 200px;
+              
                 color: black;
             }
             .ab h3
@@ -52,7 +52,7 @@
                 height: 500px;
             }
 
-            .jumbotron h1  
+        
             @media only screen and (max-width: 900px) {
                 .jumbotron p {
                     padding-right: 50px;
@@ -76,7 +76,7 @@
         <div class="container-fluid ab">
             <div class="row ">
                 <div class="col-md-6" style="background-image: 'Sunil.jpg'">
-                    <img src="images/officestaff/1.JPG" style="padding: 3px;height: 427px;width: 60%;margin:5px 0px 0px 5px;margin-left: 11%;border: 3px solid #2980b9;border-radius: 19px;"  alt="Deputy Director"  >
+                    <img src="images/officestaff/1.JPG" style="height: 440px;width: 58%; margin-left:15%;"  alt="Deputy Director"  >
                 </div>
                 <div class="col-md-6 text-center" style="background-color: #0f2b57 ;padding-top: 40px;">
                     <h1>
@@ -92,7 +92,7 @@
             <div class="row">
 
                 <div class="col-md-12 jumbotron">
-                    <h1>Playing India and Great India</h1><br>
+                    <h1><center>Playing India and Great India</center></h1><br>
 
                     <p>It is extremely unfortunate that in spite of cultural and religious importance of play we have miserably failed at present to give appropriate place to "Play" in our social and educational system. Play (physical activity) was part and parcel of our society since time immemorial. Students were taught games & sports and physical activities during their education in Gurukuls. The importance of play is revealed from the very fact that the marriage (Swamvar) conditions of Sitaji & Draupadiji were putting the string on the Pinak bow & piercing the eye of the rotating fish respectively. There were many options available like discussion on shastra, creation of a best poem, solving a problem of math's etc., but selection of Physical prowess & skill as condition reflects very clearly the importance it had then.</p>
                    
