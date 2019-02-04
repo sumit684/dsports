@@ -101,7 +101,7 @@
             <br>
             <h1><center>NOTICES</center></h1>
 
-            <button class="accordion"><i class="fas fa-scroll icon_style"></i>CIRCULARS</button>
+            <button class="accordion" id="circulars"><i class="fas fa-scroll icon_style"></i>CIRCULARS</button>
             <div class="panel">
                 <ul>
                     <li>
@@ -159,7 +159,7 @@
 
 
 
-            <button class="accordion"><i class="far fa-envelope icon_style"></i>LETTERS</button>
+            <button class="accordion" id="letters"><i class="far fa-envelope icon_style"></i>LETTERS</button>
             <div class="panel">
                 <ul>
                     <li>
@@ -175,7 +175,7 @@
 
                 </ul>
             </div>
-            <button class="accordion"><i class="fas fa-calendar-alt icon_style"></i>FIXTURES</button>
+            <button class="accordion" id="fixtures"><i class="fas fa-calendar-alt icon_style"></i>FIXTURES</button>
             <div class="panel">
                 <ul>
                     <li><a href="#"><strong>Fixture 2018-19</strong>
@@ -185,7 +185,7 @@
 
                 </ul>
             </div>
-            <button class="accordion"><i class="fas fa-file-invoice-dollar icon_style"></i>TENDERS</button>
+            <button class="accordion" id="tendures"><i class="fas fa-file-invoice-dollar icon_style"></i>TENDERS</button>
             <div class="panel">
                 <ul>
                     <li><a href="#">
