@@ -131,7 +131,7 @@
                         <img class="card-img-top img-fluid" src="images/basket.jpeg" alt="Card image" style="width:100%; height:170px; ">
                         <div class="dates">
                             <span>Feb<br></span>
-                            <span>25</span>
+                            <span>6</span>
                         </div>
                         <div class="card-body" style="padding-top: 0px;">
                             <h4 class="card-title">BasketBall</h4>
@@ -148,8 +148,8 @@
                     <div class="card">
                         <img class="card-img-top img-fluid" src="images/hockey.jpg" alt="Card image" style="width:100%; ; height:170px;">
                         <div class="dates">
-                            <span>Nov</span>
-                            <span>29</span>
+                            <span>Feb<br></span>
+                            <span>8</span>
                         </div>
                         <div class="card-body" style="padding-top: 0px;">
                             <h4 class="card-title" >Hockey</h4>
@@ -160,8 +160,8 @@
                     <div class="card" >
                         <img class="card-img-top img-fluid" src="images/kho-kho.jpg" alt="Card image" style="width:100% ; height:170px;">
                         <div class="dates">
-                            <span>Nov</span>
-                            <span>29</span>
+                            <span>Mar<br></span>
+                            <span>2</span>
                         </div>
                         <div class="card-body" style="padding-top: 0px;">
                             <h4 class="card-title">Kho-Kho</h4>
@@ -172,8 +172,8 @@
                     <div class="card" >
                         <img class="card-img-top img-fluid" src="images/volleyball.jpeg" alt="Card image" style="width:100%;; height:170px;">
                         <div class="dates">
-                            <span>Nov</span>
-                            <span>29</span>
+                            <span>Mar<br></span>
+                            <span>13</span>
                         </div>
                         <div class="card-body" style="padding-top: 0px;">
                             <h4 class="card-title">VolleyBall</h4>
