@@ -109,6 +109,25 @@
 
                 </div>
             </div>
+            
+            <div style="height: 60px;" ></div>
+
+            <div class="row" style="box-shadow: 10px 10px 5px #aaaaaa;">
+                <div class="col-md-3"   >
+                    <img src="images/officestaff/4.jpg"   class="col-xs-12 img-responsive" center>
+                </div>
+                <div style="background-color: #eeeff2;" class="col-md-9  ">
+                    <br>
+                    <h4 style="font-size: 40px; line-height: 1.2">Mr.Thakur Das Verma</h4>
+                    <h6 style="font-size: 25px; line-height: 1.5;">Assisstant Grade Ist</h6>
+
+                    <p style="font-size: 20px; line-height: 1.8">
+                        <span class="highlight">Academic Qualification</span>:
+                        Passed M.A. (Sociology) Examination from D.A University,Indore 
+                        in the year 1988,
+                        Completed certificate computer course(PDP) from D.A. University, Indore. </p>
+
+                </div></div>
             <div style="height: 60px;" ></div>
             <div class="row" style="box-shadow: 10px 10px 5px #aaaaaa;">
                 <div class="col-md-3"   >
@@ -147,27 +166,7 @@
 
 
                 </div></div>
-            <div style="height: 60px;" ></div>
-
-            <div class="row" style="box-shadow: 10px 10px 5px #aaaaaa;">
-                <div class="col-md-3"   >
-                    <img src="images/officestaff/4.jpg"   class="col-xs-12 img-responsive" center>
-                </div>
-                <div style="background-color: #eeeff2;" class="col-md-9  ">
-                    <br>
-                    <h4 style="font-size: 40px; line-height: 1.2">Mr.Thakur Das Verma</h4>
-                    <h6 style="font-size: 25px; line-height: 1.5;">Assisstant Grade Ist</h6>
-
-                    <p style="font-size: 20px; line-height: 1.8">
-                        <span class="highlight">Academic Qualification</span>:
-                        Passed M.A. (Sociology) Examination from D.A University,Indore 
-                        in the year 1988,
-                        Completed certificate computer course(PDP) from D.A. University, Indore. </p>
-
-
-
-
-                </div></div>
+            
             <div style="height: 60px;" ></div>
 
             <div class="row" style="box-shadow: 10px 10px 5px #aaaaaa;">
