@@ -240,80 +240,80 @@
       <div class="container">
           <div class="row">
               <div class=" col-md-2 gallery-grid " onclick="openModal();currentSlide(1)">
-                <img src="1.jpg" style="width: 100%; "  class="hover-shadow cursor">
+                <img src="images/gallery/1.jpg" style="width: 100%; "  class="hover-shadow cursor">
                 <p style="font-family:Arial, Helvetica, sans-serif; font-weight: 500; " align="center">view</p>
               </div>
               <div class=" col-md-2 gallery-grid" onclick="openModal();currentSlide(2)">
-                  <img src="2.jpg" style="width:100%; "  class="hover-shadow cursor">
+                  <img src="images/gallery/2.jpg" style="width:100%; "  class="hover-shadow cursor">
                   <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  " align="center">view</p>
               </div>
               <div class=" col-md-2 gallery-grid" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
-                  <img src="3.jpg" style="width:100%" >
+                  <img src="images/gallery/3.jpg" style="width:100%" >
                   <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; " align="center">view</p>
               </div> 
               <div class=" col-md-2 gallery-grid" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
-                  <img src="4.jpg" style="width:100%" >
+                  <img src="images/gallery/4.jpg" style="width:100%" >
                   <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; " align="center">view</p>
               </div> 
               <div class=" col-md-2 gallery-grid" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
-                  <img src="5.jpg" style="width:100%" >
+                  <img src="images/gallery/5.jpg" style="width:100%" >
                   <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; " align="center">view</p>
               </div>
               <div class=" col-md-2 gallery-grid" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
-                  <img src="6.jpg" style="width:100%" >
+                  <img src="images/gallery/6.jpg" style="width:100%" >
                   <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; " align="center">view</p>
               </div>  
           </div>
           <div class="row">
             <div class=" col-md-2 gallery-grid " onclick="openModal();currentSlide(7)">
-              <img src="7.jpg" style="width: 100%; "  class="hover-shadow cursor">
+              <img src="images/gallery/7.jpg" style="width: 100%; "  class="hover-shadow cursor">
               <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  " align="center">view</p>
             </div>
             <div class=" col-md-2 gallery-grid" onclick="openModal();currentSlide(8)">
-                <img src="8.jpg" style="width:100%; "  class="hover-shadow cursor">
+                <img src="images/gallery/8.jpg" style="width:100%; "  class="hover-shadow cursor">
                 <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  " align="center">view</p>
             </div>
             <div class=" col-md-2 gallery-grid" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
-                <img src="9.jpg" style="width:100%" >
+                <img src="images/gallery/9.jpg" style="width:100%" >
                 <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; " align="center">view</p>
             </div> 
             <div class=" col-md-2 gallery-grid" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
-                <img src="10.jpg" style="width:100%" >
+                <img src="images/gallery/10.jpg" style="width:100%" >
                 <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; " align="center">view</p>
             </div> 
             <div class=" col-md-2 gallery-grid" onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
-                <img src="11.jpg" style="width:100%" >
+                <img src="images/gallery/11.jpg" style="width:100%" >
                 <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; " align="center">view</p>
             </div>
             <div class=" col-md-2 gallery-grid" onclick="openModal();currentSlide(12)" class="hover-shadow cursor">
-                <img src="12.jpg" style="width:100%" >
+                <img src="images/gallery/12.jpg" style="width:100%" >
                 <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; " align="center">view</p>
             </div>  
         </div>
 
         <div class="row">
           <div class=" col-md-2 gallery-grid " onclick="openModal();currentSlide(13)">
-            <img src="13.jpg" style="width: 100%; "  class="hover-shadow cursor">
+            <img src="images/gallery/13.jpg" style="width: 100%; "  class="hover-shadow cursor">
             <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  " align="center">view</p>
           </div>
           <div class=" col-md-2 gallery-grid" onclick="openModal();currentSlide(14)">
-              <img src="14.jpg" style="width:100%; "  class="hover-shadow cursor">
+              <img src="images/gallery/14.jpg" style="width:100%; "  class="hover-shadow cursor">
               <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  " align="center">view</p>
           </div>
           <div class=" col-md-2 gallery-grid" onclick="openModal();currentSlide(15)" class="hover-shadow cursor">
-              <img src="15.jpg" style="width:100%" >
+              <img src="images/gallery/15.jpg" style="width:100%" >
               <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; " align="center">view</p>
           </div> 
           <div class=" col-md-2 gallery-grid" onclick="openModal();currentSlide(16)" class="hover-shadow cursor">
-              <img src="16.jpg" style="width:100%" >
+              <img src="images/gallery/16.jpg" style="width:100%" >
               <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; " align="center">view</p>
           </div> 
           <div class=" col-md-2 gallery-grid" onclick="openModal();currentSlide(17)" class="hover-shadow cursor">
-              <img src="17.jpg" style="width:100%" >
+              <img src="images/gallery/17.jpg" style="width:100%" >
               <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; " align="center">view</p>
           </div>
           <div class=" col-md-2 gallery-grid" onclick="openModal();currentSlide(18)" class="hover-shadow cursor">
-              <img src="18.jpg" style="width:100%" >
+              <img src="images/gallery/18.jpg" style="width:100%" >
               <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; " align="center">view</p>
           </div>  
       </div>
@@ -321,54 +321,54 @@
 
       <div class="row">
         <div class=" col-md-2 gallery-grid " onclick="openModal();currentSlide(19)">
-          <img src="19.jpg" style="width: 100%; "  class="hover-shadow cursor">
+          <img src="images/gallery/19.jpg" style="width: 100%; "  class="hover-shadow cursor">
           <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  " align="center">view</p>
         </div>
         <div class=" col-md-2 gallery-grid" onclick="openModal();currentSlide(20)">
-            <img src="20.jpg" style="width:100%; "  class="hover-shadow cursor">
+            <img src="images/gallery/20.jpg" style="width:100%; "  class="hover-shadow cursor">
             <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  " align="center">view</p>
         </div>
         <div class=" col-md-2 gallery-grid" onclick="openModal();currentSlide(21)" class="hover-shadow cursor">
-            <img src="21.jpg" style="width:100%" >
+            <img src="images/gallery/21.jpg" style="width:100%" >
             <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; " align="center">view</p>
         </div> 
         <div class=" col-md-2 gallery-grid" onclick="openModal();currentSlide(22)" class="hover-shadow cursor">
-            <img src="22.jpg" style="width:100%" >
+            <img src="images/gallery/22.jpg" style="width:100%" >
             <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; " align="center">view</p>
         </div> 
         <div class=" col-md-2 gallery-grid" onclick="openModal();currentSlide(23)" class="hover-shadow cursor">
-            <img src="23.jpg" style="width:100%" >
+            <img src="images/gallery/23.jpg" style="width:100%" >
             <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; " align="center">view</p>
         </div>
         <div class=" col-md-2 gallery-grid" onclick="openModal();currentSlide(24)" class="hover-shadow cursor">
-            <img src="24.jpg" style="width:100%" >
+            <img src="images/gallery/24.jpg" style="width:100%" >
             <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; " align="center">view</p>
         </div>  
     </div>
 
     <div class="row">
       <div class=" col-md-2 gallery-grid " onclick="openModal();currentSlide(25)">
-        <img src="25.jpg" style="width: 100%; "  class="hover-shadow cursor">
+        <img src="images/gallery/25.jpg" style="width: 100%; "  class="hover-shadow cursor">
         <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  " align="center">view</p>
       </div>
       <div class=" col-md-2 gallery-grid" onclick="openModal();currentSlide(26)">
-          <img src="27.jpg" style="width:100%; "  class="hover-shadow cursor">
+          <img src="images/gallery/27.jpg" style="width:100%; "  class="hover-shadow cursor">
           <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  " align="center">view</p>
       </div>
       <div class=" col-md-2 gallery-grid" onclick="openModal();currentSlide(27)" class="hover-shadow cursor">
-          <img src="27.jpg" style="width:100%" >
+          <img src="images/gallery/27.jpg" style="width:100%" >
           <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; " align="center">view</p>
       </div> 
       <div class=" col-md-2 gallery-grid" onclick="openModal();currentSlide(28)" class="hover-shadow cursor">
-          <img src="28.jpg" style="width:100%" >
+          <img src="images/gallery/28.jpg" style="width:100%" >
           <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; " align="center">view</p>
       </div> 
       <div class=" col-md-2 gallery-grid" onclick="openModal();currentSlide(29)" class="hover-shadow cursor">
-          <img src="29.jpg" style="width:100%" >
+          <img src="images/gallery/29.jpg" style="width:100%" >
           <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; " align="center">view</p>
       </div>
       <div class=" col-md-2 gallery-grid" onclick="openModal();currentSlide(30)" class="hover-shadow cursor">
-          <img src="30.jpg" style="width:100%" >
+          <img src="images/gallery/30.jpg" style="width:100%" >
           <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; " align="center">view</p>
       </div>  
   </div>
@@ -376,27 +376,27 @@
 
   <div class="row">
     <div class=" col-md-2 gallery-grid " onclick="openModal();currentSlide(31)">
-      <img src="31.jpg" style="width: 100%; "  class="hover-shadow cursor">
+      <img src="images/gallery/31.jpg" style="width: 100%; "  class="hover-shadow cursor">
       <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  " align="center">view</p>
     </div>
     <div class=" col-md-2 gallery-grid" onclick="openModal();currentSlide(32)">
-        <img src="32.jpg" style="width:100%; "  class="hover-shadow cursor">
+        <img src="images/gallery/32.jpg" style="width:100%; "  class="hover-shadow cursor">
         <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  " align="center">view</p>
     </div>
     <div class=" col-md-2 gallery-grid" onclick="openModal();currentSlide(33)" class="hover-shadow cursor">
-        <img src="33.jpg" style="width:100%" >
+        <img src="images/gallery/33.jpg" style="width:100%" >
         <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; " align="center">view</p>
     </div> 
     <div class=" col-md-2 gallery-grid" onclick="openModal();currentSlide(34)" class="hover-shadow cursor">
-        <img src="34.jpg" style="width:100%" >
+        <img src="images/gallery/34.jpg" style="width:100%" >
         <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; " align="center">view</p>
     </div> 
     <div class=" col-md-2 gallery-grid" onclick="openModal();currentSlide(35)" class="hover-shadow cursor">
-        <img src="35.jpg" style="width:100%" >
+        <img src="images/gallery/35.jpg" style="width:100%" >
         <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; " align="center">view</p>
     </div>
     <div class=" col-md-2 gallery-grid" onclick="openModal();currentSlide(36)" class="hover-shadow cursor">
-        <img src="36.jpg" style="width:100%" >
+        <img src="images/gallery/36.jpg" style="width:100%" >
         <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; " align="center">view</p>
     </div>  
 </div>
@@ -432,7 +432,7 @@
                     <h2 style="color:whitesmoke; opacity: 0.4;">Hockey Player </h2>
                     <h6 style="font-family: cursive; color: rgba(245, 245, 245, 0.376)"><i>~Karan Mishera</i></h6>
                   </div>
-                <div class="col-md-8 modal-grid"> <img src="1.jpg" style="width:100%"></div> 
+                <div class="col-md-8 modal-grid"> <img src="images/gallery/1.jpg" style="width:100%"></div> 
               </div>
           </div>
           
@@ -449,7 +449,7 @@
                     <h2 style="color:whitesmoke; opacity: 0.4;">volley ball </h2>
                     <h6 style="font-family: cursive; color: rgba(245, 245, 245, 0.376)"><i>~Mr Shri Rama</i></h6>
                   </div>
-                <div class="col-md-8 modal-grid"> <img src="2.jpg" style="width:100%"></div> 
+                <div class="col-md-8 modal-grid"> <img src="images/gallery/2.jpg" style="width:100%"></div> 
               </div>
           </div>
 
@@ -466,7 +466,7 @@
                     <h2 style="color:whitesmoke; opacity: 0.4;">Hockey Player </h2>
                     <h6 style="font-family: cursive; color: rgba(245, 245, 245, 0.376)"><i>~Karan Mishera</i></h6>
                   </div>
-                <div class="col-md-8 modal-grid"> <img src="3.jpg" style="width:100%"></div> 
+                <div class="col-md-8 modal-grid"> <img src="images/gallery/3.jpg" style="width:100%"></div> 
               </div>
           </div>
 
@@ -484,7 +484,7 @@
                     <h2 style="color:whitesmoke; opacity: 0.4;">Volleyball </h2>
                     <h6 style="font-family: cursive; color: rgba(245, 245, 245, 0.376)"><i>~Karan Mishera</i></h6>
                   </div>
-                <div class="col-md-8 modal-grid"> <img src="4.jpg" style="width:100%"></div> 
+                <div class="col-md-8 modal-grid"> <img src="images/gallery/4.jpg" style="width:100%"></div> 
               </div>
           </div>
 
@@ -502,7 +502,7 @@
                     <h2 style="color:whitesmoke; opacity: 0.4;">Volleyball Player </h2>
                     <h6 style="font-family: cursive; color: rgba(245, 245, 245, 0.376)"><i>~Kishan Mishera</i></h6>
                   </div>
-                <div class="col-md-8 modal-grid"> <img src="5.jpg" style="width:100%"></div> 
+                <div class="col-md-8 modal-grid"> <img src="images/gallery/5.jpg" style="width:100%"></div> 
               </div>
           </div>
 
@@ -520,7 +520,7 @@
                     <h2 style="color:whitesmoke; opacity: 0.4;">Volleyball </h2>
                     <h6 style="font-family: cursive; color: rgba(245, 245, 245, 0.376)"><i>~Players</i></h6>
                   </div>
-                <div class="col-md-8 modal-grid"> <img src="6.jpg" style="width:100%"></div> 
+                <div class="col-md-8 modal-grid"> <img src="images/gallery/6.jpg" style="width:100%"></div> 
               </div>
           </div>
           
@@ -538,7 +538,7 @@
                     <h2 style="color:whitesmoke; opacity: 0.4;"> Players </h2>
                     <h6 style="font-family: cursive; color: rgba(245, 245, 245, 0.376)"><i>~Davv</i></h6>
                   </div>
-                <div class="col-md-8 modal-grid"> <img src="7.jpg" style="width:100%"></div> 
+                <div class="col-md-8 modal-grid"> <img src="images/gallery/7.jpg" style="width:100%"></div> 
               </div>
           </div>
           
@@ -556,7 +556,7 @@
                     <h2 style="color:whitesmoke; opacity: 0.4;">Volleyball</h2>
                     <h6 style="font-family: cursive; color: rgba(245, 245, 245, 0.376)"><i>~Players</i></h6>
                   </div>
-                <div class="col-md-8 modal-grid"> <img src="8.jpg" style="width:100%"></div> 
+                <div class="col-md-8 modal-grid"> <img src="images/gallery/8.jpg" style="width:100%"></div> 
               </div>
           </div>
 
@@ -574,7 +574,7 @@
                     <h2 style="color:whitesmoke; opacity: 0.4;">Volleyball Player </h2>
                     <h6 style="font-family: cursive; color: rgba(245, 245, 245, 0.376)"><i>~Samyak Jain</i></h6>
                   </div>
-                <div class="col-md-8 modal-grid"> <img src="9.jpg" style="width:100%"></div> 
+                <div class="col-md-8 modal-grid"> <img src="images/gallery/9.jpg" style="width:100%"></div> 
               </div>
           </div>
 
@@ -593,7 +593,7 @@
                     <h2 style="color:whitesmoke; opacity: 0.4;">Volleyball Player </h2>
                     <h6 style="font-family: cursive; color: rgba(245, 245, 245, 0.376)"><i>~Players</i></h6>
                   </div>
-                <div class="col-md-8 modal-grid"> <img src="10.jpg" style="width:100%"></div> 
+                <div class="col-md-8 modal-grid"> <img src="images/gallery/10.jpg" style="width:100%"></div> 
               </div>
           </div>
 
@@ -612,7 +612,7 @@
                     <h2 style="color:whitesmoke; opacity: 0.4;">Volleyball Player </h2>
                     <h6 style="font-family: cursive; color: rgba(245, 245, 245, 0.376)"><i>~Players</i></h6>
                   </div>
-                <div class="col-md-8 modal-grid"> <img src="11.jpg" style="width:100%"></div> 
+                <div class="col-md-8 modal-grid"> <img src="images/gallery/11.jpg" style="width:100%"></div> 
               </div>
           </div>
 
@@ -631,7 +631,7 @@
                     <h2 style="color:whitesmoke; opacity: 0.4;">Salute Sir </h2>
                     <h6 style="font-family: cursive; color: rgba(245, 245, 245, 0.376)"><i>~Mr Anand Singh</i></h6>
                   </div>
-                <div class="col-md-8 modal-grid"> <img src="12.jpg" style="width:100%"></div> 
+                <div class="col-md-8 modal-grid"> <img src="images/gallery/12.jpg" style="width:100%"></div> 
               </div>
           </div>
 
@@ -651,7 +651,7 @@
                     <h2 style="color:whitesmoke; opacity: 0.4;">Warm Welcome </h2>
                     <h6 style="font-family: cursive; color: rgba(245, 245, 245, 0.376)"><i>~Mr Anand Singh</i></h6>
                   </div>
-                <div class="col-md-8 modal-grid"> <img src="13.jpg" style="width:100%"></div> 
+                <div class="col-md-8 modal-grid"> <img src="images/gallery/13.jpg" style="width:100%"></div> 
               </div>
           </div>
 
@@ -671,7 +671,7 @@
                     <h2 style="color:whitesmoke; opacity: 0.4;"> Player </h2>
                     <h6 style="font-family: cursive; color: rgba(245, 245, 245, 0.376)"><i>~Spirit</i></h6>
                   </div>
-                <div class="col-md-8 modal-grid"> <img src="14.jpg" style="width:100%"></div> 
+                <div class="col-md-8 modal-grid"> <img src="images/gallery/14.jpg" style="width:100%"></div> 
               </div>
           </div>
 
@@ -690,7 +690,7 @@
                     <h2 style="color:whitesmoke; opacity: 0.4;">Championship </h2>
                     <h6 style="font-family: cursive; color: rgba(245, 245, 245, 0.376)"><i>~Warm Welcome</i></h6>
                   </div>
-                <div class="col-md-8 modal-grid"> <img src="15.jpg" style="width:100%"></div> 
+                <div class="col-md-8 modal-grid"> <img src="images/gallery/15.jpg" style="width:100%"></div> 
               </div>
           </div>
 
@@ -710,7 +710,7 @@
                     <h2 style="color:whitesmoke; opacity: 0.4;">Speech </h2>
                     <h6 style="font-family: cursive; color: rgba(245, 245, 245, 0.376)"><i>~Mr Anand Singh</i></h6>
                   </div>
-                <div class="col-md-8 modal-grid"> <img src="16.jpg" style="width:100%"></div> 
+                <div class="col-md-8 modal-grid"> <img src="images/gallery/16.jpg" style="width:100%"></div> 
               </div>
           </div>
                 
@@ -728,7 +728,7 @@
                     <h2 style="color:whitesmoke; opacity: 0.4;">Championship  </h2>
                     <h6 style="font-family: cursive; color: rgba(245, 245, 245, 0.376)"><i>~Karan Mishera</i></h6>
                   </div>
-                <div class="col-md-8 modal-grid"> <img src="17.jpg" style="width:100%"></div> 
+                <div class="col-md-8 modal-grid"> <img src="images/gallery/17.jpg" style="width:100%"></div> 
               </div>
           </div>
 
@@ -746,7 +746,7 @@
                     <h2 style="color:whitesmoke; opacity: 0.4;">Speech </h2>
                     <h6 style="font-family: cursive; color: rgba(245, 245, 245, 0.376)"><i>~Mr Param Mishera</i></h6>
                   </div>
-                <div class="col-md-8 modal-grid"> <img src="18.jpg" style="width:100%"></div> 
+                <div class="col-md-8 modal-grid"> <img src="images/gallery/18.jpg" style="width:100%"></div> 
               </div>
           </div>
 
@@ -764,7 +764,7 @@
                     <h2 style="color:whitesmoke; opacity: 0.4;">Hockey Player </h2>
                     <h6 style="font-family: cursive; color: rgba(245, 245, 245, 0.376)"><i>~Karan Mishera</i></h6>
                   </div>
-                <div class="col-md-8 modal-grid"> <img src="19.jpg" style="width:100%"></div> 
+                <div class="col-md-8 modal-grid"> <img src="images/gallery/19.jpg" style="width:100%"></div> 
               </div>
           </div>
 
@@ -783,7 +783,7 @@
                     <h2 style="color:whitesmoke; opacity: 0.4;">Hockey Player </h2>
                     <h6 style="font-family: cursive; color: rgba(245, 245, 245, 0.376)"><i>~Karan Mishera</i></h6>
                   </div>
-                <div class="col-md-8 modal-grid"> <img src="20.jpg" style="width:100%"></div> 
+                <div class="col-md-8 modal-grid"> <img src="images/gallery/20.jpg" style="width:100%"></div> 
               </div>
           </div>
 
@@ -802,7 +802,7 @@
                     <h2 style="color:whitesmoke; opacity: 0.4;">Hockey Player </h2>
                     <h6 style="font-family: cursive; color: rgba(245, 245, 245, 0.376)"><i>~Karan Mishera</i></h6>
                   </div>
-                <div class="col-md-8 modal-grid"> <img src="21.jpg" style="width:100%"></div> 
+                <div class="col-md-8 modal-grid"> <img src="images/gallery/21.jpg" style="width:100%"></div> 
               </div>
           </div>
 
@@ -821,7 +821,7 @@
                     <h2 style="color:whitesmoke; opacity: 0.4;">Hockey Player </h2>
                     <h6 style="font-family: cursive; color: rgba(245, 245, 245, 0.376)"><i>~Karan Mishera</i></h6>
                   </div>
-                <div class="col-md-8 modal-grid"> <img src="22.jpg" style="width:100%"></div> 
+                <div class="col-md-8 modal-grid"> <img src="images/gallery/22.jpg" style="width:100%"></div> 
               </div>
           </div>
 
@@ -840,7 +840,7 @@
                     <h2 style="color:whitesmoke; opacity: 0.4;">Hockey Player </h2>
                     <h6 style="font-family: cursive; color: rgba(245, 245, 245, 0.376)"><i>~Karan Mishera</i></h6>
                   </div>
-                <div class="col-md-8 modal-grid"> <img src="23.jpg" style="width:100%"></div> 
+                <div class="col-md-8 modal-grid"> <img src="images/gallery/23.jpg" style="width:100%"></div> 
               </div>
           </div>
 
@@ -859,7 +859,7 @@
                     <h2 style="color:whitesmoke; opacity: 0.4;">Hockey Player </h2>
                     <h6 style="font-family: cursive; color: rgba(245, 245, 245, 0.376)"><i>~Karan Mishera</i></h6>
                   </div>
-                <div class="col-md-8 modal-grid"> <img src="24.jpg" style="width:100%"></div> 
+                <div class="col-md-8 modal-grid"> <img src="images/gallery/24.jpg" style="width:100%"></div> 
               </div>
           </div>
 
@@ -878,7 +878,7 @@
                     <h2 style="color:whitesmoke; opacity: 0.4;">Hockey Player </h2>
                     <h6 style="font-family: cursive; color: rgba(245, 245, 245, 0.376)"><i>~Karan Mishera</i></h6>
                   </div>
-                <div class="col-md-8 modal-grid"> <img src="25.jpg" style="width:100%"></div> 
+                <div class="col-md-8 modal-grid"> <img src="images/gallery/25.jpg" style="width:100%"></div> 
               </div>
           </div>
 
@@ -897,7 +897,7 @@
                     <h2 style="color:whitesmoke; opacity: 0.4;">Hockey Player </h2>
                     <h6 style="font-family: cursive; color: rgba(245, 245, 245, 0.376)"><i>~Karan Mishera</i></h6>
                   </div>
-                <div class="col-md-8 modal-grid"> <img src="26.jpg" style="width:100%"></div> 
+                <div class="col-md-8 modal-grid"> <img src="images/gallery/26.jpg" style="width:100%"></div> 
               </div>
           </div>
 
@@ -916,7 +916,7 @@
                     <h2 style="color:whitesmoke; opacity: 0.4;">Hockey Player </h2>
                     <h6 style="font-family: cursive; color: rgba(245, 245, 245, 0.376)"><i>~Karan Mishera</i></h6>
                   </div>
-                <div class="col-md-8 modal-grid"> <img src="27.jpg" style="width:100%"></div> 
+                <div class="col-md-8 modal-grid"> <img src="images/gallery/27.jpg" style="width:100%"></div> 
               </div>
           </div>
 
@@ -935,7 +935,7 @@
                     <h2 style="color:whitesmoke; opacity: 0.4;">Hockey Player </h2>
                     <h6 style="font-family: cursive; color: rgba(245, 245, 245, 0.376)"><i>~Karan Mishera</i></h6>
                   </div>
-                <div class="col-md-8 modal-grid"> <img src="28.jpg" style="width:100%"></div> 
+                <div class="col-md-8 modal-grid"> <img src="images/gallery/28.jpg" style="width:100%"></div> 
               </div>
           </div>
 
@@ -954,7 +954,7 @@
                     <h2 style="color:whitesmoke; opacity: 0.4;">Hockey Player </h2>
                     <h6 style="font-family: cursive; color: rgba(245, 245, 245, 0.376)"><i>~Karan Mishera</i></h6>
                   </div>
-                <div class="col-md-8 modal-grid"> <img src="29.jpg" style="width:100%"></div> 
+                <div class="col-md-8 modal-grid"> <img src="images/gallery/29.jpg" style="width:100%"></div> 
               </div>
           </div>
 
@@ -973,7 +973,7 @@
                     <h2 style="color:whitesmoke; opacity: 0.4;">Hockey Player </h2>
                     <h6 style="font-family: cursive; color: rgba(245, 245, 245, 0.376)"><i>~Karan Mishera</i></h6>
                   </div>
-                <div class="col-md-8 modal-grid"> <img src="30.jpg" style="width:100%"></div> 
+                <div class="col-md-8 modal-grid"> <img src="images/gallery/30.jpg" style="width:100%"></div> 
               </div>
           </div>
 
@@ -992,7 +992,7 @@
                     <h2 style="color:whitesmoke; opacity: 0.4;">Hockey Player </h2>
                     <h6 style="font-family: cursive; color: rgba(245, 245, 245, 0.376)"><i>~Karan Mishera</i></h6>
                   </div>
-                <div class="col-md-8 modal-grid"> <img src="31.jpg" style="width:100%"></div> 
+                <div class="col-md-8 modal-grid"> <img src="images/gallery/31.jpg" style="width:100%"></div> 
               </div>
           </div>
 
@@ -1011,7 +1011,7 @@
                     <h2 style="color:whitesmoke; opacity: 0.4;">Hockey Player </h2>
                     <h6 style="font-family: cursive; color: rgba(245, 245, 245, 0.376)"><i>~Karan Mishera</i></h6>
                   </div>
-                <div class="col-md-8 modal-grid"> <img src="32.jpg" style="width:100%"></div> 
+                <div class="col-md-8 modal-grid"> <img src="images/gallery/32.jpg" style="width:100%"></div> 
               </div>
           </div>
 
@@ -1031,7 +1031,7 @@
                     <h2 style="color:whitesmoke; opacity: 0.4;">Hockey Player </h2>
                     <h6 style="font-family: cursive; color: rgba(245, 245, 245, 0.376)"><i>~Karan Mishera</i></h6>
                   </div>
-                <div class="col-md-8 modal-grid"> <img src="33.jpg" style="width:100%"></div> 
+                <div class="col-md-8 modal-grid"> <img src="images/gallery/33.jpg" style="width:100%"></div> 
               </div>
           </div>
 
@@ -1050,7 +1050,7 @@
                     <h2 style="color:whitesmoke; opacity: 0.4;">Hockey Player </h2>
                     <h6 style="font-family: cursive; color: rgba(245, 245, 245, 0.376)"><i>~Karan Mishera</i></h6>
                   </div>
-                <div class="col-md-8 modal-grid"> <img src="34.jpg" style="width:100%"></div> 
+                <div class="col-md-8 modal-grid"> <img src="images/gallery/34.jpg" style="width:100%"></div> 
               </div>
           </div>
 
@@ -1070,7 +1070,7 @@
                     <h2 style="color:whitesmoke; opacity: 0.4;">Hockey Player </h2>
                     <h6 style="font-family: cursive; color: rgba(245, 245, 245, 0.376)"><i>~Karan Mishera</i></h6>
                   </div>
-                <div class="col-md-8 modal-grid"> <img src="35.jpg" style="width:100%"></div> 
+                <div class="col-md-8 modal-grid"> <img src="images/gallery/35.jpg" style="width:100%"></div> 
               </div>
           </div>
 
@@ -1089,7 +1089,7 @@
                     <h2 style="color:whitesmoke; opacity: 0.4;">Hockey Player </h2>
                     <h6 style="font-family: cursive; color: rgba(245, 245, 245, 0.376)"><i>~Karan Mishera</i></h6>
                   </div>
-                <div class="col-md-8 modal-grid"> <img src="36.jpg" style="width:100%"></div> 
+                <div class="col-md-8 modal-grid"> <img src="images/gallery/36.jpg" style="width:100%"></div> 
               </div>
           </div>
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
