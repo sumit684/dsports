@@ -38,7 +38,7 @@
             .card {
                 box-shadow: 2px 2px 20px 8px #bdc3c7 ;    /*#8395a7*/
                 border-radius: 0px;
-                transition: 0.3s ease-in;
+                transition: 0.1s ease-in;
             }
 
             .container {
