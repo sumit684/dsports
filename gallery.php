@@ -96,7 +96,7 @@
 
             <div class="column">
                 <div class="card">
-                    <img src="1.jpg" alt="Jane" style="width:100%;  ">
+                    <img src="images/gallery/1.jpg" alt="Jane" style="width:100%;  ">
                     <div class="container">
                         <h2>Runathon </h2>
                         <p class="title">12/12/2018</p>
@@ -107,7 +107,7 @@
 
             <div class="column">
                 <div class="card">
-                    <img src="2.jpg" alt="Mike" style="width:100%">
+                    <img src="images/gallery/2.jpg" alt="Mike" style="width:100%">
                     <div class="container">
                         <h2>PSA tournment</h2>
                         <p class="title">28/12/18</p>
@@ -118,7 +118,7 @@
 
             <div class="column">
                 <div class="card">
-                    <img src="3.jpg" alt="Mike" style="width:100%">
+                    <img src="images/gallery/3.jpg" alt="Mike" style="width:100%">
                     <div class="container">
                         <h2>SAI 2K18</h2>
                         <p class="title">31/12/18</p>
@@ -130,7 +130,7 @@
 
             <div class="column">
                 <div class="card">
-                    <img src="4.jpg" alt="Mike" style="width:100%">
+                    <img src="images/gallery/4.jpg" alt="Mike" style="width:100%">
                     <div class="container">
                         <h2>Saimsthon </h2>
                         <p class="title">10/01/19</p>
@@ -141,7 +141,7 @@
 
             <div class="column">
                 <div class="card">
-                    <img src="5.jpg" alt="Mike" style="width:100%">
+                    <img src="images/gallery/5.jpg" alt="Mike" style="width:100%">
                     <div class="container">
                         <h3>VolleyBall Tournament </h3>
                         <p class="title">24/01/19</p>
@@ -153,7 +153,7 @@
 
             <div class="column">
                 <div class="card">
-                    <img src="6.jpg" alt="John" style="width:100%">
+                    <img src="images/gallery/6.jpg" alt="John" style="width:100%">
                     <div class="container">
                         <h2>UTKARSHA</h2>
                         <p class="title">05/02/18</p>
