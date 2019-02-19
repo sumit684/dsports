@@ -97,6 +97,13 @@
             </div>
         </div>
     </div>
+    <script>
+    document.getElementById('jdemo').innerHTML="welcome";
+    </script>
+    <p id="jdemo">ff</p>
+ 
+ 
+
 
 <?php include('include/footer.html');?>
     <!--*******************contact us page end**************-->
