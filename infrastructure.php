@@ -232,7 +232,7 @@
 
                     </div>
 
-
+<!-- 
                     <div class="container mt-3">
                         <h2 style="background-color: #2980b9; font-family:'Asul';color: white">Future plans of the department</h2>
 
@@ -241,6 +241,28 @@
                             <div class="media-body">
                                 <h4>Construction of the following:-</h4>
                                 <p>a)Swimming pool.<br>b)  60X40 Mts. Size Proposed Multi Purpose hall with facilities for Badminton, Basketball, Volleyball, Table Tennis, Handball Wrestling hall, Shooting range etc.</p>      
+                            </div>
+                        </div>
+                    </div>
+
+ -->                
+
+            <div class="container">
+                        <h2 style="background-color: #2980b9; font-family:'Asul';color: white">Future plans of the department</h2>
+                        <div class="row">
+                        <div class="col-md-4">
+                        <img src="images/infrastructure/42.jpg" alt="Office" class="mr-3 mt-3 rounded-circle" style="width:170px; " align="center">
+                        </div>
+                            <div class="col-md-8">
+                                <h4>Construction of the following </h4>
+                                <p>
+                                    <ul>
+                                        <li>Swimming pool.</li>
+                                        <li>60X40 Mts. Size Proposed Multi Purpose hall with facilities for Badminton, Basketball, Volleyball, Table Tennis, Handball Wrestling hall, Shooting range etc.
+                                        </li>
+                                    <ul>
+
+                                    <!-- Swimming pool.<br>b)  60X40 Mts. Size Proposed Multi Purpose hall with facilities for Badminton, Basketball, Volleyball, Table Tennis, Handball Wrestling hall, Shooting range etc. --></p>      
                             </div>
                         </div>
                     </div>

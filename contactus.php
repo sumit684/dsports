@@ -9,14 +9,19 @@
             body{
                 overflow-x: hidden;
             }
+          h1{
+                font-family: 'Merriweather';
+                color: #100e33d6;
+                margin-top:15px;
+            }
         </style>
     </head>
     <body>
         <?php include('include/nav.html');?>
         <?php include('include/header.html');?>
-  
-
-        <div class="container" style=" padding-bottom: 3%;; margin-top:5%; background-color:#00cec9; box-shadow: 8px 8px 20px gray; border-radius: 5px;">
+                  
+        <h1><center>CONTACT US</center></h1>
+        <div class="container" style=" padding-bottom: 3%;; margin-top:3%; margin-bottom: 7%;background-color:#00cec9; box-shadow: 8px 8px 20px gray; border-radius: 5px; ">
 
             <!-- <div style=" position: relative; top:0px; left: 0px;height:50px; width: 50px; background-color: #FF7251;">   <div style="background-color: #3e8e41; float: left; width: 40px; height: 40px; border-radius: 100px; position: relative; top:6px; left: 6px;"></div>  <i class="fas fa-phone" style="position: relative; top:-29px; left: 10px; font-size: 30px;transform: rotate(87deg);"></i>
 </div> -->
@@ -73,7 +78,7 @@
 
         </div>
 
-    <div class="conatainer" style="padding-top: 8%;">
+    <!-- <div class="container" style="padding-top: 8%;">
         <div class="row">
             <div class="col-md-1"></div>
             <div class="col-md-5">
@@ -96,7 +101,7 @@
 
             </div>
         </div>
-    </div>
+    </div> -->
 
 <?php include('include/footer.html');?>
     <!--*******************contact us page end**************-->
