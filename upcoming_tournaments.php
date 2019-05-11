@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <title>Latest News</title>
+
+        <?php include('include/link.html');?>
+
+        <style>
+            .accordion {
+                background-color: #ccc;
+                color: #444;
+                cursor: pointer;
+                padding: 10px;
+                width: 100%;
+                border: none;
+                text-align: left;
+                outline: none;
+                font-size: 18px;
+                font-family: sans-serif;
+                font-weight: 550;
+                transition: 0.4s;
+                font-family: 'Merriweather';
+                border-radius: 4px;
+                padding-left: 10px;
+            }
+
+            .active, {
+                background-color: #eee;
+            }
+
+            .accordion:after {
+                content: '\f0aa'; /*upper arrow*/ 
+                font-family: "FontAwesome";
+                color: #777;
+                font-weight: bold;
+                float: right;
+
+            }
+
+            .active:after {
+                content: "\f0ab"; /*lower arrow*/ 
+                font-family: "FontAwesome";
+                color:#0074fc;
+            }
+
+            .notices div.panel {
+                padding: 0 18px;
+                background-color: #eee;
+                display: block;
+                overflow: hidden;
+                font-size: 16px;
+
+            }
+            .notices div.panel li{
+                list-style-type: none;
+                line-height: 2.0;
+            }
+            .notices div.panel li:before{
+                content: "\f138";
+                font-family: "FontAwesome";
+                width: 10px;
+                height: 10px;
+                margin-right: 5px;
+                color: #147efb;
+            }
+            .container{
+                box-shadow: 5px 5px 30px grey;
+                /*                margin-top: 10px;*/
+                padding-bottom:30px;
+            }
+            .notices h1{
+                font-family: 'Merriweather';
+                color: #100e33d6;
+            }
+            .icon_style{
+                padding-right:8px;
+            }
+
+
+            .blink_me {
+                animation: blinker 1s linear infinite;
+            }
+
+            @keyframes blinker {
+                50% {
+                    opacity: 0;
+                }
+            }
+            .notices a{
+                color:black;
+            }
+
+        </style>
+    </head>
+    <body>
+        <?php include('include/nav.html');?>
+        <?php include('include/header.html');?>
+        <div class="container notices">
+            <br>
+            <div id="circulars">
+                <h1><center>Latest News</center></h1>
+
+                <button class="accordion" ><i class="fas fa-scroll icon_style"></i>NEWS</button>
+                <div class="panel">
+                    <ul>
+                        <li>
+                            <a href="News/new1.pdf">				
+                                <strong>
+                                    Inter Collegiate Boxing (M&W) Championship 2018-2019
+                                </strong>
+                                <span class="badge badge-info blink_me" style="font-size:12px; font-family:monospace;">new</span>								
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.dauniv.ac.in/sports/State Level Athletics Meet 2018-2019.pdf">				
+                                <strong>
+                                    State Level Athletics Meet 2018-2019	 </strong></a>
+                            <span class="badge badge-info blink_me" style="font-size:12px; font-family:monospace;">new</span></li>
+
+                        <li>
+                            <a href="http://www.dauniv.ac.in/sports/New Inter Collegiate Athletics Meet 2018-2019.pdf">				
+                                <strong>New Inter Collegiate Athletics Meet 2018-2019</strong>
+                                <span class="badge badge-info blink_me" style="font-size:12px; font-family:monospace;">new</span></a>	</li> 
+
+                        <li>
+                            <a href="http://www.dauniv.ac.in/sports/EntryFormAthleticsMeetMenSection.pdf">				
+                                <strong>Entry Form Athletics Meet Men Section</strong></a>	</li> 
+                        <li>
+                            <a href="http://www.dauniv.ac.in/sports/EntryFormAthleticsMeetWomen Section.pdf">				
+                                <strong>Entry Form Athletics Meet Women Section</strong></a>	</li> 
+
+                        <li>
+                            <a href="http://www.dauniv.ac.in/sports/InterCollegiateAthletics(M&W)Meet201819.pdf">				
+                                Inter Collegiate Athletics (M&W) Meet 2018-2019		</a>	</li> 	
+
+                        <li>
+                            <a href="http://www.dauniv.ac.in/sports/Sports Officer.pdf">				
+                                Sports Officer's		</a>	</li> 		
+
+                        <li>
+                            <a href="http://www.dauniv.ac.in/sports/Inter Collegiate Proforma & Circulars 2018-2019.pdf">				
+                                Inter Collegiate Proforma & Circulars 2018-2019		</a>	</li> 			   
+
+                        <li>
+                            <a href="http://www.dauniv.ac.in/sports/Details regarding new eligibility rules.pdf">				
+                                Details Regarding New Eligibility Rules
+                            </a>
+                        </li> 
+
+                        <li>
+                            <a href="http://www.dauniv.ac.in/sports/Agelimit19072017.pdf">				
+                                Revised Eligibility Rules for 2017-2018				 	</a>				  </li> 
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        
+        <?php include('include/footer.html');?>
+    </body>
+</html>
