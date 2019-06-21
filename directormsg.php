@@ -34,8 +34,8 @@
 	}
 	.dm4{
 		margin-top: -23px;
-		height: 350px;
-		width: 300px;	
+		height: 300px;
+		width: 250px;	
 		border-radius: 50%;
 		box-shadow: 10px 10px 31px -1px #767779;
 		/*border:solid black 2px;*/
