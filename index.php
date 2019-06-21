@@ -216,11 +216,11 @@
             <div class="col-md-7" style="color:#3b2f2f;  padding: 20px; padding-left: 50px;">
                 <h1 style="font-family: 'Asul', cursive;"><center>About Directorate</center></h1>
                 <hr>
-                <span style="font-family: 'Brawler' ,sans-serif; font-size: 20px;">Devi Ahilya Vishwavidyalaya (DAVV),
+                <div style="font-family: 'Brawler',sans-serif; text-align:justify;font-size: 20px;">Devi Ahilya Vishwavidyalaya (DAVV),
                     formerly University of Indore, is a premier University in Central India, has completed 54th years 
                     of establishment, educational commitment and services. It is the First State University of Madhya
                     Pradesh which has been accredited with “A” grade by NAAC. It was established in 1964, by an
-                    Act of Legislature of Madhya Pradesh. </span>        
+                    Act of Legislature of Madhya Pradesh. </div>        
             </div>
         </div>
 
