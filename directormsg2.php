@@ -76,7 +76,7 @@
         <div class="container-fluid ab">
             <div class="row ">
                 <div class="col-md-6" style="background-image: 'Sunil.jpg'">
-                    <img src="images/officestaff/1.JPG" style="height: 47
+                    <img src="images/officestaff/1.jpg" style="height: 47
                                                                0px;width: 60%;margin:5px 0px 0px 5px;margin-left: 11%;"  alt="Deputy Director"  >
                 </div>
                 <div class="col-md-6 text-center" style="background-color: #0f2b57 ;padding-top: 40px;">

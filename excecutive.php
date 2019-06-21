@@ -210,7 +210,7 @@ on the Sports Executive Committee under statirte No. 37 POWER & FUNCTIONS- 4(V)(
 
 
                     <div class="card">
-                        <img src="images/excecutive/1.JPG"  style="width:80%;height:200px;display: block; margin-left: auto;margin-right: auto;">
+                        <img src="images/excecutive/1.jpg"  style="width:80%;height:200px;display: block; margin-left: auto;margin-right: auto;">
                         <h1>Dr. Sunil Dudhale</h1>
                         <p class="title">Member-Secretary</p>
                         <p class="college">Incharge Director of Physical Education.
