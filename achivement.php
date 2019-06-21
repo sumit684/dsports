@@ -222,11 +222,11 @@ h1 a {
 
 <!-- Contenedor -->
 <ul id="accordion" class="accordion">
-  <li>
+  <li class="open">
     <div class="link">Year 2017-2018<i class="fa fa-chevron-down"></i></div>
 
 	
-	 <ul class="submenu">
+	 <ul class="submenu" style="display: block;">
 			<div class="row">
 
 					<div class="col-md-6 submenu-heading">
