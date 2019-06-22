@@ -1,38 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+<head>
 
-        <title>Contact US | Diretorate of Physical Edu and Sports</title>
+    <title>Contact US | Diretorate of Physical Edu and Sports</title>
 
-        <?php include('include/link.html');?>
-        <style>
-            body{
-                overflow-x: hidden;
-            }
-          h1{
-                font-family: 'Merriweather';
-                color: #100e33d6;
-                margin-top:15px;
-            }
-            .container{
-                padding-bottom: 3%; 
-                margin-top:3%;
-                margin-bottom: 7%;
-                background-color:#00cec9;
-                 box-shadow: 8px 8px 20px gray;
-                  border-radius: 5px;
-            }
-        </style>
-    </head>
-    <body>
-        <?php include('include/nav.html');?>
-        <?php include('include/header.html');?>
-                  
-        <h1><center>CONTACT US</center></h1>
-        <div class="container">
+    <?php include('include/link.html');?>
+    <style>
+        body{
+            overflow-x: hidden;
+        }
+        h1{
+            font-family: 'Merriweather';
+            color: #100e33d6;
+            margin-top:15px;
+        }
+        .container{
+            padding-bottom: 3%; 
+            margin-top:3%;
+            margin-bottom: 7%;
+            background-color:#00cec9;
+            box-shadow: 8px 8px 20px gray;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <?php include('include/nav.html');?>
+    <?php include('include/header.html');?>
+    
+    <h1><center>CONTACT US</center></h1>
+    <div class="container">
 
             <!-- <div style=" position: relative; top:0px; left: 0px;height:50px; width: 50px; background-color: #FF7251;">   <div style="background-color: #3e8e41; float: left; width: 40px; height: 40px; border-radius: 100px; position: relative; top:6px; left: 6px;"></div>  <i class="fas fa-phone" style="position: relative; top:-29px; left: 10px; font-size: 30px;transform: rotate(87deg);"></i>
-</div> -->
+            </div> -->
             <!-- #6383c4 -->
 
             <div class="container-fluid" style="" align="center">
@@ -41,50 +41,50 @@
                     <div class="col-md-4" style="padding-top: 9px;">
                         <div class="icon-hover" style="width:50px; height:50px ; border-radius: 30px; background-color: #00cec9;">
                             <i class="fas fa-map-marker-alt contactus-icon" style=" position: relative; top:11px; left:0px;"></i></div>
-                        <b style="font-size: 20px; ">Address</b><br>
-                        <span class="contactus">
-                            Directorate of Sports<br>Takshashila Parisar,<br> Khandwa Road, Indore (M.P.) 452001
-                        <div style="padding-bottom: 3%;">   <!--see this is line-->
-                            <svg height="3" width="100" style="" >
+                            <b style="font-size: 20px; ">Address</b><br>
+                            <span class="contactus">
+                                Directorate of Sports<br>Takshashila Parisar,<br> Khandwa Road, Indore (M.P.) 452001
+                                <div style="padding-bottom: 3%;">   <!--see this is line-->
+                                    <svg height="3" width="100" style="" >
 
-                                <line x1="0" y1="0" x2="200" y2="0" style="stroke:#ffffffe8;stroke-width:10" style="position:relative; " />
-                            </svg>  
-                        </div >            
-                        </span>
-                </div>
-                <div class="col-md-4 " style="padding-top: 2px;">
-                    <div class="icon-hover" style=" position: relative; top:0px; left: 0px;height:50px; width: 50px;">
-                        <div  style="background-color: #00cec9; float: left; width: 50px; height: 50px; border-radius: 100px; position: relative; top:6px; left: 6px;">
-                        </div>  
-                        <i class="fas fa-phone contactus-icon" style=" position: relative; top:-36px; left: 5px; transform: rotate(87deg);">
-                        </i>
+                                        <line x1="0" y1="0" x2="200" y2="0" style="stroke:#ffffffe8;stroke-width:10" style="position:relative; " />
+                                    </svg>  
+                                </div >            
+                            </span>
+                        </div>
+                        <div class="col-md-4 " style="padding-top: 2px;">
+                            <div class="icon-hover" style=" position: relative; top:0px; left: 0px;height:50px; width: 50px;">
+                                <div  style="background-color: #00cec9; float: left; width: 50px; height: 50px; border-radius: 100px; position: relative; top:6px; left: 6px;">
+                                </div>  
+                                <i class="fas fa-phone contactus-icon" style=" position: relative; top:-36px; left: 5px; transform: rotate(87deg);">
+                                </i>
+                            </div>
+                            <b style="font-size: 20px; ">Phone</b><br><br>
+                            <span class="contactus">     Phone: +91-731-2527532
+                                <br><br>                       <div style="padding-bottom: 3%;">   <!--see this is line-->
+                                    <svg height="3" width="100" style="" >
+
+                                        <line x1="0" y1="0" x2="200" y2="0" style="stroke:#ffffffe8;stroke-width:10" style="position:relative; " />
+                                    </svg>  
+                                </div > 
+                            </span>
+                        </div>
+                        <div class="col-md-4" style="padding-top: 9px;">
+                            <div class="icon-hover" style="width:50px; height:50px ; border-radius: 30px; background-color: #00cec9;"><i class="fas fa-envelope contactus-icon" style=" position: relative; top:11px; left:0px;"></i></div>
+                            <b style="font-size: 20px; ">E-mail</b><br><br>
+                            <span class="contactus">Email: head.inst@dauniv.ac.in<br><br>
+                                <div style="padding-bottom: 3%;">   <!--see this is line-->
+                                    <svg height="3" width="100" style="" >
+
+                                        <line x1="0" y1="0" x2="200" y2="0" style="stroke:#ffffffe8;stroke-width:10" style="position:relative; " />
+                                    </svg>  
+                                </div > 
+                            </span>
+                        </div>
                     </div>
-                    <b style="font-size: 20px; ">Phone</b><br><br>
-                    <span class="contactus">     Phone: +91-731-2527532
-                        <br><br>                       <div style="padding-bottom: 3%;">   <!--see this is line-->
-                        <svg height="3" width="100" style="" >
-
-                            <line x1="0" y1="0" x2="200" y2="0" style="stroke:#ffffffe8;stroke-width:10" style="position:relative; " />
-                        </svg>  
-                        </div > 
-                    </span>
                 </div>
-                <div class="col-md-4" style="padding-top: 9px;">
-                    <div class="icon-hover" style="width:50px; height:50px ; border-radius: 30px; background-color: #00cec9;"><i class="fas fa-envelope contactus-icon" style=" position: relative; top:11px; left:0px;"></i></div>
-                    <b style="font-size: 20px; ">E-mail</b><br><br>
-                    <span class="contactus">Email: head.inst@dauniv.ac.in<br><br>
-                        <div style="padding-bottom: 3%;">   <!--see this is line-->
-                            <svg height="3" width="100" style="" >
 
-                                <line x1="0" y1="0" x2="200" y2="0" style="stroke:#ffffffe8;stroke-width:10" style="position:relative; " />
-                            </svg>  
-                        </div > 
-                    </span>
-                </div>
             </div>
-        </div>
-
-        </div>
 
     <!-- <div class="container" style="padding-top: 8%;">
         <div class="row">
@@ -111,8 +111,8 @@
         </div>
     </div> -->
 
-<?php include('include/footer.html');?>
+    <?php include('include/footer.html');?>
     <!--*******************contact us page end**************-->
 
-    </body>
+</body>
 </html>

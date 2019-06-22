@@ -1,25 +1,25 @@
 <html>
-    <head>
-        <title>Vision | Mission| Objectives Directorate of Physical Education & Sports</title>
-       <?php include('include/link.html');?>
-    </head>
-    <style>
-        .dd{
-            background-image: url(images/blue.jpg);
-            background-size: 100%;
-        }    
-        .vission-mission-content{
-            font-weight: 500;
-            margin-left: 45px;
-            font-size: 18px;
-            font-family: cursive;
-        }
+<head>
+    <title>Vision | Mission| Objectives Directorate of Physical Education & Sports</title>
+    <?php include('include/link.html');?>
+</head>
+<style>
+    .dd{
+        background-image: url(images/blue.jpg);
+        background-size: 100%;
+    }    
+    .vission-mission-content{
+        font-weight: 500;
+        margin-left: 45px;
+        font-size: 18px;
+        font-family: cursive;
+    }
 
-        h1>.fas:hover{
-            color: aqua;
-            font-size: 45px;
-            transition: 0.3s;
-        }
+    h1>.fas:hover{
+        color: aqua;
+        font-size: 45px;
+        transition: 0.3s;
+    }
         /*
         .content-margin{
         padding-left: 30px;
@@ -30,8 +30,8 @@
         }
     </style>
     <script>
-       
-       
+     
+     
 
     </script>
     <body>
@@ -61,7 +61,7 @@
                         Personal Health, Fitness and Social qualities which will enable them to become worthy citizens 
                         of India and in Process endeavour to produce National and International level players.<br><br> 
                         <span style="margin-left:30px;">If India is to be a strong nation in future the chidren and youth of today should play
-                            otherwise India will be a weak nation tomorrow.</span>
+                        otherwise India will be a weak nation tomorrow.</span>
 
                     </span>
                 </div>
@@ -86,7 +86,7 @@
                         <li>To ensure "MASS PARTICIPATION" of Students in Game & Sports.</li>
                         <li>To motivate Students to achieve Health, Fitness & Social qualities. </li>
                         <li>Special efforts to take Games & Sports to the Tribal Areas which dominate the university 
-                            jurisdiction in order to harness & develop physical skills & capabilities of tribal Students.</li>
+                        jurisdiction in order to harness & develop physical skills & capabilities of tribal Students.</li>
                         <li>To achieve excellence in sports performance</li>
                         <li>Create standards Sports Infrastructure.</li>   
                     </ul>
@@ -99,4 +99,4 @@
 
         <?php include('include/footer.html');?>
     </body>
-</html>
+    </html>

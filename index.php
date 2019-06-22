@@ -1,44 +1,44 @@
 
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+<head>
 
-        <title>HOME | Diretorate of Physical Edu and Sports</title>
-        <?php include('include/link.html');?>
+    <title>HOME | Diretorate of Physical Edu and Sports</title>
+    <?php include('include/link.html');?>
 
-        <style>
+    <style>
 
-            .dd{
-                background-image: url(images/blue.jpg);
-                background-size: cover;
+        .dd{
+            background-image: url(images/blue.jpg);
+            background-size: cover;
 
-                background-repeat: no-repeat;
-                background-attachment: fixed;
-            }
-            .news:hover{
-                text-shadow: 3px 3px 20px #f4ebeb;
-                transition: 2s;
-            }
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .news:hover{
+            text-shadow: 3px 3px 20px #f4ebeb;
+            transition: 2s;
+        }
 
-            .no-js #loader { display: none;  }
-            .js #loader { display: block; position: absolute; left: 100px; top: 0; }
-            .se-pre-con {
-                position: fixed;
-                left: 0px;
-                top: 0px;
-                width: 100%;
-                height: 100%;
-                z-index: 9999;
-                display: flex;
-                background: url(images/loader.gif) center no-repeat #fff;
+        .no-js #loader { display: none;  }
+        .js #loader { display: block; position: absolute; left: 100px; top: 0; }
+        .se-pre-con {
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            display: flex;
+            background: url(images/loader.gif) center no-repeat #fff;
 
-            }
+        }
 
 
-        </style>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
-        <script>
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+    <script>
 
             //            $(window).load(function() {
             //                // Animate loader off screen
@@ -56,7 +56,7 @@
 
         </script>
 
-       
+        
 
     </head>
     <body>
@@ -141,68 +141,68 @@
                             <b>Faculty Incharge:</b> Dr.V,F.Peter<br>
                             <b>Contact :</b> 9131354861<br>
                             <b>Department :</b> SOPE<br>
--->
-                            <a href="#" class="btn btn-primary">View PDF</a>
-                        </div>
+                        -->
+                        <a href="#" class="btn btn-primary">View PDF</a>
                     </div>
-                    <div class="card">
-                        <img class="card-img-top img-fluid" src="images/hockey.jpg" alt="Card image" style="width:100%; ; height:170px;">
-                        <div class="dates">
-                            <span>Nov</span>
-                            <span>29</span>
-                        </div>
-                        <div class="card-body" style="padding-top: 0px;">
-                            <h4 class="card-title" >Hockey</h4>
-                             <h5>Inter University Tournament</h5>
-                            <a href="#" class="btn btn-primary">View PDF</a>
-                        </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="images/hockey.jpg" alt="Card image" style="width:100%; ; height:170px;">
+                    <div class="dates">
+                        <span>Nov</span>
+                        <span>29</span>
                     </div>
-                    <div class="card" >
-                        <img class="card-img-top img-fluid" src="images/kho-kho.jpg" alt="Card image" style="width:100% ; height:170px;">
-                        <div class="dates">
-                            <span>Nov</span>
-                            <span>29</span>
-                        </div>
-                        <div class="card-body" style="padding-top: 0px;">
-                            <h4 class="card-title">Kho-Kho</h4>
-                             <h5>Inter College Tournament</h5>
-                            <a href="#" class="btn btn-primary">View PDF</a>
-                        </div>
+                    <div class="card-body" style="padding-top: 0px;">
+                        <h4 class="card-title" >Hockey</h4>
+                        <h5>Inter University Tournament</h5>
+                        <a href="#" class="btn btn-primary">View PDF</a>
                     </div>
-                    <div class="card" >
-                        <img class="card-img-top img-fluid" src="images/volleyball.jpeg" alt="Card image" style="width:100%;; height:170px;">
-                        <div class="dates">
-                            <span>Nov</span>
-                            <span>29</span>
-                        </div>
-                        <div class="card-body" style="padding-top: 0px;">
-                            <h4 class="card-title">VolleyBall</h4>
-                             <h5>Inter College Tournament</h5>
-                            <a href="#" class="btn btn-primary">View PDF</a>
-                        </div>
+                </div>
+                <div class="card" >
+                    <img class="card-img-top img-fluid" src="images/kho-kho.jpg" alt="Card image" style="width:100% ; height:170px;">
+                    <div class="dates">
+                        <span>Nov</span>
+                        <span>29</span>
+                    </div>
+                    <div class="card-body" style="padding-top: 0px;">
+                        <h4 class="card-title">Kho-Kho</h4>
+                        <h5>Inter College Tournament</h5>
+                        <a href="#" class="btn btn-primary">View PDF</a>
+                    </div>
+                </div>
+                <div class="card" >
+                    <img class="card-img-top img-fluid" src="images/volleyball.jpeg" alt="Card image" style="width:100%;; height:170px;">
+                    <div class="dates">
+                        <span>Nov</span>
+                        <span>29</span>
+                    </div>
+                    <div class="card-body" style="padding-top: 0px;">
+                        <h4 class="card-title">VolleyBall</h4>
+                        <h5>Inter College Tournament</h5>
+                        <a href="#" class="btn btn-primary">View PDF</a>
                     </div>
                 </div>
             </div>
-            <!-- ************ -->
-            <div class="container-fluid dd" id="aboutdavv" style="" align="center">
-
-                <a href="vision-mission.php"> <img class="img-fluid" src="images/vision-mission/vision-mission.png" alt=""  ></a>
-
-
-            </div>
-            
         </div>
-        <!--**************************************NEWS and Events ENDS*******************************************-->
-        <!-------------------------------------SUMIT NEWS & EVENTS----------------------------------------------------------->
+        <!-- ************ -->
+        <div class="container-fluid dd" id="aboutdavv" style="" align="center">
+
+            <a href="vision-mission.php"> <img class="img-fluid" src="images/vision-mission/vision-mission.png" alt=""  ></a>
+
+
+        </div>
         
-         <!------------------------------------------SUMIT NEW & EVENTS ENDS------------------------------------------------------>
+    </div>
+    <!--**************************************NEWS and Events ENDS*******************************************-->
+    <!-------------------------------------SUMIT NEWS & EVENTS----------------------------------------------------------->
+    
+    <!------------------------------------------SUMIT NEW & EVENTS ENDS------------------------------------------------------>
 
 
 
 
         <!-- *****************just after first cover page welcome wala /start/ ***********
 
--->    
+        -->    
         <div class="aboutus row"  style="padding-top: 40px; padding-bottom:40px;  margin-right: 0px; margin-left: 0px;">
             <!--            <div class="col-md-1"></div>-->
             <div class="col-md-5" >
@@ -220,7 +220,7 @@
                     formerly University of Indore, is a premier University in Central India, has completed 54th years 
                     of establishment, educational commitment and services. It is the First State University of Madhya
                     Pradesh which has been accredited with “A” grade by NAAC. It was established in 1964, by an
-                    Act of Legislature of Madhya Pradesh. </div>        
+                Act of Legislature of Madhya Pradesh. </div>        
             </div>
         </div>
 
@@ -230,4 +230,4 @@
 
         <?php include 'include/footer.html';?>
     </body>
-</html>
+    </html>
