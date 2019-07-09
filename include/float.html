@@ -1,0 +1,43 @@
+
+<style>
+  .top-scroller {
+    position: fixed;
+    bottom: 100px;
+    right: 10px;
+    font-size: 20px;
+    padding: 2px;
+    display: none;
+    z-index: 2;
+    text-align: center;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: rgba(0,0,0,.35);
+    color: #fff;
+    line-height: 40px;
+
+  }
+  .top-scroller:hover {
+    background: rgba(0,0,0,.6);
+  }
+</style>
+<div class="top-scroller js-top-scroller">
+  <i class="fas fa-arrow-up"></i>
+</div>
+<script>
+  $(window).scroll(function(){
+  // console.log('wwww');
+  if ($(this).scrollTop() > 400) {
+    $('.top-scroller').fadeIn();
+  } else {
+    $('.top-scroller').fadeOut();
+  }
+});
+//Click event to scroll to top
+$('.top-scroller').click(function(){
+  $('html, body').animate({scrollTop : 0},1000);
+  return false;
+});
+
+</script>
