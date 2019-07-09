@@ -1,6 +1,7 @@
 <?php
 $calendarname= $_GET['name'];
 
+$sportsname = preg_replace('/(\w+)([A-Z])/U', '\\1 \\2', $calendarname);
 ?>
 <!DOCTYPE html>
 <html>
@@ -64,15 +65,19 @@ $calendarname= $_GET['name'];
 				<font face="Belleza" size=7 color="#000000">UTD SPORTS ASSOCIATION</font><br>
 
 				<font face="sans-serif" size=6 color="#000000">SPORTS CALENDAR 2018 &ndash; 2019 </font><br>
+				<font face="serif" size=5 color="#000000">
+					<u><?php echo strtoupper(preg_replace('/[^a-z ]/i','',$sportsname))?></u></font><br>
+
 			</div>
-			<input class="form-control"  style="width:250px;" id="myInput" type="text" placeholder="Search by sports | Dept">
+			
+			<input class="form-control"  style="width:280px; margin-bottom: 10px;" id="myInput" type="text" placeholder="Search by Sports | Department">
 
 			<?php
 
 			$row = 1;
 			if (($myfile = fopen("calendar/$calendarname.csv", "r")) !== FALSE) {
 
-				echo '<table class="calendar table " id="myTable">';
+				echo '<table class="calendar table" id="myTable">';
 
 				while (($data = fgetcsv($myfile, 1000, ",")) !== FALSE) {
 					$num = count($data);
@@ -117,17 +122,20 @@ $calendarname= $_GET['name'];
 			}
 			
 			if(isset($_GET['pdf'])){
-				$pdf = $_GET['pdf'];
-				echo '<button href="<?php echo $pdf;?>">Download Pdf</button>';		
-			}
-			else{
+				$pdf = $_GET['name'];
 				?>
+
 				<div align="center" style="margin-bottom: 20px;">
-					<button id="mybtn" class="btn btn-primary" style="display: block;"onclick="hideme();window.print();">Print As PDF</button>
+					<button id="mybtn" class="btn btn-primary" style="display: block;" onclick="window.open('calendar/<?php echo $pdf;?>.pdf')">Download Offical PDF</a></button>
 				</div>
-				<?php
+				<?php		
 			}
+			
 			?>
+			<div align="center" style="margin-bottom: 20px;">
+				<button id="mybtn" class="btn btn-primary" style="display: block;"onclick="hideme();window.print();">Print As PDF</button>
+			</div>
+			
 			<?php include 'include/footer.html'?>
 			<script>
 				function hideme()
@@ -135,13 +143,13 @@ $calendarname= $_GET['name'];
 					document.getElementById('mybtn').style.display ='none'; 
 					document.getElementById('footer').style.display ='none';
 					document.getElementById('header').style.display ='none';
-      setTimeout(function(){ //using setTimeout function
-      	document.getElementById('mybtn').style.display ='block'; 
-      	document.getElementById('footer').style.display ='block';
-      	document.getElementById('header').style.display ='block';
-      }
-      ,10); 
-  }
-</script>
-</body>
-</html>
+			      setTimeout(function(){ //using setTimeout function
+			      	document.getElementById('mybtn').style.display ='block'; 
+			      	document.getElementById('footer').style.display ='block';
+			      	document.getElementById('header').style.display ='block';
+			      }
+			      ,10);//Button reappear time in ms
+			  }
+			</script>
+		</body>
+		</html>

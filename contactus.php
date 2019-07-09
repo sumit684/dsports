@@ -43,7 +43,8 @@
                             <i class="fas fa-map-marker-alt contactus-icon" style=" position: relative; top:11px; left:0px;"></i></div>
                             <b style="font-size: 20px; ">Address</b><br>
                             <span class="contactus">
-                                Directorate of Sports<br>Takshashila Parisar,<br> Khandwa Road, Indore (M.P.) 452001
+                                Directorate of Physical Education & Sports<br>Takshila Parishar,<br> Khandwa Road, Indore (M.P.)<br>
+                                Pincode 452001
                                 <div style="padding-bottom: 3%;">   <!--see this is line-->
                                     <svg height="3" width="100" style="" >
 
@@ -72,7 +73,7 @@
                         <div class="col-md-4" style="padding-top: 9px;">
                             <div class="icon-hover" style="width:50px; height:50px ; border-radius: 30px; background-color: #00cec9;"><i class="fas fa-envelope contactus-icon" style=" position: relative; top:11px; left:0px;"></i></div>
                             <b style="font-size: 20px; ">E-mail</b><br><br>
-                            <span class="contactus">Email: head.inst@dauniv.ac.in<br><br>
+                            <span class="contactus">Email: dpe.dauniv@gmail.com<br><br>
                                 <div style="padding-bottom: 3%;">   <!--see this is line-->
                                     <svg height="3" width="100" style="" >
 

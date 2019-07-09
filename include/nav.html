@@ -77,10 +77,18 @@ Staff Corner &nbsp<i class="fas fa-angle-down"></i>
                 <a class="nav-link dropdown-toggle" href="tournament.html" id="navbardrop" data-toggle="dropdown">
                     Tournament&nbsp<i class="fas fa-angle-down"></i>
                 </a>
-                <div class="dropdown-menu">                 
-                     <a class="dropdown-item" href="utdsportscalendar.php">UTD Sports Calender</a>
-                    <a class="dropdown-item" href="interuniversitysportscalendar.html">Inter University Sports Calender</a>
-                    <a class="dropdown-item" href="intercollegiatesportscalendar.php">Inter Collegiate  Sports Calender</a>
+                <div class="dropdown-menu">
+                  <!-- To update url of calender
+                    eedit pdf_name with csv file name
+                   calendar.php?name=csvfile_name
+                  If there is official pdf available add &pdf=1 
+                    url becomes calendar.php?name=pdf_name&pdf=1
+                    !!!Keep pdf name same as csv filename!!!
+                  -->
+
+                     <a class="dropdown-item" href="calendar.php?name=UtdSportsCalendar2018-2019&pdf=1">UTD Sports Calender</a>
+                    <a class="dropdown-item" href="calendar.php?name=InterUniversitySportsCalendar2018-2019&pdf=1">Inter University Sports Calender</a>
+                    <a class="dropdown-item" href="calendar.php?name=InterCollegiateSportsCalendar2018-2019&pdf=1">Inter Collegiate  Sports Calender</a>
                       <a class="dropdown-item" href="#">M.P. State Sports Calendar</a>
                 </div>
             </li>
