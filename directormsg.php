@@ -64,7 +64,7 @@
 			<div class="jumbotron dm2">
 				<img src="images/officestaff/1.jpg" alt="Dr. Suni Dudhale - Deputy Director" class="img-responsive dm4">
 				<div class="dm6 font-weight-bold"> DR. SUNIL DUDHALE </div>
-				<h6>(Deputy Director)</h6>
+				
 				<hr size="30" style="width:50%;">
 				<div class="dm5">Sports unify people together irrespective of there age, gender and religion. They also bring out the best among individual and give us human being of extra capabilities,  ones that leaves their marking the history book for ever. While lot of Countries have had a successful Sporting Culture, India has always being a Sports Loving Country but not a Sports Playing Country.
 

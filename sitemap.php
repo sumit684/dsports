@@ -59,7 +59,6 @@
         <?php include 'include/header.html';?>
 
 
-
         <!--        *******************************SITEMAP STARTS***************************************************-->
 
         <center><h1>SITEMAP</h1></center>
@@ -68,32 +67,77 @@
 
 
             <div class="row">
-                <table class="col-md-3 table table-hover table-borderless"><thead><th>About Us</th></thead>
-                    <tr><td><a href="vision-mission.html">Vision-Mission-Objectives</a></td></tr>
-                    <tr><td><a href="#">About Directorate</a></td></tr>
-                    <tr><td><a href="directormsg.html">Director's Message</a></td></tr>
+                <table class="col-md-3 table table-hover table-borderless">
+                    <thead>
+                        <th>About Us</th>
+                    </thead>
+                    <tr>
+                        <td><a href="vision-mission.php">Vision-Mission-Objectives</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="index.php#aboutdavv">About Directorate</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="directormsg.php">Director's Message</a></td>
+                    </tr>
                 </table>
 
-                <table class="col-md-3 table table-hover table-borderless"><thead><th>Student Corner</th></thead>
-                    <tr><td><a href="#">Qualifying Standards</a></td></tr>
+                <table class="col-md-3 table table-hover table-borderless">
+                    <thead>
+                        <th>Student Corner</th>
+                    </thead>
+                    <tr>
+                        <td><a href="#">Qualifying Standards</a></td>
+                    </tr>
                 </table>
 
-                <table class="col-md-3 table table-hover table-borderless"><thead><th>Downloads</th></thead>
+                <table class="col-md-3 table table-hover table-borderless">
+                    <thead>
+                        <th>Downloads</th>
+                    </thead>
 
-                    <tr><td><a href="utdsportscalendar.html">UTD Sports Calender</a></td></tr>
-                    <tr><td><a href="interuniversitysportscalendar.html">Inter University Sports Calender</a></td></tr>
-                    <tr><td><a href="intercollegiatesportscalendar.html">Inter Collegiate  Sports Calender</a></td></tr>
-                    <tr><td><a href="#">Eligibility/Incentives</a></td></tr>
-                    <tr><td><a href="#">Proformas/Forms/Formats</a></td></tr>
-                    <tr><td><a href="#">Qualifying Standards</a></td></tr>
-                    <tr><td><a href="#">Others</a></td></tr></table>
+                    <tr>
+                        <td><a href="utdsportscalendar.html">UTD Sports Calender</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="interuniversitysportscalendar.html">Inter University Sports Calender</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="intercollegiatesportscalendar.html">Inter Collegiate  Sports Calender</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Eligibility/Incentives</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Proformas/Forms/Formats</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Qualifying Standards</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Others</a></td>
+                    </tr>
+                </table>
 
-                    <table class="col-md-3 table table-hover table-borderless"><thead><th>Administration</th></thead>
-                        <tr><td><a href="#">Director</a></td></tr>
-                        <tr><td><a href="#">Assistant Director</a></td></tr>
-                        <tr><td><a href="#">Office staff</a></td></tr>
-                        <tr><td><a href="#">Sports committee</a></td></tr>
-                        <tr><td><a href="#">Excecutive Board Sports</a></td></tr>
+                    <table class="col-md-3 table table-hover table-borderless">
+                        <thead>
+                            <th>Administration</th>
+                        </thead>
+                        <tr>
+                            <td><a href="#">Director</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Assistant Director</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Office staff</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Sports committee</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Excecutive Board Sports</a></td>
+                        </tr>
                     </table> 
 
                 </div>

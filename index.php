@@ -184,13 +184,13 @@
             </div>
         </div>
         <!-- ************ -->
-        <div class="container-fluid dd" id="aboutdavv" style="" align="center">
+        <!-- <div class="container-fluid dd" id="aboutdavv" style="" align="center">
 
             <a href="vision-mission.php"> <img class="img-fluid" src="images/vision-mission/vision-mission.png" alt=""  ></a>
 
 
         </div>
-        
+         -->
     </div>
     <!--**************************************NEWS and Events ENDS*******************************************-->
     <!-------------------------------------SUMIT NEWS & EVENTS----------------------------------------------------------->
@@ -227,7 +227,7 @@
         <!-- *****************just after first cover page welcome wala /over/ *********** -->   
 
 
-
+        
         <?php include 'include/footer.html';?>
     </body>
     </html>

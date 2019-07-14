@@ -100,7 +100,7 @@
                 </div>
                 <div style="background-color: #eeeff2;" class="col-md-9  ">
                     <br>
-                    <h4 style="font-size: 40px; line-height: 1.2">Mr.Sunil Dudhale</h4>
+                    <h4 style="font-size: 40px; line-height: 1.2">Mr. Sunil Dudhale</h4>
                     <h6 style="font-size: 25px; line-height: 1.5;">Deputy Director</h6>
                     <p style="font-size: 20px; line-height: 1.8">Asst. Director Physical Education, Devi Ahilya University,Indore since 1983.</p>
                     <p style="font-size: 20px; line-height: 1.8"> <span class="highlight"> Academic qualification </span> : MA (Economics), MPEd,
@@ -118,7 +118,7 @@
                 </div>
                 <div style="background-color: #eeeff2;" class="col-md-9  ">
                     <br>
-                    <h4 style="font-size: 40px; line-height: 1.2">Mr.Thakur Das Verma</h4>
+                    <h4 style="font-size: 40px; line-height: 1.2">Mr. Thakur Das Verma</h4>
                     <h6 style="font-size: 25px; line-height: 1.5;">Assisstant Grade Ist</h6>
 
                     <p style="font-size: 20px; line-height: 1.8">
@@ -135,15 +135,11 @@
                     </div>
                     <div style="background-color: #eeeff2;" class="col-md-9  ">
                         <br>
-                        <h4 style="font-size: 40px; line-height: 1.2">Mr.Javed Khan</h4>
+                        <h4 style="font-size: 40px; line-height: 1.2">Mr. Javed Khan</h4>
                         <h6 style="font-size: 25px; line-height: 1.5;">Asst .Grade IIIrd </h6>
 
                         <p style="font-size: 20px; line-height: 1.8"><span class="highlight"> Academic qualification </span> : Passed H.Sc. Examination from M.P.Board, Bhopal in the year 1986.<br>
                             Passed B.Sc. Examination from D.A. University, Indore in the year 1990,Completed certificate Computer course (PDP)  from D.A. University, Indore in the year 1991.
-
-
-
-
                         </p>
 
 
@@ -157,7 +153,7 @@
                         </div>
                         <div style="background-color: #eeeff2;" class="col-md-9  ">
                             <br>
-                            <h4 style="font-size: 40px; line-height: 1.2">Mr.Rajesh Bagora</h4>
+                            <h4 style="font-size: 40px; line-height: 1.2">Mr. Rajesh Bagora</h4>
                             <h6 style="font-size: 25px; line-height: 1.5;">Asst .Grade IIIrd </h6>
 
                             <p style="font-size: 20px; line-height: 1.8"><span class="highlight"> Academic qualification </span> : M.A. 
@@ -165,9 +161,10 @@
                             </p>
 
 
-                        </div></div>
+                        </div>
+                    </div>
                         
-                        <div style="height: 60px;" ></div>
+                        <!-- <div style="height: 60px;" ></div>
 
                         <div class="row" style="box-shadow: 10px 10px 5px #aaaaaa;">
                             <div class="col-md-3">
@@ -177,20 +174,15 @@
                                 <br>
                                 <h4 style="font-size: 40px; line-height: 1.2">Mr.Yamini Salget</h4>
                                 <h6 style="font-size: 25px; line-height: 1.5;">Asst. Grade III</h6>
-
                                 <p style="font-size: 20px; line-height: 1.8"><span class="highlight"> Academic qualification </span>:<br>  B.A. IInd Year <br>
-
-
-
-
                                 </p>
-
-                            </div></div>
-
-
+                            </div>
                         </div>
-                        <div style="height: 50px;"></div>
-                        <?php include 'include/footer.html';?>
-                        
-                    </body>
-                    </html>
+ -->
+
+                    </div>
+                    <div style="height: 50px;"></div>
+                    <?php include 'include/footer.html';?>
+
+                </body>
+                </html>

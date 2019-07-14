@@ -87,7 +87,8 @@ $sportsname = preg_replace('/(\w+)([A-Z])/U', '\\1 \\2', $calendarname);
 						<tr>';
 					}else{
 						echo '
-						<tr>';
+						<tr>
+						';
 					}
 
 					for ($c=0; $c < $num; $c++) {
@@ -101,9 +102,8 @@ $sportsname = preg_replace('/(\w+)([A-Z])/U', '\\1 \\2', $calendarname);
 							echo '<th valign="top">'.$value.'</th>
 							';
 						}else{
-							echo '<td>
-							'.$value.'
-							</td>';
+							echo '<td>'.$value.'</td>
+							';
 						}
 					}
 
@@ -112,7 +112,8 @@ $sportsname = preg_replace('/(\w+)([A-Z])/U', '\\1 \\2', $calendarname);
 						</thead>
 						<tbody>';
 					}else{
-						echo '</tr>';
+						echo '
+						</tr>';
 					}
 					$row++;
 				}
