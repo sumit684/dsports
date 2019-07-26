@@ -186,7 +186,7 @@
         <!-- *****************just after first cover page welcome wala /start/ ***********
 
         -->    
-        <div class="aboutus row"  style="padding-top: 40px; padding-bottom:40px;  margin-right: 0px; margin-left: 0px;">
+        <div id="aboutdavv" class="aboutus row"  style="padding-top: 40px; padding-bottom:40px;  margin-right: 0px; margin-left: 0px;">
             <!--            <div class="col-md-1"></div>-->
             <div class="col-md-5" >
                 <div style="background-color:white; padding:0px 30px 0px 30px;">
@@ -197,7 +197,7 @@
                 </div>
             </div>
             <div class="col-md-7" style="color:#3b2f2f;  padding: 20px; padding-left: 50px;">
-                <h1 style="font-family: 'Asul', cursive;"><center>About Directorate</center></h1>
+                <h1 style="font-family: 'Asul', cursive;"><center>About DAVV</center></h1>
                 <hr>
                 <div style="font-family: 'Brawler',sans-serif; text-align:justify;font-size: 20px;">Devi Ahilya Vishwavidyalaya (DAVV),
                     formerly University of Indore, is a premier University in Central India, has completed 54th years 
