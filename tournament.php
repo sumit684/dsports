@@ -422,16 +422,7 @@
           <div class="mySlides">
             <div class="numbertext" >1/ 36</div>
             <div class="row">
-              /* <div class="col-md-4 modal-grid" style="background-color:black;  padding-right: 4px; padding-top: 115px;" align="center">
-                <h1 style="color:whitesmoke">
-                  DAVV 2013
-                </h1>
-                <br>
-                <hr style="border: 0.4px groove whitesmoke ;position: relative; left: 1px; width: 100px; ">
-                <br><br>
-                <h2 style="color:whitesmoke; opacity: 0.4;">Hockey Player </h2>
-                <h6 style="font-family: cursive; color: rgba(245, 245, 245, 0.376)"><i>~Karan Mishera</i></h6>
-              </div> */
+
               <div class="col-md-12 modal-grid"> <img src="images/gallery/1.jpg" style="width:100%"></div> 
             </div>
           </div>
