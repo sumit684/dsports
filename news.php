@@ -16,6 +16,7 @@
                 <li>1<span class="badge badge-info blink_me" style="font-size:10px; font-family:monospace;">new</span></li>
                 <li>2</li>
                 <li>3</li>
+                <li>4</li>
             </ul>
         </div>
         
