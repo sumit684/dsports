@@ -28,84 +28,77 @@ legend.scheduler-border {
         <fieldset class="scheduler-border">
     <legend class="scheduler-border" align="center" style="font-size: 50px; color: #17557e; text-transform: uppercase;">executive sports board</legend>
      
-    <table class="calendar table" id="myTable">
-                        <thead>
+    <table class="calendar table table-responsive">
+                        <thead style="font-size:22px; font-family: serif; ">
                         <tr class="table table-primary"><th valign="top">S NO.</th>
                             <th valign="top">NAME</th>
                             <th valign="top">DESIGNATION</th>
                             <th valign="top">POST IN COMMITTEE</th>
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody style="font-size: 18px;">
                         <tr>
                         <td>1</td>
-                            <td>Dr. Ashutosh Mishra,</td>
-                            <td>Prof. & Head, School of Physic, DAVV., Indore.</td>
+                            <td>Prof. Rajendra Singh</td>
+                            <td>Professor, Institute of Management Studies, DAVV., Indore.</td>
                             <td>Chairman</td>
                             
                         </tr>
                         <tr>
                         <td>2.</td>
-                            <td>Dr. K.N.Chaturvedi,</td>
-                            <td>Principal, Holker Science College, Indore.</td>
+                            <td>Shri Ajay Verma</td>
+                            <td>Registrar, DAVV., Indore.</td>
                             <td>Member</td>
                             
                         </tr>
                         <tr>
                         <td>3.</td>
-                            <td>Shri B.J. Patil</td>
-                            <td>Sports Officer, MLB Govt. Girls PG College, Indore.</td>
+                            <td>Dr. Rajesh Vyas,</td>
+                            <td>Principal, Christian Eminent College,
+Indore.</td>
                             <td>Member</td>
                             
                         </tr>
                         <tr>
                         <td>4.</td>
-                            <td>Dr.(Mrs.) Unmekha Tare,</td>
-                            <td>Asst. Professor, St. Paul Professional Studies, Indore.</td>
+                            <td>Prof. Ajay Kumar,</td>
+                            <td>Professor, School of Physical Education,Indore.</td>
                             <td>Member</td>
                             
                         </tr>
                         <tr>
                         <td>5.</td>
-                            <td>Shri Raghav Jaiswal,</td>
-                            <td>Sports Officer, ILVA Science &Commerce College, Indore</td>
+                            <td>Dr. Poonam Kaushik</td>
+                            <td>Sports Officer, Kasturba Rural Institute,Indore.,</td>
                             <td>Member</td>
                             
                         </tr>
                         <tr>
                         <td>6.</td>
-                            <td>Shri. Avtarjit Singh,</td>
-                            <td>Lecturer, School of Education, DAVV., Indore.</td>
-                            <td>Member</td>
+                            <td>--</td>
+                            <td>Additional Director Higher Education,
+Indore Division, Indore</td>
+                            <td>Co-opted Member</td>
                             
                         </tr>
                         <tr>
                         <td>7.</td>
-                            <td>Dr. R.S.Verma</td>
-                            <td>Additional Director Higher Education, Indore Division, Indore.</td>
+                            <td> -- </td>
+                            <td>Dean Student Welfare,.</td>
                             <td>Co-opted Member</td>
                             
                         </tr>
                         <tr>
                         <td>8.</td>
-                            <td>Dr. L.K.Tripathi</td>
-                            <td>Dean Student Welfare, DAVV., Indore.</td>
-                            <td>Co-opted Member</td>
-                            
-                        </tr>
-                        <tr>
-                        <td>9.</td>
-                            <td>Dr. Ajay Kumar,</td>
-                            <td>Incharge Director of Physical Education.</td>
+                            <td>Dr. Sunil Dudhale,</td>
+                            <td>Incharge Director of Physical Education</td>
                             <td>Member-Secretary</td>
                             
-                        </tr></tbody></table>
+                        </tr>
+                        </tbody></table>
    
 </fieldset>
-           
-      <div align="center">   
-    <a href="downloads/committee/SportsCommittee2018-2021.pdf" target="_blank" style="color: white "><button class="btn btn-primary" > <i class="fa fa-download"> </i>&nbsp;Download PDF</button></a>
-    </div>  
+             
     </div>
     
     <?php include 'include/footer.html';?>
