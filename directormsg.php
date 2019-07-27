@@ -62,7 +62,7 @@
 		<div style="height: 20px;"></div>
 		<div class="container" style="padding:0px">
 			<div class="jumbotron dm2">
-				<img src="images/officestaff/1.jpg" alt="Dr. Suni Dudhale - Deputy Director" class="img-responsive dm4">
+				<img src="images/officestaff/12.jpg" alt="Dr. Suni Dudhale - Deputy Director" class="img-responsive dm4">
 				<div class="dm6 font-weight-bold"> DR. SUNIL DUDHALE </div>
 				
 				<hr size="30" style="width:50%;">

@@ -15,8 +15,25 @@
         <h1><center>DOWNLOADS</center></h1>
         <div class="panel">
             <ul>
-                <li>1<span class="badge badge-info blink_me" style="font-size:10px; font-family:monospace;">new</span></li>
-                <li>2</li>
+
+                <?php
+             
+             $fo=opendir("downloads");
+             $n = 1;
+             while($file=readdir($fo))
+            {
+                if($file!="." && $file!=".." && $file!="Thumbs.db")
+                {
+                    $name=preg_replace('/.[^.]*$/', '', basename($file));
+                    echo "<li><a href='downloads/$file' target='_blank' style=' color:black;'>";
+                    echo $n;
+                    echo "&nbsp;";
+                    echo $name;
+                    echo  " </a></li>";
+                    $n=$n+1;
+                }
+            }
+            ?>
             </ul>
         </div>
         
