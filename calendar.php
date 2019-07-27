@@ -68,82 +68,82 @@ $sportsname = preg_replace('/(\w+)([A-Z])/U', '\\1 \\2', $calendarname);
 				<font face="serif" size=5 color="#000000">
 					<u><?php echo strtoupper(preg_replace('/[^a-z ]/i','',$sportsname))?></u></font><br>
 
-			</div>
-			
-			<input class="form-control"  style="width:280px; margin-bottom: 10px;" id="myInput" type="text" placeholder="Search by Sports | Department">
-
-			<?php
-
-			$row = 1;
-			if (($myfile = fopen("calendar/$calendarname.csv", "r")) !== FALSE) {
-
-				echo '<table class="calendar table" id="myTable">';
-
-				while (($data = fgetcsv($myfile, 1000, ",")) !== FALSE) {
-					$num = count($data);
-					if ($row == 1) {
-						echo '
-						<thead>
-						<tr>';
-					}else{
-						echo '
-						<tr>
-						';
-					}
-
-					for ($c=0; $c < $num; $c++) {
-            //echo $data[$c] . "<br />\n";
-						if(empty($data[$c])) {
-							$value = "&nbsp;";
-						}else{
-							$value = $data[$c];
-						}
-						if ($row == 1) {
-							echo '<th valign="top">'.$value.'</th>
-							';
-						}else{
-							echo '<td>'.$value.'</td>
-							';
-						}
-					}
-
-					if ($row == 1) {
-						echo '</tr>
-						</thead>
-						<tbody>';
-					}else{
-						echo '
-						</tr>';
-					}
-					$row++;
-				}
-
-				echo '</tbody></table></div>';
-				fclose($myfile);
-			}
-			
-			if(isset($_GET['pdf'])){
-				$pdf = $_GET['name'];
-				?>
-
-				<div align="center" style="margin-bottom: 20px;">
-					<button id="mybtn" class="btn btn-primary" style="display: block;" onclick="window.open('calendar/<?php echo $pdf;?>.pdf')">Download Offical PDF</a></button>
 				</div>
-				<?php		
-			}
-			
-			?>
-			<div align="center" style="margin-bottom: 20px;">
-				<button id="mybtn" class="btn btn-primary" style="display: block;"onclick="hideme();window.print();">Print As PDF</button>
-			</div>
-			
-			<?php include 'include/footer.html'?>
-			<script>
-				function hideme()
-				{
-					document.getElementById('mybtn').style.display ='none'; 
-					document.getElementById('footer').style.display ='none';
-					document.getElementById('header').style.display ='none';
+				
+				<input class="form-control"  style="width:280px; margin-bottom: 10px;" id="myInput" type="text" placeholder="Search by Sports | Department">
+
+				<?php
+
+				$row = 1;
+				if (($myfile = fopen("calendar/$calendarname.csv", "r")) !== FALSE) {
+
+					echo '<table class="calendar table" id="myTable">';
+
+					while (($data = fgetcsv($myfile, 1000, ",")) !== FALSE) {
+						$num = count($data);
+						if ($row == 1) {
+							echo '
+							<thead>
+							<tr>';
+						}else{
+							echo '
+							<tr>
+							';
+						}
+
+						for ($c=0; $c < $num; $c++) {
+            //echo $data[$c] . "<br />\n";
+							if(empty($data[$c])) {
+								$value = "&nbsp;";
+							}else{
+								$value = $data[$c];
+							}
+							if ($row == 1) {
+								echo '<th valign="top">'.$value.'</th>
+								';
+							}else{
+								echo '<td>'.$value.'</td>
+								';
+							}
+						}
+
+						if ($row == 1) {
+							echo '</tr>
+							</thead>
+							<tbody>';
+						}else{
+							echo '
+							</tr>';
+						}
+						$row++;
+					}
+
+					echo '</tbody></table></div>';
+					fclose($myfile);
+				}
+				
+				if(isset($_GET['pdf'])){
+					$pdf = $_GET['name'];
+					?>
+
+					<div align="center" style="margin-bottom: 20px;">
+						<button id="mybtn" class="btn btn-primary" style="display: block;" onclick="window.open('calendar/<?php echo $pdf;?>.pdf')">Download Offical PDF</a></button>
+					</div>
+					<?php		
+				}
+				
+				?>
+				<div align="center" style="margin-bottom: 20px;">
+					<button id="mybtn" class="btn btn-primary" style="display: block;"onclick="hideme();window.print();">Print As PDF</button>
+				</div>
+				
+				<?php include 'include/footer.html'?>
+				<script>
+					function hideme()
+					{
+						document.getElementById('mybtn').style.display ='none'; 
+						document.getElementById('footer').style.display ='none';
+						document.getElementById('header').style.display ='none';
 			      setTimeout(function(){ //using setTimeout function
 			      	document.getElementById('mybtn').style.display ='block'; 
 			      	document.getElementById('footer').style.display ='block';
