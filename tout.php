@@ -50,9 +50,16 @@
       background-color: #fefefe;
       margin: auto;
       padding: 0;
-      width: 55%;
+      width: 80%;
       max-width: 1200px;
     }
+    @media screen and (min-width: 650px) {
+      .modal-content {
+                width: 55%;
+                display: block;
+            }
+        }
+       
 
     /* The Close Button */
     .close {
@@ -202,7 +209,7 @@
       font-size: 30px;
     }
     body{
-      font-family: 'Times New Roman', Times, serif;
+      /* font-family: 'Times New Roman', Times, serif; */
     }
     hr{
       box-shadow: 0px 10px 20px grey;
@@ -233,7 +240,7 @@
     <?php include 'include/header.html';?>
     
     <!-- ***************************OUTLOOK OF ALBUM START*************** -->
-    <h2 style="text-align:center ; font-family: 'Times New Roman', Times, serif; padding: 2%;">GALLERY</h2>
+    <h2 style="text-align:center ; font-family: 'Times New Roman', Times, serif; padding: 2%; font-size:2.5rem;">GALLERY</h2>
     <hr>
     <br>
     <!-- <div class="row"> -->
