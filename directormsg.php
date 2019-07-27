@@ -13,26 +13,26 @@
 	}
 
 	.dm1{
-		background-image: url("images/blue2.jpg");
+		/* background-image: url("images/blue2.jpg"); */
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
 
 	.dm3{
-		font-family: "Playfair Display", Arial, serif;
+	    font-family: ""; 
 		font-weight: 400;
 		padding-top: 27px;
 		margin-bottom: -19px;
-		color:#2f2f70;
+		/* color:#2f2f70; */
 		font-size: 50px;
-		text-shadow: 1px 2px 3px black;
+		/* text-shadow: 1px 2px 3px black; */
 	}
 	.dm4{
 		margin-top: -23px;
-		height: 300px;
-		width: 250px;	
-		border-radius: 50%;
-		box-shadow: 10px 10px 31px -1px #767779;
+		/* height: 300px;
+		width: 250px;	 */
+		/* border-radius: 50%;*/
+		box-shadow: 10px 10px 31px -1px #767779; 
 		/*border:solid black 2px;*/
 	}
 	.dm5{
@@ -60,7 +60,7 @@
 	<div class="container-fluid text-center dm1">
 		<h2 class="dm3">Director's message</h2>
 		<div style="height: 20px;"></div>
-		<div class="container">
+		<div class="container" style="padding:0px">
 			<div class="jumbotron dm2">
 				<img src="images/officestaff/1.jpg" alt="Dr. Suni Dudhale - Deputy Director" class="img-responsive dm4">
 				<div class="dm6 font-weight-bold"> DR. SUNIL DUDHALE </div>
