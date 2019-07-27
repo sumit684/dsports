@@ -7,7 +7,7 @@
     <?php include('include/link.html');?>
     <style>
         body{
-            font-family:'Times New Roman', Times, serif;
+            /* font-family:'Times New Roman', Times, serif; */
         }
         html {
             box-sizing: border-box;
@@ -94,74 +94,51 @@
     <div class="row">
 
 
-        <div class="column">
-            <div class="card">
-                <img src="images/gallery/1.jpg" alt="Jane" style="width:100%;  ">
-                <div class="container">
-                    <h2>Runathon </h2>
-                    <p class="title">12/12/2018</p>
-                    <a href="tournament.php"><p><button class="button" >See Photos</button></p></a>
-                </div>
-            </div>
-        </div>
+    <?php
 
-        <div class="column">
-            <div class="card">
-                <img src="images/gallery/2.jpg" alt="Mike" style="width:100%">
-                <div class="container">
-                    <h2>PSA tournment</h2>
-                    <p class="title">28/12/18</p>
-                    <a href="tournament.php"><p><button class="button">See Photos</button></p></a>
-                </div>
-            </div>
-        </div>
+        $fo=opendir("images/gallery");
+        //$ns = 1;
+        while($file=readdir($fo) )
+        {  //$dir_name=preg_replace('/.[^.]*$/', '', basename($file)); 
+        
 
-        <div class="column">
-            <div class="card">
-                <img src="images/gallery/3.jpg" alt="Mike" style="width:100%">
-                <div class="container">
-                    <h2>SAI 2K18</h2>
-                    <p class="title">31/12/18</p>
-                    <a href="tournament.php"> <p><button class="button">See Photos</button></p></a>
-                </div>
-            </div>
-        </div>
+        if($file!="." && $file!=".." && $file!="Thumbs.db"){
 
+            $dir_name = basename($file);
+            
+            $fofo=opendir("images/gallery/$dir_name");
+            while($filefile=readdir($fofo)){
+                if($filefile!="." && $filefile!=".." && $filefile!="Thumbs.db"){ $photo=$filefile; break;}
+            }
+  
 
-        <div class="column">
-            <div class="card">
-                <img src="images/gallery/4.jpg" alt="Mike" style="width:100%">
-                <div class="container">
-                    <h2>Saimsthon </h2>
-                    <p class="title">10/01/19</p>
-                    <a href="tournament.php"> <p><button class="button">See Photos</button></p></a>
-                </div>
-            </div>
-        </div>
-
-        <div class="column">
-            <div class="card">
-                <img src="images/gallery/5.jpg" alt="Mike" style="width:100%">
-                <div class="container">
-                    <h3>VolleyBall Tournament </h3>
-                    <p class="title">24/01/19</p>
-                    <a href="tournament.php"> <p><button class="button">See Photos</button></p></a>
-                </div>
-            </div>
-        </div>
+        echo "<div class='column'>";
+        echo "<a href ='tout.php?option=";
+        echo basename($file);
+        echo "' style='margin-left:10px ; color:black; text-decoration:none; '>";
+            
+        echo  "   <div class='card'>
+             <img src='images/gallery/$dir_name/$photo' alt='Jane' style='width:100%;  '> 
+            <div class='container'>
+                <h2>";
+        echo basename($file);
+        echo "</h2><p><button class='button' >See Photos</button></p> </div></div>";
+        
+        echo "</a></div>";
+        
+        // echo "<a href ='test.php?option=";
+        // echo basename($file);
+        // echo "' style='margin-left:10px'>";
+        // echo basename($file);
+        // echo " </a>"; 
+        // echo "<br>";
+        }
+}
+  ?>
 
 
-        <div class="column">
-            <div class="card">
-                <img src="images/gallery/6.jpg" alt="John" style="width:100%">
-                <div class="container">
-                    <h2>UTKARSHA</h2>
-                    <p class="title">05/02/18</p>
-                    <a href="tournament.php"> <p><button class="button">See Photos</button></p></a>
-                </div>
-            </div>
-        </div>
 
+      
 
     </div>
 
