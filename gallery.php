@@ -64,7 +64,8 @@
             display: inline-block;
             padding: 8px;
             color: white;
-            background-color: #e67e22;
+            background-color: #1E90FF; 
+            /* #e67e22; */
             text-align: center;
             cursor: pointer;
             width: 100%;
@@ -73,11 +74,14 @@
             padding:7px;
         }
         .button:hover {
-            background-color: #d35400;
+            background-color: #0c579f;
         }
         .row{
             padding-left: 80px;
             padding-right: 80px;
+        }
+        .container h2{
+            font-size:1.5rem;
         }
     </style>
 </head>
@@ -87,7 +91,7 @@
     <?php include 'include/nav.html';?>
     <?php include 'include/header.html';?>
     <!--    ***********************************GALLERY************************-->
-    <div style="text-align: center; padding-top: 20px; padding-bottom: 20px; "  > 
+    <div style="text-align: center; padding-top: 20px; padding-bottom: 20px; font-family: none;"  > 
         <h1 style="color:black;"> SPORTS GALLERY </h1>
         <hr> 
     </div>
