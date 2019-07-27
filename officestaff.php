@@ -164,21 +164,22 @@
                         </div>
                     </div>
                         
-                        <!-- <div style="height: 60px;" ></div>
+                         <div style="height: 60px;" ></div>
+                <div class="row" style="box-shadow: 10px 10px 5px #aaaaaa;">
+                    <div class="col-md-3"   >
+                        <img src="images/officestaff/2.jpg"   class="col-xs-12 img-responsive" center>
+                    </div>
+                    <div style="background-color: #eeeff2;" class="col-md-9  ">
+                        <br>
+                        <h4 style="font-size: 40px; line-height: 1.2">Mr. Javed Khan</h4>
+                        <h6 style="font-size: 25px; line-height: 1.5;">Asst .Grade IIIrd </h6>
 
-                        <div class="row" style="box-shadow: 10px 10px 5px #aaaaaa;">
-                            <div class="col-md-3">
-                                <img src="images/officestaff/5.jpg"   class="col-xs-12 img-responsive" center>
-                            </div>
-                            <div style="background-color: #eeeff2;" class="col-md-9  ">
-                                <br>
-                                <h4 style="font-size: 40px; line-height: 1.2">Mr.Yamini Salget</h4>
-                                <h6 style="font-size: 25px; line-height: 1.5;">Asst. Grade III</h6>
-                                <p style="font-size: 20px; line-height: 1.8"><span class="highlight"> Academic qualification </span>:<br>  B.A. IInd Year <br>
-                                </p>
-                            </div>
-                        </div>
- -->
+                        <p style="font-size: 20px; line-height: 1.8"><span class="highlight"> Academic qualification </span> : Passed H.Sc. Examination from M.P.Board, Bhopal in the year 1986.<br>
+                            Passed B.Sc. Examination from D.A. University, Indore in the year 1990,Completed certificate Computer course (PDP)  from D.A. University, Indore in the year 1991.
+                        </p>
+
+
+                    </div></div>
 
                     </div>
                     <div style="height: 50px;"></div>
