@@ -13,10 +13,31 @@
         <h1><center>NEWS</center></h1>
         <div class="panel">
             <ul>
-                <li>1<span class="badge badge-info blink_me" style="font-size:10px; font-family:monospace;">new</span></li>
+
+             <?php
+             
+             $fo=opendir("news");
+             $n = 1;
+             while($file=readdir($fo))
+            {
+                if($file!="." && $file!=".." && $file!="Thumbs.db")
+                {
+                    $name=preg_replace('/.[^.]*$/', '', basename($file));
+                    echo "<li><a href='news/$file' target='_blank' style=' color:black;'>";
+                    echo $n;
+                    echo "&nbsp;";
+                    echo $name;
+                    echo  " </a></li>";
+                    $n=$n+1;
+                }
+            }
+            ?>             
+                <!-- <li>1<span class="badge badge-info blink_me" style="font-size:10px; font-family:monospace;">new</span></li>
                 <li>2</li>
                 <li>3</li>
-                <li>4</li>
+                <li>4</li> -->
+
+
             </ul>
         </div>
         
