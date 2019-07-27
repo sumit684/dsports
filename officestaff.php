@@ -55,6 +55,7 @@
             .office-cards h6{
                 color:#224d5e;
             }
+   
             @media only screen and (max-width: 767px) {
                 .office-cards .col-md-9{
                     padding-top: 0px;}	
@@ -102,7 +103,7 @@
                     <br>
                     <h4 style="font-size: 40px; line-height: 1.2">Mr. Sunil Dudhale</h4>
                     <h6 style="font-size: 25px; line-height: 1.5;">Deputy Director</h6>
-                    <p style="font-size: 20px; line-height: 1.8">Asst. Director Physical Education, Devi Ahilya University,Indore since 1983.</p>
+                    <p style="font-size: 20px; line-height: 1.8"> Directorate of Physical Education and Sportss.</p>
                     <p style="font-size: 20px; line-height: 1.8"> <span class="highlight"> Academic qualification </span> : MA (Economics), MPEd,
                     Ph.D in Physical Education</p>
 
@@ -129,23 +130,7 @@
 
                 </div></div>
                 <div style="height: 60px;" ></div>
-                <div class="row" style="box-shadow: 10px 10px 5px #aaaaaa;">
-                    <div class="col-md-3"   >
-                        <img src="images/officestaff/2.jpg"   class="col-xs-12 img-responsive" center>
-                    </div>
-                    <div style="background-color: #eeeff2;" class="col-md-9  ">
-                        <br>
-                        <h4 style="font-size: 40px; line-height: 1.2">Mr. Javed Khan</h4>
-                        <h6 style="font-size: 25px; line-height: 1.5;">Asst .Grade IIIrd </h6>
-
-                        <p style="font-size: 20px; line-height: 1.8"><span class="highlight"> Academic qualification </span> : Passed H.Sc. Examination from M.P.Board, Bhopal in the year 1986.<br>
-                            Passed B.Sc. Examination from D.A. University, Indore in the year 1990,Completed certificate Computer course (PDP)  from D.A. University, Indore in the year 1991.
-                        </p>
-
-
-                    </div></div>
-
-                    <div style="height: 60px;" ></div>
+               
 
                     <div class="row" style="box-shadow: 10px 10px 5px #aaaaaa;">
                         <div class="col-md-3"   >
@@ -163,24 +148,68 @@
 
                         </div>
                     </div>
-                        
-                        <!-- <div style="height: 60px;" ></div>
+                    <div style="height: 60px;" ></div>
+                         <div class="row" style="box-shadow: 10px 10px 5px #aaaaaa;">
+                    <div class="col-md-3"   >
+                        <img src="images/officestaff/2.jpg"   class="col-xs-12 img-responsive" center>
+                    </div>
+                    <div style="background-color: #eeeff2;" class="col-md-9  ">
+                        <br>
+                        <h4 style="font-size: 40px; line-height: 1.2">Mr. Javed Khan</h4>
+                        <h6 style="font-size: 25px; line-height: 1.5;">Asst .Grade IIIrd </h6>
 
-                        <div class="row" style="box-shadow: 10px 10px 5px #aaaaaa;">
-                            <div class="col-md-3">
-                                <img src="images/officestaff/5.jpg"   class="col-xs-12 img-responsive" center>
-                            </div>
-                            <div style="background-color: #eeeff2;" class="col-md-9  ">
-                                <br>
-                                <h4 style="font-size: 40px; line-height: 1.2">Mr.Yamini Salget</h4>
-                                <h6 style="font-size: 25px; line-height: 1.5;">Asst. Grade III</h6>
-                                <p style="font-size: 20px; line-height: 1.8"><span class="highlight"> Academic qualification </span>:<br>  B.A. IInd Year <br>
-                                </p>
-                            </div>
-                        </div>
- -->
+                        <p style="font-size: 20px; line-height: 1.8"><span class="highlight"> Academic qualification </span> : Passed H.Sc. Examination from M.P.Board, Bhopal in the year 1986.<br>
+                            Passed B.Sc. Examination from D.A. University, Indore in the year 1990,Completed certificate Computer course (PDP)  from D.A. University, Indore in the year 1991.
+                        </p>
+
+
+                    </div></div>
+
+                    
+                         <div style="height: 60px;" ></div>
+
+                <div  class="container" style="box-shadow: 10px 10px 5px #aaaaaa; padding-right: 100px; padding-left: 100px;">
+    
+                <div  align="center" style="font-size: 50px; color: #17557e;">OUR OTHER STAFF </div> 
+            
+                    <table class="table" style="font-size: 18px;" >
+                        <tbody>
+                            <tr>
+                                <td>Mr. Rampher Pal </td>
+                                <td> Ground Marker(Regular)</td>
+                            </tr>
+                            <tr>
+                                <td>Mr. Ramjiyavan Yadav</td>
+                                <td>Grounds Men / Peon (Regular)</td>
+                            </tr>
+                            
+                             <tr>
+                                <td>Mr.Om Prakash Verma </td>
+                                <td> Grounds Men / Peon (Regular)</td>
+                            </tr>
+                            <tr>
+                                <td>Mr. Vansh Bhadur</td>
+                                <td>Grounds Men / Peon (Regular)</td>
+                            </tr>
+                            
+                            <tr>
+                                <td> Mr. Mukesh Patel</td>
+                                <td>Grounds Men / Peon (Regular)</td>
+                            </tr>
+                            <tr>
+                                <td>Mr. Dayaram Bhagore</td>
+                                <td>Semi Skilled Labourn (Daily wages)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                
 
                     </div>
+
+                    
+
+
                     <div style="height: 50px;"></div>
                     <?php include 'include/footer.html';?>
 

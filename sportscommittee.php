@@ -27,15 +27,15 @@ legend.scheduler-border {
     <div class="container" >
         <fieldset class="scheduler-border">
     <legend class="scheduler-border" align="center" style="font-size: 50px; color: #17557e; text-transform: uppercase;">Sports Committee</legend>
-     
-    <table class="calendar table" id="myTable">
-                        <thead>
+     <div class="center">
+    <table class="table">
+                        <thead style="font-size: 22px; font-family: serif;">
                         <tr class="table-primary"><th valign="top" >SNO.</th>
                             <th valign="top">NAME</th>
                             <th valign="top">DESIGNATION</th>
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody style="font-size: 18px;">
                         <tr>
                         <td>1</td>
                             <td>Manniya Kulpati ji </td>
@@ -138,13 +138,10 @@ legend.scheduler-border {
 (Incharge Director Physical Education.)</td>
                             <td>Member-Secretary </td>
                             
-                        </tr></tbody></table>
+                        </tr></tbody></table></div>
    
 </fieldset>
-           
-      <div align="center">   
-    <a href="downloads/committee/SportsCommittee2018-2021.pdf" target="_blank" style="color: white "><button class="btn btn-primary" > <i class="fa fa-download"> </i>&nbsp;Download PDF</button></a>
-    </div>  
+             
     </div>
 	
 	<?php include 'include/footer.html';?>

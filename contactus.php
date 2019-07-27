@@ -61,7 +61,7 @@
                                 </i>
                             </div>
                             <b style="font-size: 20px; ">Phone</b><br><br>
-                            <span class="contactus">     Phone: +91-731-2527532
+                            <span class="contactus">     Phone: +91-982-6908080
                                 <br><br>                       <div style="padding-bottom: 3%;">   <!--see this is line-->
                                     <svg height="3" width="100" style="" >
 
