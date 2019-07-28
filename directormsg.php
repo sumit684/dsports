@@ -19,7 +19,7 @@
 	}
 
 	.dm3{
-	    font-family: ""; 
+		font-family: ""; 
 		font-weight: 400;
 		padding-top: 27px;
 		margin-bottom: -19px;
@@ -31,7 +31,7 @@
 		margin-top: -23px;
 		/* height: 300px;
 		width: 250px;	 */
-		 border-radius: 3%;
+		border-radius: 3%;
 		box-shadow: 10px 10px 15px -1px #767779; 
 		/*border:solid black 2px;*/
 	}

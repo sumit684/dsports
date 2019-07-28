@@ -95,7 +95,8 @@ $year = preg_replace('/[^0-9-]/', '', $calendarname);
 
 					</div>
 
-					<input class="form-control"  style="width:280px; margin-bottom: 10px;" id="mySearch" type="text" placeholder="Search by Sports | Department">
+					
+					<input class="form-control"  style="width:280px; margin-bottom: 10px;" id="myInput" type="text" placeholder="Search by Sports | Department">
 
 					<?php
 
@@ -113,7 +114,7 @@ $year = preg_replace('/[^0-9-]/', '', $calendarname);
 								$num = count($data);
 								if ($row == 1) {
 									echo '
-									<thead class="sticky-top">
+									<thead>
 									<tr>';
 								}else{
 									echo '
@@ -152,7 +153,6 @@ $year = preg_replace('/[^0-9-]/', '', $calendarname);
 							fclose($myfile);
 						}
 					}
-
 					if(file_exists("calendar/$calendarname.pdf")){
 						?>
 
@@ -174,13 +174,13 @@ $year = preg_replace('/[^0-9-]/', '', $calendarname);
 							document.getElementById('mybtn').style.display ='none'; 
 							document.getElementById('footer').style.display ='none';
 							document.getElementById('header').style.display ='none';
-							document.getElementById('mySearch').style.display ='none';
+							document.getElementById('myInput').style.display ='none';
 
 			      setTimeout(function(){ //using setTimeout function
 			      	document.getElementById('mybtn').style.display ='block'; 
 			      	document.getElementById('footer').style.display ='block';
 			      	document.getElementById('header').style.display ='block';
-			      	document.getElementById('mySearch').style.display ='block';
+			      	document.getElementById('myInput').style.display ='block';
 			      }
 			      ,10);//Button reappear time in ms
 			  }
