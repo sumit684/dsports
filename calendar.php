@@ -61,7 +61,7 @@ $year = preg_replace('/[^0-9-]/', '', $calendarname);
 				margin-top: 10px;
 
 			}
-			/*.calendar tbody {
+			/* .calendar tbody {
 				display:block;
 				height:500px;
 				overflow:auto;
@@ -78,7 +78,7 @@ $year = preg_replace('/[^0-9-]/', '', $calendarname);
 				color:red;
 				font-weight: 700;
 				max-width:20px;
-				}*/
+				} */
 
 			</style>
 		</head>
