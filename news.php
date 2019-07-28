@@ -24,8 +24,8 @@
                 {
                     $name=preg_replace('/.[^.]*$/', '', basename($file));
                     echo "<li><a href='news/$file' target='_blank' style=' color:black;'>";
-                    echo $n;
-                    echo "&nbsp;";
+                    // echo $n;
+                    // echo "&nbsp;";
                     echo $name;
                     echo  " </a></li>";
                     $n=$n+1;

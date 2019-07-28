@@ -2,7 +2,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
   <title>Gallery | Diretorate of Physical Edu and Sports</title>
   <?php include('include/link.html');?>
   <style>
@@ -214,12 +213,6 @@
     hr{
       box-shadow: 0px 10px 20px grey;
     }
-    
-    
-    
-    
-    
-
     .no-js #loader { display: none;  }
     .js #loader { display: block; position: absolute; left: 100px; top: 0; }
     .se-pre-con {
@@ -273,8 +266,8 @@
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
   
-  <div class="caption-container">
-    <p id="caption"></p>
+ <!--  <div class="caption-container">
+    <p id="caption"></p> -->
   </div>
   
   
@@ -317,14 +310,7 @@
         }
       </script>
     </div>
-    
-    <!-- *****************writing work start**************** -->
-
-    <!-- *****************writing work end**************** -->
-
   </div>
-
-  <!-- *************************MODALLLLL************************* -->   
   
   <!-- *****************ONE FULL ALBUM  End*************** -->
   
