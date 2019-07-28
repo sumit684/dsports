@@ -31,8 +31,8 @@
 		margin-top: -23px;
 		/* height: 300px;
 		width: 250px;	 */
-		/* border-radius: 50%;*/
-		box-shadow: 10px 10px 31px -1px #767779; 
+		 border-radius: 3%;
+		box-shadow: 10px 10px 15px -1px #767779; 
 		/*border:solid black 2px;*/
 	}
 	.dm5{
@@ -62,7 +62,7 @@
 		<div style="height: 20px;"></div>
 		<div class="container" style="padding:0px">
 			<div class="jumbotron dm2">
-				<img src="images/officestaff/12.jpg" alt="Dr. Suni Dudhale - Deputy Director" class="img-responsive dm4">
+				<img src="images/officestaff/1.jpg" alt="Dr. Suni Dudhale - Deputy Director" class="img-responsive dm4">
 				<div class="dm6 font-weight-bold"> DR. SUNIL DUDHALE </div>
 				
 				<hr size="30" style="width:50%;">
@@ -76,7 +76,7 @@
 					<p>
 						At Devi Ahilya Vishwavidyalaya We offers a variety of Games and Sports for Students. Our ultimate goal is to increase the participation in Sports. I believe Sports provide the required exposure for the students to grow and mature to adulthood. Sports helps to inculcate Team Work, Commitment, Discipline Leadership, Hard Work, Tufness, Sportsmanship, Sacrifice and above  all Character building. Sports prepare individuals for the Journey of Life that lies ahead of them. 
 					</p>
-					<p>
+					<p style="font-style: italic;">
 						I request every one our Students, Staff, Parents and Faculties to dedicate at least 40 minutes per day for your self and utilized this time on the Playfield, Gymnasium or in Park for their healthy and fit life. 
 					</p>
 				</div>

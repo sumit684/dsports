@@ -98,57 +98,44 @@
     <div class="row">
 
 
-    <?php
+        <?php
 
         $fo=opendir("images/gallery");
         //$ns = 1;
         while($file=readdir($fo) )
         {  //$dir_name=preg_replace('/.[^.]*$/', '', basename($file)); 
-        
 
-        if($file!="." && $file!=".." && $file!="Thumbs.db"){
 
-            $dir_name = basename($file);
-            
-            $fofo=opendir("images/gallery/$dir_name");
-            while($filefile=readdir($fofo)){
-                if($filefile!="." && $filefile!=".." && $filefile!="Thumbs.db"){ $photo=$filefile; break;}
-            }
-  
+    if($file!="." && $file!=".." && $file!="Thumbs.db"){
+
+        $dir_name = basename($file);
+
+        $fofo=opendir("images/gallery/$dir_name");
+        while($filefile=readdir($fofo)){
+            if($filefile!="." && $filefile!=".." && $filefile!="Thumbs.db"){ $photo=$filefile; break;}
+        }
+
 
         echo "<div class='column'>";
         echo "<a href ='tout.php?option=";
         echo basename($file);
         echo "' style='margin-left:10px ; color:black; text-decoration:none; '>";
-            
+
         echo  "   <div class='card'>
-             <img src='images/gallery/$dir_name/$photo' alt='Jane' style='width:100%;  '> 
-            <div class='container'>
-                <h2>";
+        <img src='images/gallery/$dir_name/$photo' alt='Jane' style='width:100%;  '> 
+        <div class='container'>
+        <h2>";
         echo basename($file);
-        echo "</h2><p><button class='button' >See Photos</button></p> </div></div>";
+        echo "</h2><p><button class='button' >View more</button></p> </div></div>";
         
         echo "</a></div>";
-        
-        // echo "<a href ='test.php?option=";
-        // echo basename($file);
-        // echo "' style='margin-left:10px'>";
-        // echo basename($file);
-        // echo " </a>"; 
-        // echo "<br>";
-        }
+    }
 }
-  ?>
+?>
+</div>
 
+<!--***********************************GALLERY***************************-->
 
-
-      
-
-    </div>
-
-
-    <!--***********************************GALLERY***************************-->
-
-    <?php include 'include/footer.html';?>
+<?php include 'include/footer.html';?>
 </body>
 </html>
