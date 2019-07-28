@@ -5,10 +5,6 @@
     <title>OFFICE STAFF | Diretorate of Physical Edu and Sports</title>
     <?php include('include/link.html');?>
     <style type="text/css">
-        *{  
-            margin:0px;}
-
-
             .office-image{
                 position: relative;
                 background-image: url(images/officestaff/textures.jpg);
@@ -55,7 +51,7 @@
             .office-cards h6{
                 color:#224d5e;
             }
-   
+
             @media only screen and (max-width: 767px) {
                 .office-cards .col-md-9{
                     padding-top: 0px;}	
@@ -77,9 +73,9 @@
             </style>
         </head>
         <body>
-           <?php include 'include/nav.html';?>
-           <?php include 'include/header.html';?>
-           <div class="row">
+         <?php include 'include/nav.html';?>
+         <?php include 'include/header.html';?>
+         <div class="row">
             <div class="office-text col-md-12">
                 <h1 class=" offices_head display-3  ">OFFICE STAFF</h1>
             </div>
@@ -130,26 +126,26 @@
 
                 </div></div>
                 <div style="height: 60px;" ></div>
-               
-
-                    <div class="row" style="box-shadow: 10px 10px 5px #aaaaaa;">
-                        <div class="col-md-3"   >
-                            <img src="images/officestaff/3.jpg"   class="col-xs-12 img-responsive" center>
-                        </div>
-                        <div style="background-color: #eeeff2;" class="col-md-9  ">
-                            <br>
-                            <h4 style="font-size: 40px; line-height: 1.2">Mr. Rajesh Bagora</h4>
-                            <h6 style="font-size: 25px; line-height: 1.5;">Asst .Grade IIIrd </h6>
-
-                            <p style="font-size: 20px; line-height: 1.8"><span class="highlight"> Academic qualification </span> : M.A. 
-
-                            </p>
 
 
-                        </div>
+                <div class="row" style="box-shadow: 10px 10px 5px #aaaaaa;">
+                    <div class="col-md-3"   >
+                        <img src="images/officestaff/3.jpg"   class="col-xs-12 img-responsive" center>
                     </div>
-                    <div style="height: 60px;" ></div>
-                         <div class="row" style="box-shadow: 10px 10px 5px #aaaaaa;">
+                    <div style="background-color: #eeeff2;" class="col-md-9  ">
+                        <br>
+                        <h4 style="font-size: 40px; line-height: 1.2">Mr. Rajesh Bagora</h4>
+                        <h6 style="font-size: 25px; line-height: 1.5;">Asst .Grade IIIrd </h6>
+
+                        <p style="font-size: 20px; line-height: 1.8"><span class="highlight"> Academic qualification </span> : M.A. 
+
+                        </p>
+
+
+                    </div>
+                </div>
+                <div style="height: 60px;" ></div>
+                <div class="row" style="box-shadow: 10px 10px 5px #aaaaaa;">
                     <div class="col-md-3"   >
                         <img src="images/officestaff/2.jpg"   class="col-xs-12 img-responsive" center>
                     </div>
@@ -166,52 +162,52 @@
                     </div></div>
 
                     
-                         <div style="height: 60px;" ></div>
+                    <div style="height: 60px;" ></div>
 
-                <div  class="container" style="box-shadow: 10px 10px 5px #aaaaaa; padding-right: 100px; padding-left: 100px;">
-    
-                <div  align="center" style="font-size: 50px; color: #17557e;">OUR OTHER STAFF </div> 
-            
-                    <table class="table" style="font-size: 18px;" >
-                        <tbody>
-                            <tr>
-                                <td>Mr. Rampher Pal </td>
-                                <td> Ground Marker(Regular)</td>
-                            </tr>
-                            <tr>
-                                <td>Mr. Ramjiyavan Yadav</td>
-                                <td>Grounds Men / Peon (Regular)</td>
-                            </tr>
-                            
-                             <tr>
-                                <td>Mr.Om Prakash Verma </td>
-                                <td> Grounds Men / Peon (Regular)</td>
-                            </tr>
-                            <tr>
-                                <td>Mr. Vansh Bhadur</td>
-                                <td>Grounds Men / Peon (Regular)</td>
-                            </tr>
-                            
-                            <tr>
-                                <td> Mr. Mukesh Patel</td>
-                                <td>Grounds Men / Peon (Regular)</td>
-                            </tr>
-                            <tr>
-                                <td>Mr. Dayaram Bhagore</td>
-                                <td>Semi Skilled Labourn (Daily wages)</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    </div>
-                
+                    <div  class="container" style="box-shadow: 10px 10px 5px #aaaaaa; padding-right: 100px; padding-left: 100px;">
 
+                        <div  align="center" style="font-size: 50px; color: #17557e;">OUR OTHER STAFF </div> 
+
+                        <table class="table" style="font-size: 18px;" >
+                            <tbody>
+                                <tr>
+                                    <td>Mr. Rampher Pal </td>
+                                    <td> Ground Marker(Regular)</td>
+                                </tr>
+                                <tr>
+                                    <td>Mr. Ramjiyavan Yadav</td>
+                                    <td>Grounds Men / Peon (Regular)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Mr.Om Prakash Verma </td>
+                                    <td> Grounds Men / Peon (Regular)</td>
+                                </tr>
+                                <tr>
+                                    <td>Mr. Vansh Bhadur</td>
+                                    <td>Grounds Men / Peon (Regular)</td>
+                                </tr>
+
+                                <tr>
+                                    <td> Mr. Mukesh Patel</td>
+                                    <td>Grounds Men / Peon (Regular)</td>
+                                </tr>
+                                <tr>
+                                    <td>Mr. Dayaram Bhagore</td>
+                                    <td>Semi Skilled Labourn (Daily wages)</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
 
-                    
+
+                </div>
 
 
-                    <div style="height: 50px;"></div>
-                    <?php include 'include/footer.html';?>
 
-                </body>
-                </html>
+
+                <div style="height: 50px;"></div>
+                <?php include 'include/footer.html';?>
+
+            </body>
+            </html>

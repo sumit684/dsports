@@ -39,7 +39,7 @@
                         $diff=date_diff($date1,$date2);
                         $day_diff = $diff->format('%d');                  
                         if($day_diff<=2){
-                            echo '<span class="badge badge-info blink_me" style="font-size:12px; font-family:monospace;margin-left:25px;">new</span>';
+                            echo '<span class="badge badge-info blink_me" style="font-size:12px; font-family:monospace;margin-left:25px;">NEW</span>';
                         }         
                         echo  " </a></li>";
                         $n=$n+1;
