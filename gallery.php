@@ -9,13 +9,13 @@
         body{
             /* font-family:'Times New Roman', Times, serif; */
         }
-        html {
+        /* html {
             box-sizing: border-box;
-        }
+        } */
 
-        *, *:before, *:after {
+        /* *, *:before, *:after {
             box-sizing: inherit;
-        }
+        } */
 
         .column {
             float: left;
@@ -27,9 +27,19 @@
 
         @media screen and (max-width: 650px) {
             .column {
-                width: 100%;
+                 width: 100%; 
                 display: block;
+                padding:0px 0px;
+                margin-left: 0px;
             }
+            body{
+            
+            overflow-x:hidden;
+             }
+            /* iframe{
+                position:relative;
+                left:-15%;
+            }  */
         }
         .card:hover{
             box-shadow: 2px 2px 5px 2px #bdc3c7;
@@ -56,6 +66,7 @@
         }
         body{
             background-color:#ecf0f1;
+            overflow-x:hidden;
         }
         .button {
             border: none;
@@ -76,79 +87,69 @@
         .button:hover {
             background-color: #0c579f;
         }
-        .row{
+        .ok {
             padding-left: 80px;
             padding-right: 80px;
         }
-        .container h2{
+        /*.container h2{
             font-size:1.5rem;
-        }
+        } */
     </style>
 </head>
 <body>
 
-
+   
     <?php include 'include/nav.html';?>
     <?php include 'include/header.html';?>
     <!--    ***********************************GALLERY************************-->
+    <div >
     <div style="text-align: center; padding-top: 20px; padding-bottom: 20px; font-family: none;"  > 
         <h1 style="color:black;"> SPORTS GALLERY </h1>
         <hr> 
     </div>
-    <div class="row">
+    <div class="row ok">
 
 
-    <?php
+        <?php
 
         $fo=opendir("images/gallery");
         //$ns = 1;
         while($file=readdir($fo) )
         {  //$dir_name=preg_replace('/.[^.]*$/', '', basename($file)); 
-        
 
-        if($file!="." && $file!=".." && $file!="Thumbs.db"){
 
-            $dir_name = basename($file);
-            
-            $fofo=opendir("images/gallery/$dir_name");
-            while($filefile=readdir($fofo)){
-                if($filefile!="." && $filefile!=".." && $filefile!="Thumbs.db"){ $photo=$filefile; break;}
-            }
-  
+    if($file!="." && $file!=".." && $file!="Thumbs.db"){
+
+        $dir_name = basename($file);
+
+        $fofo=opendir("images/gallery/$dir_name");
+        while($filefile=readdir($fofo)){
+            if($filefile!="." && $filefile!=".." && $filefile!="Thumbs.db"){ $photo=$filefile; break;}
+        }
+
 
         echo "<div class='column'>";
         echo "<a href ='tout.php?option=";
         echo basename($file);
         echo "' style='margin-left:10px ; color:black; text-decoration:none; '>";
-            
+
         echo  "   <div class='card'>
-             <img src='images/gallery/$dir_name/$photo' alt='Jane' style='width:100%;  '> 
-            <div class='container'>
-                <h2>";
+        <img src='images/gallery/$dir_name/$photo' alt='Jane' style='width:100%;  '> 
+        <div class='container'>
+        <h2>";
         echo basename($file);
-        echo "</h2><p><button class='button' >See Photos</button></p> </div></div>";
+        echo "</h2><p><button class='button' >View more</button></p> </div></div>";
         
         echo "</a></div>";
-        
-        // echo "<a href ='test.php?option=";
-        // echo basename($file);
-        // echo "' style='margin-left:10px'>";
-        // echo basename($file);
-        // echo " </a>"; 
-        // echo "<br>";
-        }
+    }
 }
-  ?>
+?>
+</div>
+<?php include 'include/footer.html';?>
+</div>
+
+<!--***********************************GALLERY***************************-->
 
 
-
-      
-
-    </div>
-
-
-    <!--***********************************GALLERY***************************-->
-
-    <?php include 'include/footer.html';?>
 </body>
 </html>
