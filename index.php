@@ -39,86 +39,86 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
 
-        
+    
 
-    </head>
-    <body>
-
-
-        <?php include 'include/nav.html';?>
-        <?php include 'include/header.html';?>
-        
-        <!-- **********************CARAUSEL STARTS**************************   -->
+</head>
+<body>
 
 
-        <div id="demo" class="carousel slide" data-ride="carousel">
+    <?php include 'include/nav.html';?>
+    <?php include 'include/header.html';?>
+    
+    <!-- **********************CARAUSEL STARTS**************************   -->
 
-            <!-- Indicators -->
-            <ul class="carousel-indicators">
-                <li data-target="#demo" data-slide-to="0" class="active"></li>
-                <li data-target="#demo" data-slide-to="1"></li>
-                <li data-target="#demo" data-slide-to="2"></li>
-                <li data-target="#demo" data-slide-to="3"></li>
-            </ul>
 
-            <!-- The slideshow -->
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="images/1.jpg" alt="image 1" >
-                </div>
-                <div class="carousel-item">
-                    <img src="images/2.jpg" alt="image 2" >
-                </div>
-                <div class="carousel-item">
-                    <img src="images/3.jpg" alt="image 3" >
-                </div>
-                <div class="carousel-item">
-                    <img src="images/4.jpg" alt="image 4" >
-                </div>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo" data-slide-to="3"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/1.jpg" alt="image 1" >
             </div>
-
-            <!-- Left and right controls -->
-            <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#demo" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </a>
+            <div class="carousel-item">
+                <img src="images/2.jpg" alt="image 2" >
+            </div>
+            <div class="carousel-item">
+                <img src="images/3.jpg" alt="image 3" >
+            </div>
+            <div class="carousel-item">
+                <img src="images/4.jpg" alt="image 4" >
+            </div>
         </div>
 
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
 
-        <!-- **********************CARAUSEL ENDS**************************   -->   
+
+    <!-- **********************CARAUSEL ENDS**************************   -->   
 
 
-        <!--**************************************NEWS and Events START*******************************************-->
-        <style>
-            .dates{
-                position: relative; 
-                top: -24px; left: 18px;
-                background-color: #2f2424;
-                height: 50px; 
-                width: 50px; 
-                text-align: center;
-                color: white;
-                border-radius:6px;
-            }
-        </style>
+    <!--**************************************NEWS and Events START*******************************************-->
+    <style>
+        .dates{
+            position: relative; 
+            top: -24px; left: 18px;
+            background-color: #2f2424;
+            height: 50px; 
+            width: 50px; 
+            text-align: center;
+            color: white;
+            border-radius:6px;
+        }
+    </style>
 
-        <!-- <*****NITI news start****> -->
-        
-        <div class="container-fluid" style="/*background-color:white;*/ padding: 0px;">
-            <div class="container-fluid" style="background-color: #2f2424; padding: 27px; width:100%; padding-top: 5px;">
-                <h1 class="display-4 news" style="text-align: center; color: white; padding-bottom: 5px; ">News and Events</h1>
-                <div class="card-deck">
-                    <div class="card" >
-                        <img class="card-img-top img-fluid" src="images/basket.jpeg" alt="Card image" style="width:100%; height:170px; ">
-                        <div class="dates">
-                            <span>Feb<br></span>
-                            <span>25</span>
-                        </div>
-                        <div class="card-body" style="padding-top: 0px;">
-                            <h4 class="card-title">BasketBall</h4>
-                            <h5>Inter College Tournament</h5>
+    <!-- <*****NITI news start****> -->
+    
+    <div class="container-fluid" style="/*background-color:white;*/ padding: 0px;">
+        <div class="container-fluid" style="background-color: #2f2424; padding: 27px; width:100%; padding-top: 5px;">
+            <h1 class="display-4 news" style="text-align: center; color: white; padding-bottom: 5px; ">News and Events</h1>
+            <div class="card-deck">
+                <div class="card" >
+                    <img class="card-img-top img-fluid" src="images/basket.jpeg" alt="Card image" style="width:100%; height:170px; ">
+                    <div class="dates">
+                        <span>Feb<br></span>
+                        <span>25</span>
+                    </div>
+                    <div class="card-body" style="padding-top: 0px;">
+                        <h4 class="card-title">BasketBall</h4>
+                        <h5>Inter College Tournament</h5>
 <!--
                             <h6>- Govt. PG College, Khargone</h6>
                             <b>Faculty Incharge:</b> Dr.V,F.Peter<br>
@@ -173,12 +173,12 @@
 
 
         </div>
-         -->
-    </div>
-    <!--**************************************NEWS and Events ENDS*******************************************-->
-    <!-------------------------------------SUMIT NEWS & EVENTS----------------------------------------------------------->
-    
-    <!------------------------------------------SUMIT NEW & EVENTS ENDS------------------------------------------------------>
+    -->
+</div>
+<!--**************************************NEWS and Events ENDS*******************************************-->
+<!-------------------------------------SUMIT NEWS & EVENTS----------------------------------------------------------->
+
+<!------------------------------------------SUMIT NEW & EVENTS ENDS------------------------------------------------------>
 
 
 

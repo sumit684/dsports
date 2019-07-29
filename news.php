@@ -14,12 +14,12 @@
         <div class="panel">
             <ul>
 
-             <?php
-             
-             $fo=opendir("news");
-             $n = 1;
-             while($file=readdir($fo))
-            {
+               <?php
+               
+               $fo=opendir("news");
+               $n = 1;
+               while($file=readdir($fo))
+               {
                 if($file!="." && $file!=".." && $file!="Thumbs.db")
                 {
                     $name=preg_replace('/.[^.]*$/', '', basename($file));
@@ -42,7 +42,7 @@
         </div>
         
     </div>
-	<?php include 'include/footer.html';?>
+    <?php include 'include/footer.html';?>
 
 </body>
 </html>
