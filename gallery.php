@@ -9,13 +9,13 @@
         body{
             /* font-family:'Times New Roman', Times, serif; */
         }
-        html {
+        /* html {
             box-sizing: border-box;
-        }
+        } */
 
-        *, *:before, *:after {
+        /* *, *:before, *:after {
             box-sizing: inherit;
-        }
+        } */
 
         .column {
             float: left;
@@ -27,9 +27,19 @@
 
         @media screen and (max-width: 650px) {
             .column {
-                width: 100%;
+                 width: 100%; 
                 display: block;
+                padding:0px 0px;
+                margin-left: 0px;
             }
+            body{
+            
+            overflow-x:hidden;
+             }
+            /* iframe{
+                position:relative;
+                left:-15%;
+            }  */
         }
         .card:hover{
             box-shadow: 2px 2px 5px 2px #bdc3c7;
@@ -56,6 +66,7 @@
         }
         body{
             background-color:#ecf0f1;
+            overflow-x:hidden;
         }
         .button {
             border: none;
@@ -76,26 +87,27 @@
         .button:hover {
             background-color: #0c579f;
         }
-        .row{
+        .ok {
             padding-left: 80px;
             padding-right: 80px;
         }
-        .container h2{
+        /*.container h2{
             font-size:1.5rem;
-        }
+        } */
     </style>
 </head>
 <body>
 
-
+   
     <?php include 'include/nav.html';?>
     <?php include 'include/header.html';?>
     <!--    ***********************************GALLERY************************-->
+    <div >
     <div style="text-align: center; padding-top: 20px; padding-bottom: 20px; font-family: none;"  > 
         <h1 style="color:black;"> SPORTS GALLERY </h1>
         <hr> 
     </div>
-    <div class="row">
+    <div class="row ok">
 
 
         <?php
@@ -133,9 +145,11 @@
 }
 ?>
 </div>
+<?php include 'include/footer.html';?>
+</div>
 
 <!--***********************************GALLERY***************************-->
 
-<?php include 'include/footer.html';?>
+
 </body>
 </html>
