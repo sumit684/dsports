@@ -105,53 +105,44 @@
                 <button class="accordion" ><i class="fas fa-scroll icon_style"></i>CIRCULARS</button>
                 <div class="panel">
                     <ul>
-                        <li>
+                    <?php
+             
+                        $fo=opendir("notices/circulars");
+                        $n = 1;
+                        while($file=readdir($fo))
+                        {
+                            if($file!="." && $file!=".." && $file!="Thumbs.db")
+                            {
+                            $name=preg_replace('/.[^.]*$/', '', basename($file));
+                            echo "<li><a href='notices/circulars/$file' target='_blank' style=' color:black;'>";
+                            // echo $n;
+                            // echo "&nbsp;";
+                            echo "<strong>";
+                            echo $name;
+                            echo "</strong>";
+                            echo  " </a></li>";
+                            $n=$n+1;
+                            }
+                        }
+                    ?>
+
+
+
+
+
+
+
+
+
+                        <!-- <li>
                             <a href="http://www.dauniv.ac.in/sports/Inter Collegiate Boxing (M&W) Championship 2018-2019.pdf">				
                                 <strong>
                                     Inter Collegiate Boxing (M&W) Championship 2018-2019
                                 </strong>
                                 <span class="badge badge-info blink_me" style="font-size:12px; font-family:monospace;">new</span>								
                             </a>
-                        </li>
-                        <li>
-                            <a href="http://www.dauniv.ac.in/sports/State Level Athletics Meet 2018-2019.pdf">				
-                                <strong>
-                                    State Level Athletics Meet 2018-2019	 </strong></a>
-                            <span class="badge badge-info blink_me" style="font-size:12px; font-family:monospace;">new</span></li>
-
-                        <li>
-                            <a href="http://www.dauniv.ac.in/sports/New Inter Collegiate Athletics Meet 2018-2019.pdf">				
-                                <strong>New Inter Collegiate Athletics Meet 2018-2019</strong>
-                                <span class="badge badge-info blink_me" style="font-size:12px; font-family:monospace;">new</span></a>	</li> 
-
-                        <li>
-                            <a href="http://www.dauniv.ac.in/sports/EntryFormAthleticsMeetMenSection.pdf">				
-                                <strong>Entry Form Athletics Meet Men Section</strong></a>	</li> 
-                        <li>
-                            <a href="http://www.dauniv.ac.in/sports/EntryFormAthleticsMeetWomen Section.pdf">				
-                                <strong>Entry Form Athletics Meet Women Section</strong></a>	</li> 
-
-                        <li>
-                            <a href="http://www.dauniv.ac.in/sports/InterCollegiateAthletics(M&W)Meet201819.pdf">				
-                                Inter Collegiate Athletics (M&W) Meet 2018-2019		</a>	</li> 	
-
-                        <li>
-                            <a href="http://www.dauniv.ac.in/sports/Sports Officer.pdf">				
-                                Sports Officer's		</a>	</li> 		
-
-                        <li>
-                            <a href="http://www.dauniv.ac.in/sports/Inter Collegiate Proforma & Circulars 2018-2019.pdf">				
-                                Inter Collegiate Proforma & Circulars 2018-2019		</a>	</li> 			   
-
-                        <li>
-                            <a href="http://www.dauniv.ac.in/sports/Details regarding new eligibility rules.pdf">				
-                                Details Regarding New Eligibility Rules
-                            </a>
-                        </li> 
-
-                        <li>
-                            <a href="http://www.dauniv.ac.in/sports/Agelimit19072017.pdf">				
-                                Revised Eligibility Rules for 2017-2018				 	</a>				  </li> 
+                        </li> -->
+                        				
                     </ul>
 
                 </div>
@@ -161,16 +152,28 @@
                 <button class="accordion" ><i class="far fa-envelope icon_style"></i>LETTERS</button>
                 <div class="panel">
                     <ul>
-                        <li>
-                            <a href="http://www.dauniv.ac.in/sports/Detail Entry Proforma Boxing (Men) Championship 2018-2019.pdf">				
-                                <strong>
-                                    Detail Entry Proforma Boxing (Men) Championship 2018-2019	 </strong>
-                                <span class="badge badge-info blink_me" style="font-size:12px; font-family:monospace;">new</span></a>		</li>
-                        <li>
-                            <a href="http://www.dauniv.ac.in/sports/Detail Entry Proforma Boxing (Women) Championship 2018-2019.pdf">				
-                                <strong>
-                                    Detail Entry Proforma Boxing (Women) Championship 2018-2019	 </strong>
-                                <span class="badge badge-info blink_me" style="font-size:12px; font-family:monospace;">new</span></a>		</li>
+                       
+                    <?php
+             
+             $fo=opendir("notices/letters");
+             $n = 1;
+             while($file=readdir($fo))
+             {
+                 if($file!="." && $file!=".." && $file!="Thumbs.db")
+                 {
+                 $name=preg_replace('/.[^.]*$/', '', basename($file));
+                 echo "<li><a href='notices/letters/$file' target='_blank' style=' color:black;'>";
+                 // echo $n;
+                 // echo "&nbsp;";
+                 echo "<strong>";
+                 echo $name;
+                 echo "</strong>";
+                 echo  " </a></li>";
+                 $n=$n+1;
+                 }
+             }
+         ?>
+
 
                     </ul>
                 </div>
@@ -179,10 +182,26 @@
                 <button class="accordion" ><i class="fas fa-calendar-alt icon_style"></i>FIXTURES</button>
                 <div class="panel">
                     <ul>
-                        <li><a href="#"><strong>Fixture 2018-19</strong>
-                            <span class="badge badge-info blink_me" style="font-size:12px; font-family:monospace;">new</span></a></li>
-                        <li><a href="#">Fixture 2017-18</a></li>
-                        <li><a href="#">Fixture 2016-17</a></li>
+                    <?php
+             
+             $fo=opendir("notices/fixtures");
+             $n = 1;
+             while($file=readdir($fo))
+             {
+                 if($file!="." && $file!=".." && $file!="Thumbs.db")
+                 {
+                 $name=preg_replace('/.[^.]*$/', '', basename($file));
+                 echo "<li><a href='notices/fixtures/$file' target='_blank' style=' color:black;'>";
+                 // echo $n;
+                 // echo "&nbsp;";
+                 echo "<strong>";
+                 echo $name;
+                 echo "</strong>";
+                 echo  " </a></li>";
+                 $n=$n+1;
+                 }
+             }
+         ?>
 
                     </ul>
                 </div>
@@ -191,13 +210,26 @@
                 <button class="accordion" id="tendures"><i class="fas fa-file-invoice-dollar icon_style"></i>TENDERS</button>
                 <div class="panel">
                     <ul>
-                        <li><a href="#">
-                            <strong>
-                                Tendure 2018-19
-                            </strong>
-                            <span class="badge badge-info blink_me" style="font-size:12px; font-family:monospace;">new</span></a></li>
-                        <li><a href="#">Tendure 2017-18</a></li>
-                        <li><a href="#">Tendure 2016-17</a></li>
+                    <?php
+             
+             $fo=opendir("notices/tenders");
+             $n = 1;
+             while($file=readdir($fo))
+             {
+                 if($file!="." && $file!=".." && $file!="Thumbs.db")
+                 {
+                 $name=preg_replace('/.[^.]*$/', '', basename($file));
+                 echo "<li><a href='notices/tenders/$file' target='_blank' style=' color:black;'>";
+                 // echo $n;
+                 // echo "&nbsp;";
+                 echo "<strong>";
+                 echo $name;
+                 echo "</strong>";
+                 echo  " </a></li>";
+                 $n=$n+1;
+                 }
+             }
+         ?>
 
                     </ul>
                 </div>
