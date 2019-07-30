@@ -54,9 +54,9 @@
 
         <h1  style="color:black;text-align: center;font-family: 'Azul';font-size:50px;">Our Team</h1><br>
         <div class="row active-with-click">
-            <div class="col-md-2 col-sm-3 col-xs-6">
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
+            <!-- <div class="col-md-2 col-sm-3 col-xs-6">
+            </div> -->
+            <div class="col-md-3 col-sm-6 col-xs-12">
                 <article class="material-card Blue">
                     <h2>
                         <span>Sumit Kr Singh</span>
@@ -87,7 +87,7 @@
                     </div>
                 </article>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="col-md-3 col-sm-6 col-xs-12">
                 <article class="material-card Blue">
                     <h2>
                         <span>Pratik Mehta</span>
@@ -118,11 +118,76 @@
                     </div>
                 </article>
             </div>
-            <div class="col-md-2 col-sm-3 col-xs-6">
+               <div class="col-md-3 col-sm-6 col-xs-12">
+                <article class="material-card Blue">
+                    <h2>
+                        <span>Niti Mangwani</span>
+                        <strong>
+                            <i class="fa fa-fw fa-star"></i>
+                            Computer Engineering IET-DAVV
+                        </strong>
+                    </h2>
+                    <div class="mc-content">
+                        <div class="img-container">
+                            <img class="img-responsive" src="images/team/niti.jpeg">
+                        </div>
+                        <div class="mc-description">
+                            He has appeared in more than 100 films and television shows, including The Deer Hunter, Annie Hall, The Prophecy trilogy, The Dogs of War ...
+                        </div>
+                    </div>
+                    <a class="mc-btn-action">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                    <div class="mc-footer">
+                        <h4>
+                            Social
+                        </h4>
+                        <a class="fa fa-fw fa-facebook"></a>
+                        <a class="fa fa-fw fa-twitter"></a>
+                        <a class="fa fa-fw fa-linkedin"></a>
+                        <a class="fa fa-fw fa-google-plus"></a>
+                    </div>
+                </article>
+               </div>  
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <article class="material-card Blue">
+                    <h2>
+                        <span>Rudransh Choudhary</span>
+                        <strong>
+                            <i class="fa fa-fw fa-star"></i>
+                            Computer Engineering IET-DAVV
+                        </strong>
+                    </h2>
+                    <div class="mc-content">
+                        <div class="img-container">
+                            <img class="img-responsive" src="images/team/rudransh.jpeg">
+                        </div>
+                        <div class="mc-description">
+                            He has won two Academy Awards, for his roles in the mystery drama Mystic River (2003) and the biopic Milk (2008). Penn began his acting career in television with a brief appearance in a 1974 episode of Little House on the Prairie ...
+                        </div>
+                    </div>
+                    <a class="mc-btn-action">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                    <div class="mc-footer">
+                        <h4>
+                            Social
+                        </h4>
+                        <a class="fa fa-fw fa-facebook"></a>
+                        <a class="fa fa-fw fa-twitter"></a>
+                        <a class="fa fa-fw fa-linkedin"></a>
+                        <a class="fa fa-fw fa-google-plus"></a>
+                    </div>
+                </article>
             </div>
+            
         </div>
-        <div class="row active-with-click">
-            <div class="col-md-2 col-sm-3 col-xs-6">
+         
+<!--             <div class="col-md-2 col-sm-3 col-xs-6">
+            </div> -->
+        </div>
+<!--         <div class="row active-with-click">
+            <div class="col-md- col-sm-3 col-xs-6">
             </div>
             <div class="col-md-4 col-sm-6 col-xs-12">
                 <article class="material-card Blue">
@@ -189,7 +254,7 @@
             <div class="col-md-2 col-sm-3 col-xs-6">
             </div>
         </div>
-    </section>
+ -->    </section>
 
 
     <?php include 'include/footer.html'?>
