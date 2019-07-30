@@ -21,7 +21,7 @@
 			} 
 
 			* {
-				margin: 0;
+				/* margin: 0; */
 				padding: 0;
 				-webkit-box-sizing: border-box;
 				-moz-box-sizing: border-box;
