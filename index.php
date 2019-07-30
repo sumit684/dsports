@@ -115,22 +115,22 @@
                     <img class="card-img-top img-fluid" src="images/basket.jpeg" alt="Card image" style="width:100%; height:170px; ">
                     <div class="dates">
                         <!-- <span>Feb<br></span>
-                        <span>25</span> -->
-                        <i class="fa fa-calendar" aria-hidden="true"></i>
-                    </div>
-                    <div class="card-body" style="padding-top: 0px;">
-                        <h4 class="card-title">Inter University Sports Calendar</h4>
-                        <h5>Inter College Tournament</h5>
+                            <span>25</span> -->
+                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body" style="padding-top: 0px;">
+                            <h4 class="card-title">Inter University Sports Calendar</h4>
+                            <h5>Inter College Tournament</h5>
 
-                        <a href="#" class="btn btn-primary">View PDF</a>
+                            <a href="#" class="btn btn-primary">View PDF</a>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top img-fluid" src="images/hockey.jpg" alt="Card image" style="width:100%; ; height:170px;">
-                    <div class="dates">
-                       <i class="fa fa-calendar" aria-hidden="true"></i>
-                    </div>
-                    <div class="card-body" style="padding-top: 0px;">
+                    <div class="card">
+                        <img class="card-img-top img-fluid" src="images/hockey.jpg" alt="Card image" style="width:100%; ; height:170px;">
+                        <div class="dates">
+                         <i class="fa fa-calendar" aria-hidden="true"></i>
+                     </div>
+                     <div class="card-body" style="padding-top: 0px;">
                         <h4 class="card-title" >Inter Collegiate Sports Calendar</h4>
                         <h5>Inter University Tournament</h5>
                         <a href="#" class="btn btn-primary">View PDF</a>
@@ -139,28 +139,28 @@
                 <div class="card" >
                     <img class="card-img-top img-fluid" src="images/kho-kho.jpg" alt="Card image" style="width:100% ; height:170px;">
                     <div class="dates">
-                       <i class="fa fa-calendar" aria-hidden="true"></i>
-                    </div>
-                    <div class="card-body" style="padding-top: 0px;">
-                        <h4 class="card-title">Inter Collegiate Sports Calendar</h4>
-                        <h5>Inter College Tournament</h5>
-                        <a href="#" class="btn btn-primary">View PDF</a>
-                    </div>
+                     <i class="fa fa-calendar" aria-hidden="true"></i>
+                 </div>
+                 <div class="card-body" style="padding-top: 0px;">
+                    <h4 class="card-title">Inter Collegiate Sports Calendar</h4>
+                    <h5>Inter College Tournament</h5>
+                    <a href="#" class="btn btn-primary">View PDF</a>
                 </div>
-                <div class="card" >
-                    <img class="card-img-top img-fluid" src="images/volleyball.jpeg" alt="Card image" style="width:100%;; height:170px;">
-                    <div class="dates">
-                        <i class="fa fa-calendar" aria-hidden="true"></i>
-                    </div>
-                    <div class="card-body" style="padding-top: 0px;">
-                        <h4 class="card-title">Inter Collegiate Sports Calendar</h4>
-                        <h5>Inter College Tournament</h5>
-                        <a href="#" class="btn btn-primary">View PDF</a>
-                    </div>
+            </div>
+            <div class="card" >
+                <img class="card-img-top img-fluid" src="images/volleyball.jpeg" alt="Card image" style="width:100%;; height:170px;">
+                <div class="dates">
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                </div>
+                <div class="card-body" style="padding-top: 0px;">
+                    <h4 class="card-title">Inter Collegiate Sports Calendar</h4>
+                    <h5>Inter College Tournament</h5>
+                    <a href="#" class="btn btn-primary">View PDF</a>
                 </div>
             </div>
         </div>
-        <!-- ************ -->
+    </div>
+    <!-- ************ -->
         <!-- <div class="container-fluid dd" id="aboutdavv" style="" align="center">
 
             <a href="vision-mission.php"> <img class="img-fluid" src="images/vision-mission/vision-mission.png" alt=""  ></a>
@@ -194,12 +194,12 @@
                 <h1 style="font-family: 'Asul', cursive;"><center>About Directorate</center></h1>
                 <hr>
                 <div style="font-family: 'Brawler',sans-serif; text-align:justify;font-size: 20px;">
-                    Devi Ahilya Vishwavidyalaya (DAVV),
-                    formerly University of Indore, is a premier University in Central India, has completed 54th years 
-                    of establishment, educational commitment and services. It is the First State University of Madhya
-                    Pradesh which has been accredited with “A” grade by NAAC. It was established in 1964, by an
-                Act of Legislature of Madhya Pradesh. 
-            </div>        
+                    The Directorate of Physical Education & Sports is one of the core and important departments of Devi Ahilya Vishwavidyalaya. The core mission of the department is to provide a broad spectrum of the Sports, Recreation, Wellness and Leisure activities to our students as well as faculties and staff also.<br>
+                    From the last 2-3 years we are conducting regular coaching cum combined practice activities in Basketball, Football, Volleyball and rack & Filed. Very soon we will launch Indian round Archery activity also.  
+                </div>  
+                <div align="center">
+                <a href="aboutus.php"><button class="btn btn-primary">Read More</button></a>  
+                </div>    
             </div>
         </div>
 
