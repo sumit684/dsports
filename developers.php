@@ -14,7 +14,7 @@
             min-height: 100%;
         }
 
-        body {
+        .developer {
             background-color: #ECEFF1;
             color: #37474F;
             font-family: 'Raleway', sans-serif;
@@ -31,36 +31,35 @@
 
         /* .special{
             padding: 20px 24px 26px 90px;
-        } */
+            } */
 
-    </style>
-    <script src="main.js"></script>
-    <?php include('include/link.html');?>
-    <style>
-        a:not([href]):not([tabindex]) {
-            color:white;
-        }
-        a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
-            color:white;
-        }
-        @media screen and (min-width: 650px) {  
-        .special .mc-active h2{
-            
-                padding: 20px 24px 26px 90px;
-        }
-    }
-      .mc-description{
-          font-weight:600;
-      }
-        
-    </style>    
-</head>
-<body>
+        </style>
+        <script src="main.js"></script>
+        <style>
+            a:not([href]):not([tabindex]) {
+                color:white;
+            }
+            a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+                color:white;
+            }
+            @media screen and (min-width: 650px) {  
+                .special .mc-active h2{
+
+                    padding: 20px 24px 26px 90px;
+                }
+            }
+            .mc-description{
+              font-weight:600;
+          }
+
+      </style>    
+  </head>
+  <body>
     <?php include 'include/nav.html';?>
     <?php include 'include/header.html';?>
 
 
-    <section class="container">
+    <section class="container developer">
     <!-- <div class="page-header">
         <h1>Material cards<br>
             <small>material cards with a simple jquery script</small></h1>
@@ -74,138 +73,138 @@
                 <article class="material-card Blue">
                     <h2>
                         <!-- <strong> -->
-                            
-                            <!-- Computer Engineering IET-DAVV  -->
-                        <!-- </strong> -->
-                        <span><i class=""></i>Sumit Kr Singh</span>
 
-                    </h2>
-                    <div class="mc-content">
-                        <div class="img-container">
-                            <img  class="img-responsive" src="images/team/sumit.jpeg">
-                        </div>
-                        <div class="mc-description">
-                        Computer Engineering<br>
-                          IET-DAVV 
-                        </div>
-                    </div>
-                    <a class="mc-btn-action">
-                        <i class="fa fa-bars"></i>
-                    </a>
-                    <div class="mc-footer">
-                        <h4>
-                            Social
-                        </h4>
-                        <!-- <a class="fa fa-fw fa-facebook"></a> -->
-                        <a class="fa fa-fw fa-github"></a>
-                        <a class="fa fa-fw fa-linkedin"></a>
-                        <a class="fa fa-fw fa-google-plus"></a>
-                    </div>
-                </article>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12 special">
-                <article class="material-card Blue">
-                <h2 class="">
-                        <!-- <strong> -->
-                            
                             <!-- Computer Engineering IET-DAVV  -->
-                        <!-- </strong> -->
-                        <span><i class=""></i>Pratik Mehta</span>
+                            <!-- </strong> -->
+                            <span><i class=""></i>Sumit Kr Singh</span>
 
-                    </h2>
-                    <div class="mc-content">
-                        <div class="img-container">
-                            <img class="img-responsive" src="images/team/pratik6.jpg">
+                        </h2>
+                        <div class="mc-content">
+                            <div class="img-container">
+                                <img  class="img-responsive" src="images/team/sumit.jpeg">
+                            </div>
+                            <div class="mc-description">
+                                Computer Engineering<br>
+                                IET-DAVV 
+                            </div>
                         </div>
-                        <div class="mc-description">
-                          Computer Engineering<br>
-                          IET-DAVV 
+                        <a class="mc-btn-action">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <div class="mc-footer">
+                            <h4>
+                                Social
+                            </h4>
+                            <!-- <a class="fa fa-fw fa-facebook"></a> -->
+                            <a class="fa fa-fw fa-github" target="_blank" href="https://github.com/sumit684"></a>
+                            <a class="fa fa-fw fa-linkedin" target="_blank" href="https://www.linkedin.com/in/sumit-singh-56b531159"></a>
+                            <a class="fa fa-fw fa-envelope" target="_blank" href="mailto:singh.sumit684@gmail.com"></a>
                         </div>
-                    </div>
-                    <a class="mc-btn-action">
-                        <i class="fa fa-bars"></i>
-                    </a>
-                    <div class="mc-footer">
-                        <h4>
-                            Social
-                        </h4>
-                        <!-- <a class="fa fa-fw fa-facebook"></a> -->
-                        <a class="fa fa-fw fa-github"></a>
-                        <a class="fa fa-fw fa-linkedin"></a>
-                        <a class="fa fa-fw fa-google-plus"></a>
-                    </div>
-                </article>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <article class="material-card Blue">
-                <h2>
-                        <!-- <strong> -->
-                            
-                            <!-- Computer Engineering IET-DAVV  -->
-                        <!-- </strong> -->
-                        <span><i class=""></i>Niti Mangwani</span>
+                    </article>
+                </div>
 
-                    </h2>
-                    <div class="mc-content">
-                        <div class="img-container">
-                            <img class="img-responsive" src="images/team/niti.jpeg">
-                        </div>
-                        <div class="mc-description">
-                        Computer Engineering<br>
-                          IET-DAVV                         </div>
-                    </div>
-                    <a class="mc-btn-action">
-                        <i class="fa fa-bars"></i>
-                    </a>
-                    <div class="mc-footer">
-                        <h4>
-                            Social
-                        </h4>
-                        <!-- <a class="fa fa-fw fa-facebook"></a> -->
-                        <a class="fa fa-fw fa-github"></a>
-                        <a class="fa fa-fw fa-linkedin"></a>
-                        <a class="fa fa-fw fa-google-plus"></a>
-                    </div>
-                </article>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <article class="material-card Blue">
-                <h2>
-                        <!-- <strong> -->
-                            
-                            <!-- Computer Engineering IET-DAVV  -->
-                        <!-- </strong> -->
-                        <span><i class=""></i>Rudransh Choudhary</span>
+                <div class="col-md-3 col-sm-6 col-xs-12 special">
+                    <article class="material-card Blue">
+                        <h2 class="">
+                            <!-- <strong> -->
 
-                    </h2>
-                    <div class="mc-content">
-                        <div class="img-container">
-                            <img class="img-responsive" src="images/team/rudransh.jpeg">
+                                <!-- Computer Engineering IET-DAVV  -->
+                                <!-- </strong> -->
+                                <span><i class=""></i>Pratik Mehta</span>
+
+                            </h2>
+                            <div class="mc-content">
+                                <div class="img-container">
+                                    <img class="img-responsive" src="images/team/pratik6.jpg">
+                                </div>
+                                <div class="mc-description">
+                                  Computer Engineering<br>
+                                  IET-DAVV 
+                              </div>
+                          </div>
+                          <a class="mc-btn-action">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <div class="mc-footer">
+                            <h4>
+                                Social
+                            </h4>
+                            <!-- <a class="fa fa-fw fa-facebook"></a> -->
+                            <a class="fa fa-fw fa-github" target="_blank" href="https://github.com/Pratikmehta1729"></a>
+                            <a class="fa fa-fw fa-linkedin" target="_blank" href="https://www.linkedin.com/in/pratik-mehta-983211166"></a>
+                            <a class="fa fa-fw fa-envelope" href="mailto:pratikjain17291729@gmail.com"></a>
                         </div>
-                        <div class="mc-description">
-                        Computer Engineering<br>
-                          IET-DAVV 
+                    </article>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <article class="material-card Blue">
+                        <h2>
+
+                            <span><i class=""></i>Niti Mangwani</span>
+
+                        </h2>
+                        <div class="mc-content">
+                            <div class="img-container">
+                                <img class="img-responsive" src="images/team/niti.jpeg">
+                            </div>
+                            <div class="mc-description">
+                                Computer Engineering<br>
+                                IET-DAVV                         
+                            </div>
                         </div>
+                        <a class="mc-btn-action">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <div class="mc-footer">
+                            <h4>
+                                Social
+                            </h4>
+                            <!-- <a class="fa fa-fw fa-facebook"></a> -->
+                            <a class="fa fa-fw fa-github" target="_blank" href="https://github.com/Nitss10"></a>
+                            <a class="fa fa-fw fa-linkedin" target="_blank" href="https://www.linkedin.com/in/niti-mangwani-03b1a5179/"></a>
+                            <a class="fa fa-fw fa-envelope" href="mailto:nitimangwani@gmail.com"></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <article class="material-card Blue">
+                        <h2>
+                            <!-- <strong> -->
+
+                                <!-- Computer Engineering IET-DAVV  -->
+                                <!-- </strong> -->
+                                <span><i class=""></i>Rudransh Choudhary</span>
+
+                            </h2>
+                            <div class="mc-content">
+                                <div class="img-container">
+                                    <img class="img-responsive" src="images/team/rudransh.jpeg">
+                                </div>
+                                <div class="mc-description">
+                                    Computer Engineering<br>
+                                    IET-DAVV 
+                                </div>
+                            </div>
+                            <a class="mc-btn-action">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                            <div class="mc-footer">
+                                <h4>
+                                    Social
+                                </h4>
+                                <!-- <a class="fa fa-fw fa-facebook"></a> -->
+                                <a class="fa fa-fw fa-github" href="#"></a>
+                                <a class="fa fa-fw fa-linkedin" href="#"></a>
+                                <a class="fa fa-fw fa-envelope" href="mailto:rudranshchoudharyjbp@gmail.com"></a>
+                            </div>
+                        </article>
                     </div>
-                    <a class="mc-btn-action">
-                        <i class="fa fa-bars"></i>
-                    </a>
-                    <div class="mc-footer">
-                        <h4>
-                            Social
-                        </h4>
-                        <!-- <a class="fa fa-fw fa-facebook"></a> -->
-                        <a class="fa fa-fw fa-github"></a>
-                        <a class="fa fa-fw fa-linkedin"></a>
-                        <a href="pratikjain17291729@gmail.com"class="fa fa-fw fa-google-plus"></a>
-                    </div>
-                </article>
-            </div>
             <!-- <div class="col-md-2 col-sm-3 col-xs-6">
             </div> -->
         </div>
-       
+
     </section>
+
 
 
     <?php include 'include/footer.html'?>

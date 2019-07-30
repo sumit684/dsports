@@ -68,16 +68,16 @@
 				<hr size="30" style="width:50%;">
 				<div class="dm5">
 					<p>
-						<b>Sports</b> unify people together irrespective of there age, gender and religion. They also bring out the best among individual and give us human being of extra capabilities,  ones that leaves their marking the history book for ever. While lot of Countries have had a successful Sporting Culture, India has always being a Sports Loving Country but not a Sports Playing Country.
+						<b>Sports</b> unifies people together irrespective of their age, gender and religion.It also brings out the best among individuals and gives  human beings extra capabilities,  ones that leave their marks in the history for ever. While a lot of Countries have had a successful Sporting Culture, India has always being a Sports Loving Country but not a Sports Playing Country.
 					</p>
 					<p>
-						Over the last few years India has seen Sports boom like never before. Young achievers in a variety of Sports has grown with an increasing number of Medals being won at Olympics, Asian Games, Common Wealth Games and other International events. 
+						Over the last few years India has seen Sports boom like never before. Young achievers in a variety of sports have grown with an increasing number of Medals being won at Olympics, Asian Games, Common Wealth Games and other International events. 
 					</p>
 					<p>
-						At Devi Ahilya Vishwavidyalaya We offers a variety of Games and Sports for Students. Our ultimate goal is to increase the participation in Sports. I believe Sports provide the required exposure for the students to grow and mature to adulthood. Sports helps to inculcate Team Work, Commitment, Discipline Leadership, Hard Work, Tufness, Sportsmanship, Sacrifice and above  all Character building. Sports prepare individuals for the Journey of Life that lies ahead of them. 
+						At Devi Ahilya Vishwavidyalaya we offer a variety of Games and Sports for Students. Our ultimate goal is to increase the participation in Sports. I believe Sports provides the required exposure for the students to grow and mature to adulthood. Sports helps to inculcate Team Work, Commitment, Discipline Leadership, Hard Work, Toughness, Sportsmanship, Sacrifice and above  all Character building. Sports prepares individuals for the Journey of Life that lies ahead of them. 
 					</p>
 					<p style="font-style: italic;">
-						I request every one our Students, Staff, Parents and Faculties to dedicate at least 40 minutes per day for your self and utilized this time on the Playfield, Gymnasium or in Park for their healthy and fit life. 
+						I request every one our Students, Staff, Parents and Faculties to dedicate at least 40 minutes per day for your self and utilize this time on the Playfield, Gymnasium or in Park for their healthy and fit life. 
 					</p>
 				</div>
 
