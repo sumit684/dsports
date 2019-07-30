@@ -120,9 +120,9 @@
                         </div>
                         <div class="card-body" style="padding-top: 0px;">
                             <h4 class="card-title">Inter University Sports Calendar</h4>
-                            <h5>Inter College Tournament</h5>
+                            <!-- <h5>Inter College Tournament</h5> -->
 
-                            <a href="#" class="btn btn-primary">View PDF</a>
+                            <a href="#" class="btn btn-primary">View Calendar</a>
                         </div>
                     </div>
                     <div class="card">
@@ -132,8 +132,8 @@
                      </div>
                      <div class="card-body" style="padding-top: 0px;">
                         <h4 class="card-title" >Inter Collegiate Sports Calendar</h4>
-                        <h5>Inter University Tournament</h5>
-                        <a href="#" class="btn btn-primary">View PDF</a>
+                        <!-- <h5>Inter University Tournament</h5> -->
+                        <a href="#" class="btn btn-primary">View Calendar</a>
                     </div>
                 </div>
                 <div class="card" >
@@ -143,8 +143,8 @@
                  </div>
                  <div class="card-body" style="padding-top: 0px;">
                     <h4 class="card-title">Inter Collegiate Sports Calendar</h4>
-                    <h5>Inter College Tournament</h5>
-                    <a href="#" class="btn btn-primary">View PDF</a>
+                    <!-- <h5>Inter College Tournament</h5> -->
+                    <a href="#" class="btn btn-primary">View Calendar</a>
                 </div>
             </div>
             <div class="card" >
@@ -154,8 +154,8 @@
                 </div>
                 <div class="card-body" style="padding-top: 0px;">
                     <h4 class="card-title">Inter Collegiate Sports Calendar</h4>
-                    <h5>Inter College Tournament</h5>
-                    <a href="#" class="btn btn-primary">View PDF</a>
+                   <!--  <h5>Inter College Tournament</h5> -->
+                    <a href="#" class="btn btn-primary">View Calendar</a>
                 </div>
             </div>
         </div>
