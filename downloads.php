@@ -13,6 +13,7 @@
     <div class="container downloads">
         <br>
         <h1><center>DOWNLOADS</center></h1>
+
         <div class="panel">
             <ul>
 
@@ -38,7 +39,7 @@
                         $date2=date_create(date("Y-m-d"));
                         $diff=date_diff($date1,$date2);
                         $day_diff = $diff->format('%d');                  
-                        if($day_diff<=2){
+                        if($day_diff<=4){
                             echo '<span class="badge badge-info blink_me" style="font-size:12px; font-family:monospace;margin-left:25px;">NEW</span>';
                         }         
                         echo  " </a></li>";
