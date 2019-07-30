@@ -101,6 +101,7 @@
             text-align: center;
             color: white;
             border-radius:6px;
+            padding-top: 12px;
         }
     </style>
 
@@ -113,29 +114,24 @@
                 <div class="card" >
                     <img class="card-img-top img-fluid" src="images/basket.jpeg" alt="Card image" style="width:100%; height:170px; ">
                     <div class="dates">
-                        <span>Feb<br></span>
-                        <span>25</span>
+                        <!-- <span>Feb<br></span>
+                        <span>25</span> -->
+                        <i class="fa fa-calendar" aria-hidden="true"></i>
                     </div>
                     <div class="card-body" style="padding-top: 0px;">
-                        <h4 class="card-title">BasketBall</h4>
+                        <h4 class="card-title">Inter University Sports Calendar</h4>
                         <h5>Inter College Tournament</h5>
-<!--
-                            <h6>- Govt. PG College, Khargone</h6>
-                            <b>Faculty Incharge:</b> Dr.V,F.Peter<br>
-                            <b>Contact :</b> 9131354861<br>
-                            <b>Department :</b> SOPE<br>
-                        -->
+
                         <a href="#" class="btn btn-primary">View PDF</a>
                     </div>
                 </div>
                 <div class="card">
                     <img class="card-img-top img-fluid" src="images/hockey.jpg" alt="Card image" style="width:100%; ; height:170px;">
                     <div class="dates">
-                        <span>Nov</span>
-                        <span>29</span>
+                       <i class="fa fa-calendar" aria-hidden="true"></i>
                     </div>
                     <div class="card-body" style="padding-top: 0px;">
-                        <h4 class="card-title" >Hockey</h4>
+                        <h4 class="card-title" >Inter Collegiate Sports Calendar</h4>
                         <h5>Inter University Tournament</h5>
                         <a href="#" class="btn btn-primary">View PDF</a>
                     </div>
@@ -143,11 +139,10 @@
                 <div class="card" >
                     <img class="card-img-top img-fluid" src="images/kho-kho.jpg" alt="Card image" style="width:100% ; height:170px;">
                     <div class="dates">
-                        <span>Nov</span>
-                        <span>29</span>
+                       <i class="fa fa-calendar" aria-hidden="true"></i>
                     </div>
                     <div class="card-body" style="padding-top: 0px;">
-                        <h4 class="card-title">Kho-Kho</h4>
+                        <h4 class="card-title">Inter Collegiate Sports Calendar</h4>
                         <h5>Inter College Tournament</h5>
                         <a href="#" class="btn btn-primary">View PDF</a>
                     </div>
@@ -155,11 +150,10 @@
                 <div class="card" >
                     <img class="card-img-top img-fluid" src="images/volleyball.jpeg" alt="Card image" style="width:100%;; height:170px;">
                     <div class="dates">
-                        <span>Nov</span>
-                        <span>29</span>
+                        <i class="fa fa-calendar" aria-hidden="true"></i>
                     </div>
                     <div class="card-body" style="padding-top: 0px;">
-                        <h4 class="card-title">VolleyBall</h4>
+                        <h4 class="card-title">Inter Collegiate Sports Calendar</h4>
                         <h5>Inter College Tournament</h5>
                         <a href="#" class="btn btn-primary">View PDF</a>
                     </div>
