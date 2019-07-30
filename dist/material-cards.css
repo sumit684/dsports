@@ -25,8 +25,8 @@
 .material-card {
     position: relative;
     height: 0;
-    padding-bottom: calc(100% - 16px);
-    margin-bottom: 10.6em;
+    padding-bottom: calc(100% - 0px);
+    margin-bottom: 6.6em;
 }
 .material-card h2 {
     position: absolute;
@@ -36,7 +36,7 @@
     padding: 10px 16px;
     color: #fff;
     font-size: 1.4em;
-    line-height: 1.6em;
+    line-height: 28px;
     margin: 0;
     z-index: 10;
     -webkit-transition: all 0.3s;
