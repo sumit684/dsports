@@ -98,7 +98,7 @@
                             <!-- <a class="fa fa-fw fa-facebook"></a> -->
                             <a class="fa fa-fw fa-github" target="_blank" href="https://github.com/sumit684"></a>
                             <a class="fa fa-fw fa-linkedin" target="_blank" href="https://www.linkedin.com/in/sumit-singh-56b531159"></a>
-                            <a class="fa fa-fw fa-envelope" target="_blank" href="mailto:singh.sumit684@gmail.com"></a>
+                            <a class="fa fa-fw fa-envelope" href="mailto:singh.sumit684@gmail.com"></a>
                         </div>
                     </article>
                 </div>
