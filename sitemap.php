@@ -78,9 +78,6 @@
                         <td><a href="aboutus.php">About Directorate</a></td>
                     </tr>
                     <tr>
-                        <td><a href="index.php#aboudavv">About DAVV</a></td>
-                    </tr>
-                    <tr>
                         <td><a href="directormsg.php">Director's Message</a></td>
                     </tr>
                     <tr>

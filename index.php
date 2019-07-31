@@ -34,7 +34,6 @@
 
         }
 
-
     </style>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
@@ -96,23 +95,25 @@
             position: relative; 
             top: -24px; left: 18px;
             background-color: #2f2424;
+            font-size: 22px;
             height: 50px; 
             width: 50px; 
+            vertical-align: center;
             text-align: center;
             color: white;
             border-radius:6px;
-            padding-top: 12px;
+            padding-top: 6px;
         }
     </style>
 
     <!-- <*****NITI news start****> -->
     
-    <div class="container-fluid" style="/*background-color:white;*/ padding: 0px;">
-        <div class="container-fluid" style="background-color: #2f2424; padding: 27px; width:100%; padding-top: 5px;">
-            <h1 class="display-4 news" style="text-align: center; color: white; padding-bottom: 5px; ">News and Events</h1>
+    <div class="container-fluid" style="padding: 0px;">
+        <div class="container-fluid" style="background-color: #2f2424; padding: 40px; width:100%; padding-top: 20px; padding-bottom: 45px; ">
+            <h1 class="display-4 news" style="text-align: center; color: white; padding-bottom: 5px; ">SPORTS CALENDAR</h1>
             <div class="card-deck">
                 <div class="card" >
-                    <img class="card-img-top img-fluid" src="images/basket.jpeg" alt="Card image" style="width:100%; height:170px; ">
+                    <img class="card-img-top img-fluid" src="images/calendar/basket.jpg" alt="Card image" style="width:100%; height:170px; ">
                     <div class="dates">
                         <!-- <span>Feb<br></span>
                             <span>25</span> -->
@@ -122,40 +123,42 @@
                             <h4 class="card-title">Inter University Sports Calendar</h4>
                             <!-- <h5>Inter College Tournament</h5> -->
 
-                            <a href="#" class="btn btn-primary">View Calendar</a>
+                            <a href="calendar.php?name=InterUniversitySportsCalendar2019-2020" class="btn btn-primary">View Calendar</a>
                         </div>
                     </div>
                     <div class="card">
-                        <img class="card-img-top img-fluid" src="images/hockey.jpg" alt="Card image" style="width:100%; ; height:170px;">
+                        <img class="card-img-top img-fluid" src="images/calendar/hockey.jpg" alt="Card image" style="width:100%; ; height:170px;">
                         <div class="dates">
-                         <i class="fa fa-calendar" aria-hidden="true"></i>
-                     </div>
-                     <div class="card-body" style="padding-top: 0px;">
+                           <i class="fa fa-calendar" aria-hidden="true"></i>
+                       </div>
+                       <div class="card-body" style="padding-top: 0px;">
                         <h4 class="card-title" >Inter Collegiate Sports Calendar</h4>
                         <!-- <h5>Inter University Tournament</h5> -->
-                        <a href="#" class="btn btn-primary">View Calendar</a>
+                        <a href="calendar.php?name=InterCollegiateSportsCalendar2019-2020" class="btn btn-primary">View Calendar</a>
                     </div>
                 </div>
                 <div class="card" >
-                    <img class="card-img-top img-fluid" src="images/kho-kho.jpg" alt="Card image" style="width:100% ; height:170px;">
+                    <img class="card-img-top img-fluid" src="images/calendar/kho-kho.jpg" alt="Card image" style="width:100% ; height:170px;">
                     <div class="dates">
-                     <i class="fa fa-calendar" aria-hidden="true"></i>
-                 </div>
-                 <div class="card-body" style="padding-top: 0px;">
-                    <h4 class="card-title">Inter Collegiate Sports Calendar</h4>
+                       <i class="fa fa-calendar" aria-hidden="true"></i>
+                   </div>
+                   <div class="card-body" style="padding-top: 0px;">
+                    <h4 class="card-title">UTD Sports Calendar</h4>
+                    <br>
                     <!-- <h5>Inter College Tournament</h5> -->
-                    <a href="#" class="btn btn-primary">View Calendar</a>
+                    <a href="calendar.php?name=UtdSportsCalendar2018-2019" class="btn btn-primary">View Calendar</a>
                 </div>
             </div>
             <div class="card" >
-                <img class="card-img-top img-fluid" src="images/volleyball.jpeg" alt="Card image" style="width:100%;; height:170px;">
+                <img class="card-img-top img-fluid" src="images/calendar/volleyball.jpg" alt="Card image" style="width:100%;; height:170px;">
                 <div class="dates">
                     <i class="fa fa-calendar" aria-hidden="true"></i>
                 </div>
                 <div class="card-body" style="padding-top: 0px;">
-                    <h4 class="card-title">Inter Collegiate Sports Calendar</h4>
-                   <!--  <h5>Inter College Tournament</h5> -->
-                    <a href="#" class="btn btn-primary">View Calendar</a>
+                    <h4 class="card-title">M.P. State Sports Calendar</h4>
+                    <br>
+                    <!--  <h5>Inter College Tournament</h5> -->
+                    <a href="calendar.php?name=M.P.StateCalendar2019-2020" class="btn btn-primary">View Calendar</a>
                 </div>
             </div>
         </div>
@@ -175,38 +178,77 @@
 <!------------------------------------------SUMIT NEW & EVENTS ENDS------------------------------------------------------>
 
 
+<!-- 
 
+<div id="aboutus" class="aboutus row"  style="padding-top: 20px; padding-bottom:20px;">
+    <div class="col-md-4" >
+        <div style="background-color:white; padding:0px 30px 0px 30px;">
 
-        <!-- *****************just after first cover page welcome wala /start/ ***********
+            <div style="box-shadow: 6px 8px 6px #0a394fbf; ">
+                <img class="img-fluid" src="images/office2.jpg" alt="directorate-office">
 
-        -->    
-        <div id="aboutdavv" class="aboutus row"  style="padding-top: 40px; padding-bottom:40px;  margin-right: 0px; margin-left: 0px;">
-            <!--            <div class="col-md-1"></div>-->
-            <div class="col-md-5" >
-                <div style="background-color:white; padding:0px 30px 0px 30px;">
-
-                    <div style="box-shadow: 6px 8px 6px #0a394fbf; ">
-                        <img class="img-fluid" src="images/office2.jpg" alt="directorate-office">
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-7" style="color:#3b2f2f;  padding: 20px; padding-left: 50px;">
-                <h1 style="font-family: 'Asul', cursive;"><center>About Directorate</center></h1>
-                <hr>
-                <div style="font-family: 'Brawler',sans-serif; text-align:justify;font-size: 20px;">
-                    The Directorate of Physical Education & Sports is one of the core and important departments of Devi Ahilya Vishwavidyalaya. The core mission of the department is to provide a broad spectrum of the Sports, Recreation, Wellness and Leisure activities to our students as well as faculties and staff also.<br>
-                    From the last 2-3 years we are conducting regular coaching cum combined practice activities in Basketball, Football, Volleyball and rack & Filed. Very soon we will launch Indian round Archery activity also.  
-                </div>  
-                <div align="center">
-                <a href="aboutus.php"><button class="btn btn-primary">Read More</button></a>  
-                </div>    
             </div>
         </div>
+    </div>
+    <div class="col-md-8" style="color:#3b2f2f;  padding-top:10px;">
+        <h1 style="font-family: 'Asul', cursive;"><center>About Directorate</center></h1>
+        <hr>
+        <div style="font-family: 'Brawler',sans-serif; text-align:justify;font-size: 20px;">
+            The Directorate of Physical Education & Sports is one of the core and important departments of Devi Ahilya Vishwavidyalaya. The core mission of the department is to provide a broad spectrum of the Sports, Recreation, Wellness and Leisure activities to our students as well as faculties and staff also.From the last 2-3 years we are conducting regular coaching cum combined practice activities in Basketball, Football, Volleyball and rack & Field. Very soon we will launch Indian round Archery activity also.  
+        </div>  
+        <div align="center">
+            <a href="aboutus.php"><button class="btn btn-primary">Read More</button></a>  
+        </div>    
+    </div>
+</div> -->
 
-        <!-- *****************just after first cover page welcome wala /over/ *********** -->   
+
+<div  class="aboutus row"  style="background-color:#48C9B0; color:white; margin-right: 0px; margin-left: 0px;">
+    <div class="col-md-4" >
+        <div style="padding:10px 30px 10px 30px;">
+            <div align="center">
+                <img  style="box-shadow: 6px 8px 6px #0a394fbf; border-radius: 2%" class="img-fluid" src="images/officestaff/1.jpg" alt="directorate-office">
+                <div style="margin-top: 10px;font-size: 22px;font-family: serif;">
+                 DR. SUNIL DUDHALE
+             </div>
+         </div>
+     </div>
+ </div>
+ <div class="col-md-8" style="color: white; padding-top: 20px;">
+    <h1 style="font-family: 'Asul', cursive;"><center>Director Message</center></h1>
+    <hr>
+    <div style="font-family: 'Brawler',sans-serif; text-align:justify;font-size: 20px;">
+       <p> At Devi Ahilya Vishwavidyalaya we offer a variety of Games and Sports for Students. Our ultimate goal is to increase the participation in Sports. I believe Sports provides the required exposure for the students to grow and mature to adulthood. Sports helps to inculcate Team Work, Commitment, Discipline Leadership, Hard Work, Toughness, Sportsmanship, Sacrifice and above  all Character building. Sports prepares individuals for the Journey of Life that lies ahead of them. </p>
+   </div>  
+   <div align="center">
+    <a href="directormsg.php"><button class="btn btn-primary">Read More</button></a>  
+</div>    
+</div>
+</div>
 
 
-        
-        <?php include 'include/footer.html';?>
-    </body>
-    </html>
+<div  class="aboutus row"  style="background-color:white; margin-right: 0px; margin-left: 0px; margin-bottom: 10px;">
+    <div class="col-md-4" >
+        <div style="padding:30px 30px 30px 30px;">
+            <div align="center">
+                <img  style="box-shadow: 6px 8px 6px #0a394fbf; border-radius: 2%" class="img-fluid" src="images/office2.jpg" alt="directorate-office">
+         </div>
+     </div>
+ </div>
+ <div class="col-md-8" style="color: #3b2f2f; padding-top: 20px;">
+    <h1 style="font-family: 'Asul', cursive;"><center>About Directorate</center></h1>
+    <hr>
+    <div style="font-family: 'Brawler',sans-serif; text-align:justify;font-size: 20px;">
+       <p>     The Directorate of Physical Education & Sports is one of the core and important departments of Devi Ahilya Vishwavidyalaya. The core mission of the department is to provide a broad spectrum of the Sports, Recreation, Wellness and Leisure activities to our students as well as faculties and staff also.From the last 2-3 years we are conducting regular coaching cum combined practice activities in Basketball, Football, Volleyball and rack & Field. Very soon we will launch Indian round Archery activity also.  </p>
+   </div>  
+   <div align="center">
+    <a href="aboutus.php"><button class="btn btn-primary">Read More</button></a>  
+</div>    
+</div>
+</div>
+
+
+
+<?php include 'include/footer.html';?>
+</body>
+</html>

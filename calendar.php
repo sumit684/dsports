@@ -87,9 +87,9 @@ $year = preg_replace('/[^0-9-]/', '', $calendarname);
 			<?php include 'include/header.html';?>
 			<div class="container-fluid">
 				<div style="margin-top:10px;" align="center">
-					<font face="Belleza" size=7 color="#000000">UTD SPORTS ASSOCIATION</font><br>
+					<h1 style="font-family:serif;">UTD SPORTS ASSOCIATION</h1>
 
-					<font face="sans-serif" size=6 color="#000000">SPORTS CALENDAR <?php echo $year?></font><br>
+					<font face="sans-serif" size=5 color="#000000">SPORTS CALENDAR <?php echo $year?></font><br>
 					<font face="serif" size=5 color="#000000">
 						<u><?php echo strtoupper(preg_replace('/[^a-z ]/i','',$sportsname))?></u></font><br>
 
