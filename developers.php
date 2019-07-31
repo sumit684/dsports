@@ -205,6 +205,17 @@
 
     </section>
 
+    <div class="container text-center" id="mentors" style="margin-top: 30px; margin-bottom: 30px;">
+        <a href="#mentors-dropdown" class="btn btn-primary" data-toggle="collapse">Mentors</a>
+        <div id="mentors-dropdown" class="collapse">
+            <p>
+                Dr. Vrinda Tokekar<br>
+                Dr. Maya Ingle<br>
+                Mr. Sachin Mandwariya<br>(CEO, Workaholics Infocorp.)<br>
+                Miss Anshika Jain<br>
+            </p>
+        </div>
+    </div>
 
 
     <?php include 'include/footer.html'?>

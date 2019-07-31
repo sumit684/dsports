@@ -234,10 +234,13 @@
     
     <!-- ***************************OUTLOOK OF ALBUM START*************** -->
     <h2 style="text-align:center ; font-family: 'Times New Roman', Times, serif; padding: 2%; font-size:2.5rem;">GALLERY</h2>
+    <a href="gallery.php"><button class="btn btn-primary" style="margin-left: 10px;"><i class="fas fa-long-arrow-alt-left"></i> &nbsp;Go Back</button></a>
     <hr>
+
     <br>
     <!-- <div class="row"> -->
       <div class="container">
+
         <div class="row">
           <?php
           include('galleryy.php');

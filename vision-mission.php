@@ -1,11 +1,11 @@
 <html>
 <head>
-    <title>Vision | Mission| Objectives Directorate of Physical Education & Sports</title>
+    <title>Vision | Mission | Objectives Directorate of Physical Education & Sports</title>
     <?php include('include/link.html');?>
 </head>
 <style>
     .dd{
-        background-image: url(images/blue.jpg);
+     /*   background-image: url(images/blue.jpg);*/
         background-size: 100%;
     }    
     .vission-mission-content{
@@ -51,7 +51,7 @@
             </map>
 
         </div>
-        <div class="container" style="background-image:url('images/blue.jpg');padding-top: 0px; box-shadow: 10px 10px 500px 10px azure">
+        <div class="container" style="padding-top: 0px; box-shadow: 10px 10px 500px 10px azure">
             <div class="jumbotron" id="vision" >
                 <h1>Vision <i class="fas fa-eye"></i></h1>
                 <div class="content-margin">
