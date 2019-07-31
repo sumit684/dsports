@@ -27,7 +27,7 @@
     <div class="container" >
         <fieldset class="scheduler-border">
             <legend class="scheduler-border" align="center" style="font-size: 50px; color: #17557e; text-transform: uppercase;">Sports Committee</legend>
-            <div class="center table-responsive>
+            <div class="center table-responsive">
                 <table class="table ">
                     <thead style="font-size: 22px; font-family: serif;">
                         <tr class="table-primary"><th valign="top" >SNO.</th>
