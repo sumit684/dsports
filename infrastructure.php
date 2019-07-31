@@ -40,10 +40,6 @@
     <?php include 'include/nav.html';?>
     <?php include 'include/header.html';?>
 
-
-
-
-
     <div class="container-fluid" style="padding: 0px;">  
 
         <h1  style="color:#1c445e;text-align: center;font-family: 'Cutive';position: relative;top: 10px;">Infrastructure and Facilities</h1><br>

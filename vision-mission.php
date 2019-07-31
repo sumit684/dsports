@@ -6,10 +6,10 @@
 </head>
 <style>
     .dd{
-       /*   background-image: url(images/blue.jpg);*/
-       background-size: 100%;
-   }    
-   .vission-mission-content{
+     /*   background-image: url(images/blue.jpg);*/
+     background-size: 100%;
+ }    
+ .vission-mission-content{
     font-weight: 300;
     margin-left: 45px;
     font-size: 18px;

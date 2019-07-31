@@ -73,9 +73,9 @@
         </style>
     </head>
     <body>
-     <?php include 'include/nav.html';?>
-     <?php include 'include/header.html';?>
-     <div class="row">
+       <?php include 'include/nav.html';?>
+       <?php include 'include/header.html';?>
+       <div class="row">
         <div class="office-text col-md-12">
             <h1 class=" offices_head display-3  ">OFFICE STAFF</h1>
         </div>

@@ -155,22 +155,22 @@
 
         </style>
 
-</head>
-<body>
-	<?php include 'include/nav.html'?>
-	<?php include 'include/header.html'?>
-	<div class="container downloads">
+    </head>
+    <body>
+       <?php include 'include/nav.html'?>
+       <?php include 'include/header.html'?>
+       <div class="container downloads">
         <br>
         <h1><center>NEWS</center></h1>
         <div class="panel">
             <ul style="font-weight:700;">
 
-               <?php
-               
-               $fo=opendir("news");
-               $n = 1;
-               while($file=readdir($fo))
-               {
+             <?php
+             
+             $fo=opendir("news");
+             $n = 1;
+             while($file=readdir($fo))
+             {
                 if($file!="." && $file!=".." && $file!="Thumbs.db")
                 {
                     $name=preg_replace('/.[^.]*$/', '', basename($file));

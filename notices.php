@@ -166,26 +166,26 @@
                 <button class="accordion" ><i class="fas fa-scroll icon_style"></i>CIRCULARS</button>
                 <div class="panel">
                     <ul>
-                    <?php
-             
+                        <?php
+                        
                         $fo=opendir("notices/circulars");
                         $n = 1;
                         while($file=readdir($fo))
                         {
                             if($file!="." && $file!=".." && $file!="Thumbs.db")
                             {
-                            $name=preg_replace('/.[^.]*$/', '', basename($file));
-                            echo "<li><a href='notices/circulars/$file' target='_blank' style=' color:black;'>";
+                                $name=preg_replace('/.[^.]*$/', '', basename($file));
+                                echo "<li><a href='notices/circulars/$file' target='_blank' style=' color:black;'>";
                             // echo $n;
                             // echo "&nbsp;";
-                            echo "<strong>";
-                            echo $name;
-                            echo "</strong>";
-                            echo  " </a></li>";
-                            $n=$n+1;
+                                echo "<strong>";
+                                echo $name;
+                                echo "</strong>";
+                                echo  " </a></li>";
+                                $n=$n+1;
                             }
                         }
-                    ?>
+                        ?>
 
 
 
@@ -203,7 +203,7 @@
                                 <span class="badge badge-info blink_me" style="font-size:12px; font-family:monospace;">new</span>								
                             </a>
                         </li> -->
-                        				
+                        
                     </ul>
 
                 </div>
@@ -213,105 +213,105 @@
                 <button class="accordion" ><i class="far fa-envelope icon_style"></i>LETTERS</button>
                 <div class="panel">
                     <ul>
-                       
-                    <?php
-             
-             $fo=opendir("notices/letters");
-             $n = 1;
-             while($file=readdir($fo))
-             {
-                 if($file!="." && $file!=".." && $file!="Thumbs.db")
-                 {
-                 $name=preg_replace('/.[^.]*$/', '', basename($file));
-                 echo "<li><a href='notices/letters/$file' target='_blank' style=' color:black;'>";
+                     
+                        <?php
+                        
+                        $fo=opendir("notices/letters");
+                        $n = 1;
+                        while($file=readdir($fo))
+                        {
+                           if($file!="." && $file!=".." && $file!="Thumbs.db")
+                           {
+                               $name=preg_replace('/.[^.]*$/', '', basename($file));
+                               echo "<li><a href='notices/letters/$file' target='_blank' style=' color:black;'>";
                  // echo $n;
                  // echo "&nbsp;";
-                 echo "<strong>";
-                 echo $name;
-                 echo "</strong>";
-                 echo  " </a></li>";
-                 $n=$n+1;
-                 }
-             }
-         ?>
+                               echo "<strong>";
+                               echo $name;
+                               echo "</strong>";
+                               echo  " </a></li>";
+                               $n=$n+1;
+                           }
+                       }
+                       ?>
 
 
-                    </ul>
-                </div>
-            </div>
-            <div id="fixtures">
-                <button class="accordion" ><i class="fas fa-calendar-alt icon_style"></i>FIXTURES</button>
-                <div class="panel">
-                    <ul>
+                   </ul>
+               </div>
+           </div>
+           <div id="fixtures">
+            <button class="accordion" ><i class="fas fa-calendar-alt icon_style"></i>FIXTURES</button>
+            <div class="panel">
+                <ul>
                     <?php
-             
-             $fo=opendir("notices/fixtures");
-             $n = 1;
-             while($file=readdir($fo))
-             {
-                 if($file!="." && $file!=".." && $file!="Thumbs.db")
-                 {
-                 $name=preg_replace('/.[^.]*$/', '', basename($file));
-                 echo "<li><a href='notices/fixtures/$file' target='_blank' style=' color:black;'>";
+                    
+                    $fo=opendir("notices/fixtures");
+                    $n = 1;
+                    while($file=readdir($fo))
+                    {
+                       if($file!="." && $file!=".." && $file!="Thumbs.db")
+                       {
+                           $name=preg_replace('/.[^.]*$/', '', basename($file));
+                           echo "<li><a href='notices/fixtures/$file' target='_blank' style=' color:black;'>";
                  // echo $n;
                  // echo "&nbsp;";
-                 echo "<strong>";
-                 echo $name;
-                 echo "</strong>";
-                 echo  " </a></li>";
-                 $n=$n+1;
-                 }
-             }
-         ?>
+                           echo "<strong>";
+                           echo $name;
+                           echo "</strong>";
+                           echo  " </a></li>";
+                           $n=$n+1;
+                       }
+                   }
+                   ?>
 
-                    </ul>
-                </div>
-            </div>
-            <div id="tendures">
-                <button class="accordion" id="tendures"><i class="fas fa-file-invoice-dollar icon_style"></i>TENDERS</button>
-                <div class="panel">
-                    <ul>
-                    <?php
-             
-             $fo=opendir("notices/tenders");
-             $n = 1;
-             while($file=readdir($fo))
-             {
-                 if($file!="." && $file!=".." && $file!="Thumbs.db")
-                 {
-                 $name=preg_replace('/.[^.]*$/', '', basename($file));
-                 echo "<li><a href='notices/tenders/$file' target='_blank' style=' color:black;'>";
+               </ul>
+           </div>
+       </div>
+       <div id="tendures">
+        <button class="accordion" id="tendures"><i class="fas fa-file-invoice-dollar icon_style"></i>TENDERS</button>
+        <div class="panel">
+            <ul>
+                <?php
+                
+                $fo=opendir("notices/tenders");
+                $n = 1;
+                while($file=readdir($fo))
+                {
+                   if($file!="." && $file!=".." && $file!="Thumbs.db")
+                   {
+                       $name=preg_replace('/.[^.]*$/', '', basename($file));
+                       echo "<li><a href='notices/tenders/$file' target='_blank' style=' color:black;'>";
                  // echo $n;
                  // echo "&nbsp;";
-                 echo "<strong>";
-                 echo $name;
-                 echo "</strong>";
-                 echo  " </a></li>";
-                 $n=$n+1;
-                 }
-             }
-         ?>
+                       echo "<strong>";
+                       echo $name;
+                       echo "</strong>";
+                       echo  " </a></li>";
+                       $n=$n+1;
+                   }
+               }
+               ?>
 
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <script>
-            var acc = document.getElementsByClassName("accordion");
-            var i;
+           </ul>
+       </div>
+   </div>
+</div>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
 
-            for (i = 0; i < acc.length; i++) {
-                acc[i].addEventListener("click", function() {
-                    this.classList.toggle("active");
-                    var panel = this.nextElementSibling;
-                    if (panel.style.display==="none"){
-                        panel.style.display = "block";
-                    } else {
-                        panel.style.display ="none";
-                    } 
-                });
-            }
-        </script>
-        <?php include('include/footer.html');?>
-    </body>
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display==="none"){
+                panel.style.display = "block";
+            } else {
+                panel.style.display ="none";
+            } 
+        });
+    }
+</script>
+<?php include('include/footer.html');?>
+</body>
 </html>

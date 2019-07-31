@@ -6,7 +6,7 @@
     <?php include('include/link.html');?>
     <style>
 
-       .sitemap thead{
+     .sitemap thead{
         color:goldenrod;
         font-size:23px;
         font-family:sans-serif;

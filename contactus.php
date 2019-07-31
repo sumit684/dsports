@@ -30,62 +30,57 @@
     
     <h1><center>CONTACT US</center></h1>
     <div class="container">
+        <div class="container-fluid" style="" align="center">
+            <div class="row" style="color:#ffffffe8; font-size: 17px; ">
 
-            <!-- <div style=" position: relative; top:0px; left: 0px;height:50px; width: 50px; background-color: #FF7251;">   <div style="background-color: #3e8e41; float: left; width: 40px; height: 40px; border-radius: 100px; position: relative; top:6px; left: 6px;"></div>  <i class="fas fa-phone" style="position: relative; top:-29px; left: 10px; font-size: 30px;transform: rotate(87deg);"></i>
-            </div> -->
-            <!-- #6383c4 -->
+                <div class="col-md-4" style="padding-top: 9px;">
+                    <div class="icon-hover" style="width:50px; height:50px ; border-radius: 30px; background-color: #00cec9;">
+                        <i class="fas fa-map-marker-alt contactus-icon" style=" position: relative; top:11px; left:0px;"></i></div>
+                        <b style="font-size: 20px; ">Address</b><br>
+                        <span class="contactus">
+                            Directorate of Physical Education & Sports<br>Takshila Parishar,<br> Khandwa Road, Indore (M.P.)<br>
+                            Pincode 452001
+                            <div style="padding-bottom: 3%;">   <!--see this is line-->
+                                <svg height="3" width="100" style="" >
 
-            <div class="container-fluid" style="" align="center">
-                <div class="row" style="color:#ffffffe8; font-size: 17px; ">
+                                    <line x1="0" y1="0" x2="200" y2="0" style="stroke:#ffffffe8;stroke-width:10" style="position:relative; " />
+                                </svg>  
+                            </div >            
+                        </span>
+                    </div>
+                    <div class="col-md-4 " style="padding-top: 2px;">
+                        <div class="icon-hover" style=" position: relative; top:0px; left: 0px;height:50px; width: 50px;">
+                            <div  style="background-color: #00cec9; float: left; width: 50px; height: 50px; border-radius: 100px; position: relative; top:6px; left: 6px;">
+                            </div>  
+                            <i class="fas fa-phone contactus-icon" style=" position: relative; top:-36px; left: 5px; transform: rotate(87deg);">
+                            </i>
+                        </div>
+                        <b style="font-size: 20px; ">Phone</b><br><br>
+                        <span class="contactus">     Phone: +91-982-6908080
+                            <br><br>                       <div style="padding-bottom: 3%;">   <!--see this is line-->
+                                <svg height="3" width="100" style="" >
 
+                                    <line x1="0" y1="0" x2="200" y2="0" style="stroke:#ffffffe8;stroke-width:10" style="position:relative; " />
+                                </svg>  
+                            </div > 
+                        </span>
+                    </div>
                     <div class="col-md-4" style="padding-top: 9px;">
-                        <div class="icon-hover" style="width:50px; height:50px ; border-radius: 30px; background-color: #00cec9;">
-                            <i class="fas fa-map-marker-alt contactus-icon" style=" position: relative; top:11px; left:0px;"></i></div>
-                            <b style="font-size: 20px; ">Address</b><br>
-                            <span class="contactus">
-                                Directorate of Physical Education & Sports<br>Takshila Parishar,<br> Khandwa Road, Indore (M.P.)<br>
-                                Pincode 452001
-                                <div style="padding-bottom: 3%;">   <!--see this is line-->
-                                    <svg height="3" width="100" style="" >
+                        <div class="icon-hover" style="width:50px; height:50px ; border-radius: 30px; background-color: #00cec9;"><i class="fas fa-envelope contactus-icon" style=" position: relative; top:11px; left:0px;"></i></div>
+                        <b style="font-size: 20px; ">E-mail</b><br><br>
+                        <span class="contactus">Email: dpe.dauniv@gmail.com<br><br>
+                            <div style="padding-bottom: 3%;">   <!--see this is line-->
+                                <svg height="3" width="100" style="" >
 
-                                        <line x1="0" y1="0" x2="200" y2="0" style="stroke:#ffffffe8;stroke-width:10" style="position:relative; " />
-                                    </svg>  
-                                </div >            
-                            </span>
-                        </div>
-                        <div class="col-md-4 " style="padding-top: 2px;">
-                            <div class="icon-hover" style=" position: relative; top:0px; left: 0px;height:50px; width: 50px;">
-                                <div  style="background-color: #00cec9; float: left; width: 50px; height: 50px; border-radius: 100px; position: relative; top:6px; left: 6px;">
-                                </div>  
-                                <i class="fas fa-phone contactus-icon" style=" position: relative; top:-36px; left: 5px; transform: rotate(87deg);">
-                                </i>
-                            </div>
-                            <b style="font-size: 20px; ">Phone</b><br><br>
-                            <span class="contactus">     Phone: +91-982-6908080
-                                <br><br>                       <div style="padding-bottom: 3%;">   <!--see this is line-->
-                                    <svg height="3" width="100" style="" >
-
-                                        <line x1="0" y1="0" x2="200" y2="0" style="stroke:#ffffffe8;stroke-width:10" style="position:relative; " />
-                                    </svg>  
-                                </div > 
-                            </span>
-                        </div>
-                        <div class="col-md-4" style="padding-top: 9px;">
-                            <div class="icon-hover" style="width:50px; height:50px ; border-radius: 30px; background-color: #00cec9;"><i class="fas fa-envelope contactus-icon" style=" position: relative; top:11px; left:0px;"></i></div>
-                            <b style="font-size: 20px; ">E-mail</b><br><br>
-                            <span class="contactus">Email: dpe.dauniv@gmail.com<br><br>
-                                <div style="padding-bottom: 3%;">   <!--see this is line-->
-                                    <svg height="3" width="100" style="" >
-
-                                        <line x1="0" y1="0" x2="200" y2="0" style="stroke:#ffffffe8;stroke-width:10" style="position:relative; " />
-                                    </svg>  
-                                </div > 
-                            </span>
-                        </div>
+                                    <line x1="0" y1="0" x2="200" y2="0" style="stroke:#ffffffe8;stroke-width:10" style="position:relative; " />
+                                </svg>  
+                            </div > 
+                        </span>
                     </div>
                 </div>
-
             </div>
+
+        </div>
 
     <!-- <div class="container" style="padding-top: 8%;">
         <div class="row">
