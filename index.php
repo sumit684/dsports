@@ -203,7 +203,7 @@
 </div> -->
 
 
-<div  class="aboutus row"  style="background-color:#48C9B0; color:white; margin-right: 0px; margin-left: 0px;">
+<div  class="aboutus row"  style="background-color:#30a890; color:white; margin-right: 0px; margin-left: 0px;">
     <div class="col-md-4" >
         <div style="padding:10px 30px 10px 30px;">
             <div align="center">

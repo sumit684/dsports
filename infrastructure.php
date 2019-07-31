@@ -44,9 +44,9 @@
 
 
 
-    <div class="container-fluid" style="background-color:#e9ecef">  
+    <div class="container-fluid" style="padding: 0px;">  
 
-        <h1  style="color:#1c445e;text-align: center;font-family: 'Cutive';position: relative;top: 10px; ">Infrastructure and Facilities</h1><br>
+        <h1  style="color:#1c445e;text-align: center;font-family: 'Cutive';position: relative;top: 10px;">Infrastructure and Facilities</h1><br>
         <div id="demo" class="carousel slide" data-ride="carousel">
 
             <!-- Indicators -->
@@ -100,10 +100,10 @@
     </div>
 
 
-    <div class="container-fluid" style="background-color:  #2980b9">
+    <div class="container-fluid" style="margin-top: 30px; margin-bottom: 20px;">
 
         <div class="row">
-            <div class="col-md-6 jumbotron">
+            <div class="col-md-6">
 
                 <table class="table table-bordered">
                     <thead>
@@ -188,7 +188,7 @@
                 </table>
             </div>
 
-            <div class="col-md-6 jumbotron">
+            <div class="col-md-6">
 
 
                 <div class="container-fluid" style="background-color:">
