@@ -73,9 +73,9 @@
         </style>
     </head>
     <body>
-       <?php include 'include/nav.html';?>
-       <?php include 'include/header.html';?>
-       <div class="row">
+     <?php include 'include/nav.html';?>
+     <?php include 'include/header.html';?>
+     <div class="row">
         <div class="office-text col-md-12">
             <h1 class=" offices_head display-3  ">OFFICE STAFF</h1>
         </div>
@@ -164,40 +164,41 @@
                 
                 <div style="height: 60px;" ></div>
 
-                <div  class="container" style="box-shadow: 10px 10px 5px #aaaaaa; padding-right: 100px; padding-left: 100px;">
+                <div  class="container" style="box-shadow: 10px 10px 5px #aaaaaa; padding-left:40px; padding-right: 40px;">
 
-                    <div  align="center" style="font-size: 50px; color: #17557e;">OUR OTHER STAFF </div> 
+                    <div  align="center" style="font-size: 36px; color: #17557e;">OUR OTHER STAFF </div> 
+                    <div class=" table-responsive center">
+                        <table class="table" style="font-size: 18px; ">
+                            <tbody>
+                                <tr>
+                                    <td>Mr. Rampher Pal </td>
+                                    <td> Ground Marker(Regular)</td>
+                                </tr>
+                                <tr>
+                                    <td>Mr. Ramjiyavan Yadav</td>
+                                    <td>Grounds Men / Peon (Regular)</td>
+                                </tr>
 
-                    <table class="table" style="font-size: 18px;" >
-                        <tbody>
-                            <tr>
-                                <td>Mr. Rampher Pal </td>
-                                <td> Ground Marker(Regular)</td>
-                            </tr>
-                            <tr>
-                                <td>Mr. Ramjiyavan Yadav</td>
-                                <td>Grounds Men / Peon (Regular)</td>
-                            </tr>
+                                <tr>
+                                    <td>Mr.Om Prakash Verma </td>
+                                    <td> Grounds Men / Peon (Regular)</td>
+                                </tr>
+                                <tr>
+                                    <td>Mr. Vansh Bhadur</td>
+                                    <td>Grounds Men / Peon (Regular)</td>
+                                </tr>
 
-                            <tr>
-                                <td>Mr.Om Prakash Verma </td>
-                                <td> Grounds Men / Peon (Regular)</td>
-                            </tr>
-                            <tr>
-                                <td>Mr. Vansh Bhadur</td>
-                                <td>Grounds Men / Peon (Regular)</td>
-                            </tr>
-
-                            <tr>
-                                <td> Mr. Mukesh Patel</td>
-                                <td>Grounds Men / Peon (Regular)</td>
-                            </tr>
-                            <tr>
-                                <td>Mr. Dayaram Bhagore</td>
-                                <td>Semi Skilled Labourn (Daily wages)</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                                <tr>
+                                    <td> Mr. Mukesh Patel</td>
+                                    <td>Grounds Men / Peon (Regular)</td>
+                                </tr>
+                                <tr>
+                                    <td>Mr. Dayaram Bhagore</td>
+                                    <td>Semi Skilled Labourn (Daily wages)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
 
 
