@@ -65,7 +65,7 @@
             <small>material cards with a simple jquery script</small></h1>
         </div> -->
 
-        <h1  style="color:black;text-align: center;font-family: 'Azul';font-size:50px;">Our Team</h1><br>
+        <h1  style="color:black;text-align: center;font-family: 'Azul';font-size:50px;">Meet the Team...</h1><br>
         <div class="row active-with-click">
             <!-- <div class="col-md-2 col-sm-3 col-xs-6">
             </div> -->
@@ -209,14 +209,21 @@
         <a href="#mentors-dropdown" class="btn btn-primary" data-toggle="collapse">Mentors</a>
         <div id="mentors-dropdown" class="collapse">
             <p>
-                Dr. Vrinda Tokekar<br>
+                <b><br>Dr. Vrinda Tokekar<br>
                 Dr. Maya Ingle<br>
                 Mr. Sachin Mandwariya<br>(CEO, Workaholics Infocorp.)<br>
-                Miss Anshika Jain<br>
+                Miss Anshika Jain</b><br><br><br>
+                <span style="font-family: cursive;">Special Thanks to Deepam Gupta, Samyak Jain, Kishan Joshi & Rajat Karahe </span>
             </p>
         </div>
     </div>
+    <link href="http://fonts.googleapis.com/css?family=Dancing+Script:700|EB+Garamond" rel="stylesheet" type="text/css" />
 
+    <div class="container" align="center" style="font-family: Dancing Script, cursive;font-size: 24px; margin-bottom: 30px;" >
+        Thanks for your visit, We would like to know about your experience on this website.<br>
+
+        <a href="feedback.php"><button class="btn btn-success">Send FeedBack</button></a>
+    </div>
 
     <?php include 'include/footer.html'?>
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
