@@ -99,7 +99,7 @@
     <div class="container-fluid" style="margin-top: 30px; margin-bottom: 20px;">
 
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-12">
 
                 <table class="table table-bordered">
                     <thead>
@@ -117,12 +117,12 @@
                         </tr>
                         <tr>
                             <td>2</td>
-                            <td>Foot ball Field (Grass)</td>
+                            <td>Football Field (Grass)</td>
                             <td>01</td>
                         </tr>
                         <tr>
                             <td>3</td>
-                            <td>IHockey Field</td>
+                            <td>Hockey Field</td>
                             <td>01</td>
                         </tr>
                         <tr>
@@ -132,37 +132,37 @@
                         </tr>
                         <tr>
                             <td>5</td>
-                            <td>Basketball courts(Cement)</td>
+                            <td>Basketball Courts(Cement)</td>
                             <td>02</td>
                         </tr>
                         <tr>
                             <td>6</td>
-                            <td>Tennis courts Asphalt</td>
+                            <td>Tennis Courts Asphalt</td>
                             <td>02</td>
                         </tr>
                         <tr>
                             <td>7</td>
-                            <td>Volley ball courts(Clay)flood lighted</td>
+                            <td>Volleyball Courts(Clay) flood lighted</td>
                             <td>04</td>
                         </tr>
                         <tr>
                             <td>8</td>
-                            <td>Hand ball courts(Clay)</td>
+                            <td>Handball Courts(Clay)</td>
                             <td>02</td>
                         </tr>
                         <tr>
                             <td>9</td>
-                            <td>Kho-Kho ground</td>
+                            <td>Kho-Kho Ground</td>
                             <td>02</td>
                         </tr>
                         <tr>
                             <td>10</td>
-                            <td>Kabaddi ground</td>
+                            <td>Kabaddi Ground</td>
                             <td>02</td>
                         </tr>
                         <tr>
                             <td>11</td>
-                            <td>Multi Gymnassium hall(size 40*24 mts.)</td>
+                            <td>Multi-Gymnassium hall(size 40*24 mts.)</td>
                             <td>02</td>
                         </tr>
                         <tr>
@@ -183,7 +183,7 @@
                     </tbody>
                 </table>
             </div>
-
+<!-- 
             <div class="col-md-6">
 
 
@@ -225,7 +225,7 @@
                     </table>
 
                 </div>
-
+ -->
 <!-- 
                     <div class="container mt-3">
                         <h2 style="background-color: #2980b9; font-family:'Asul';color: white">Future plans of the department</h2>
@@ -241,7 +241,7 @@
 
                 -->                
 
-                <div class="container">
+            <!--     <div class="container">
                     <h2 style="background-color: #2980b9; font-family:'Asul';color: white">Future plans of the department</h2>
                     <div class="row">
                         <div class="col-md-4">
@@ -254,15 +254,13 @@
                                     <li>Swimming pool.</li>
                                     <li>60X40 Mts. Size Proposed Multi Purpose hall with facilities for Badminton, Basketball, Volleyball, Table Tennis, Handball Wrestling hall, Shooting range etc.
                                     </li>
-                                    <ul>
-
-                                        <!-- Swimming pool.<br>b)  60X40 Mts. Size Proposed Multi Purpose hall with facilities for Badminton, Basketball, Volleyball, Table Tennis, Handball Wrestling hall, Shooting range etc. --></p>      
+                                    <ul></p>      
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <?php include 'include/footer.html';?>
             </body>

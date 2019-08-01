@@ -46,14 +46,14 @@
                     </tr>
                     <tr>
                         <td>2.</td>
-                        <td>Shri Ajay Verma</td>
+                        <td>Dr. Anil Kumar Sharma</td>
                         <td>Registrar, DAVV., Indore.</td>
                         <td>Member</td>
                         
                     </tr>
                     <tr>
                         <td>3.</td>
-                        <td>Dr. Rajesh Vyas,</td>
+                        <td>Dr. Rajesh Vyas</td>
                         <td>Principal, Christian Eminent College,
                         Indore.</td>
                         <td>Member</td>
@@ -61,7 +61,7 @@
                     </tr>
                     <tr>
                         <td>4.</td>
-                        <td>Prof. Ajay Kumar,</td>
+                        <td>Prof. Ajay Kumar</td>
                         <td>Professor, School of Physical Education,Indore.</td>
                         <td>Member</td>
                         
@@ -90,7 +90,7 @@
                     </tr>
                     <tr>
                         <td>8.</td>
-                        <td>Dr. Sunil Dudhale,</td>
+                        <td>Dr. Sunil Dudhale</td>
                         <td>Incharge Director of Physical Education</td>
                         <td>Member-Secretary</td>
                         

@@ -38,7 +38,7 @@
                     <tbody style="font-size: 18px;">
                         <tr>
                             <td>1</td>
-                            <td>Manniya Kulpati ji </td>
+                            <td>Dr.  Renu Jain (Vice Chancellor)</td>
                             <td>Chairman</td>
                             
                         </tr>

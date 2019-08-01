@@ -211,7 +211,9 @@
             <p>
                 <b><br>Dr. Vrinda Tokekar<br>
                 Dr. Maya Ingle<br>
-                Mr. Sachin Mandwariya<br>(CEO, Workaholics Infocorp.)<br>
+                Dr. Sunil Dudhale<br>
+                Mr. Sachin Mandwariya<br>
+                Mr. Javed Khan <br>
                 Miss Anshika Jain</b><br><br><br>
                 <span style="font-family: cursive;">Special Thanks to Deepam Gupta, Samyak Jain, Kishan Joshi & Rajat Karahe </span>
             </p>
