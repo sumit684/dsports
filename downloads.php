@@ -174,15 +174,11 @@
                         if($file!="." && $file!=".." && $file!="Thumbs.db")
                         {
                             $name=preg_replace('/.[^.]*$/', '', basename($file));
-                            echo "<li><a href='downloads/$file' target='_blank' style=' color:black;'>";
-                        // echo $n;
-                        // echo "&nbsp;";
+                            $fileurl= rawurlencode($file);
+                            echo "<li><a href='downloads/$fileurl' target='_blank' style=' color:black;'>";
                             echo $name;
                             
                             $modif = date("Y-m-d", filemtime('downloads/' . $file));
-                        // $mod_date=date("F d Y H:i:s.", filemtime($file));
-                        // echo "<br>$file last modified on ". $modif;
-
                             $date1=date_create($modif);
                             $date2=date_create(date("Y-m-d"));
                             $diff=date_diff($date1,$date2);

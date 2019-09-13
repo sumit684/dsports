@@ -178,7 +178,8 @@ define('BLINKER_INTERVAL', 5);
                             if($file!="." && $file!=".." && $file!="Thumbs.db")
                             {
                                 $name=preg_replace('/.[^.]*$/', '', basename($file));
-                                echo "<li><a href='notices/circulars/$file' target='_blank' style=' color:black;'>";
+                                $fileurl=rawurlencode($file);
+                                echo "<li><a href='notices/circulars/$fileurl' target='_blank' style=' color:black;'>";
                             // echo $n;
                             // echo "&nbsp;";
                                 echo "<strong>";
@@ -207,9 +208,10 @@ define('BLINKER_INTERVAL', 5);
                         while($file=readdir($fo))
                         {
                            if($file!="." && $file!=".." && $file!="Thumbs.db")
-                           {
+                           {  
                                $name=preg_replace('/.[^.]*$/', '', basename($file));
-                               echo "<li><a href='notices/letters/$file' target='_blank' style=' color:black;'>";
+                               $fileurl=rawurlencode($file);
+                               echo "<li><a href='notices/letters/$fileurl' target='_blank' style=' color:black;'>";
                  // echo $n;
                  // echo "&nbsp;";
                                echo "<strong>";
@@ -239,7 +241,8 @@ define('BLINKER_INTERVAL', 5);
                        if($file!="." && $file!=".." && $file!="Thumbs.db")
                        {
                            $name=preg_replace('/.[^.]*$/', '', basename($file));
-                           echo "<li><a href='notices/fixtures/$file' target='_blank' style=' color:black;'>";
+                           $fileurl=rawurlencode($file);
+                           echo "<li><a href='notices/fixtures/$fileurl' target='_blank' style=' color:black;'>";
                  
                            echo "<strong>";
                            echo $name;
@@ -267,7 +270,8 @@ define('BLINKER_INTERVAL', 5);
                    if($file!="." && $file!=".." && $file!="Thumbs.db")
                    {
                        $name=preg_replace('/.[^.]*$/', '', basename($file));
-                       echo "<li><a href='notices/tenders/$file' target='_blank' style=' color:black;'>";
+                       $fileurl=rawurlencode($file);
+                       echo "<li><a href='notices/tenders/$fileurl' target='_blank' style=' color:black;'>";
                 
                        echo "<strong>";
                        echo $name;

@@ -174,7 +174,8 @@
                 if($file!="." && $file!=".." && $file!="Thumbs.db")
                 {
                     $name=preg_replace('/.[^.]*$/', '', basename($file));
-                    echo "<li><a href='news/$file' target='_blank' style=' color:black;'>";
+                    $fileurl=rawurlencode($file);
+                    echo "<li><a href='news/$fileurl' target='_blank' style=' color:black;'>";
                     // echo $n;
                     // echo "&nbsp;";
                     echo $name;
