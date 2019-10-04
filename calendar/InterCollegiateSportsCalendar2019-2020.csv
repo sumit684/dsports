@@ -1,52 +1,50 @@
-S.N.,EVENTS,STATUS,"ORGANIZING COLLEGE <br>
-(Yet to be alloted)","PROPOSED DATE
-I/C TOURNAMENT"
-1,Aquatics (M&W),Direct,,Ist week Oct. 2019
-2,Archery (M&W),Direct,,Last week Novt. 2019
-3,Athletics (M&W),Direct Division,,As per govt. calendar
-4,Badminton (M),Division,,As per govt. calendar
-5,Badminton (W),Direct Division,,As per govt. calendar
-6,Baseball (Men),Direct,,IInd week Feb. 2020
-7,Baseball (Women),Direct,,Ist week March 2020
-8,Basketball (M),Division,,As per govt. calendar
-9,Basketball (W),Direct Division,,As per govt. calendar
-10,Boxing (M&W),Direct,,IInd week Jan. 2020
-11,Chess (M),Division,,As per govt. calendar
-12,Chess (W),Division,,As per govt. calendar
-13,Cricket (M),Division,,As per govt. calendar
-14,Cricket (W),Direct Division,,As per govt. calendar
-15,Cross Country Race (M&W),Direct,,Ist week Sept. 2019
-16,Foot ball (M),Division,,As per govt. calendar
-17,Foot ball (W),Direct Division,,As per govt. calendar
+S.N.,EVENTS,STATUS,ORGANIZING COLLEGE,"PROPOSED DATE
+I/C  TOURNAMENT"
+1,Aquatics (M&W),Direct,"Ex. Sports Committee, DAVV., Indore",04-05 Oct. 2019
+2,Archery (M&W),Direct,"Shri Kanwar Tara Coll., Mandleshwar",Last week Nov. 2019
+3,Athletics (M&W),Direct Division,"Ex. Sports Committee, DAVV., Indore",22-24 Oct. 2019
+4,Badminton (M),Division,"IKDC., Indore",16-18 Oct. 2019
+5,Badminton (W),Direct Division,"St. Paul Prof. Institute, Indore",16-18 Oct. 2019
+6,Baseball (Men),Direct,"MB Khalsa College, Indore",IInd week Feb. 2020
+7,Baseball (Women),Direct,"Govt. PG College, Mhow",Ist week Feb. 2020
+8,Basketball (M),Division,"Govt. New Science College, Indore",16-18 Oct. 2019
+9,Basketball (W),Direct Division,"Holker Science College, Indore",07-09 Nov. 2019
+10,Boxing (M&W),Direct,"Ex. Sports Committee, DAVV., Indore",IInd week Jan. 2020
+11,Chess (M),Division,"Govt. PG College, Alirajpur",08-10 Nov. 2019
+12,Chess (W),Division,"Govt. College, Manawar",08-10 Nov. 2019
+13,Cricket (M),Division,"MB Khalsa College, Indore",28-31 Dec. 2019
+14,Cricket (W),Direct Division,"SN PG College, Khandwa",08-10 Jan. 2020
+15,Cross Country Race (M&W),Direct,"Seva Sadan College, Burhanpur",23 Sept. 2019
+16,Foot ball (M),Division,"Govt. PG College, Jhabua",08-10 Nov. 2019
+17,Foot ball (W),Direct Division,"MJB Govt. Girls PG College, Indore",19-21 Dec. 2019
 18,"Gymnastics(M&W) &
-Malkhamb (M&W)",Direct,,Ist week Nov. 2019
-19,Handball (M),Direct,,Last week Jan. 2020
-20,Handball (W),Direct,,Last week Dec. 2019
-21,Hockey (M),Direct Division,,As per govt. calendar
-22,Hockey (W),Direct Division,,As per govt. calendar
-23,Hockey '5'  (M) **,Direct,,IIIrd week March 2020
-24,Judo (Men),Direct Division,,As per govt. calendar
-25,Judo (Women),Direct Division,,As per govt. calendar
-26,Kabaddi (M),Division,,As per govt. calendar
-27,Kabaddi (W),Direct Division,,As per govt. calendar
-28,Kho-Kho (M),Division,,As per govt. calendar
-29,Kho-Kho (W),Direct Division,,As per govt. calendar
-30,Power lifting (M&W),Direct,,Last week Jan. 2020
-31,Roll ball (M&W) **,Direct,,Last week Jan. 2020
-32,Shooting (M&W),Direct,,IInd week Oct. 2019
-33,Softball (Men),Direct,,Ist week Oct. 2019
-34,Softball (Women),Direct,,IInd week Feb. 2020
-35,Squash Rkts. (M),Direct,,Last week Sept. 2019
-36,Table Tennis (M),Division,,As per govt. calendar
-37,Table Tennis (W),Direct Division,,As per govt. calendar
-38,Taekwondo (M&W),Direct,,IInd week Feb. 2020
-39,Tennis (M),Direct,,Last week Dec. 2019
-40,Tennis (W),Direct,,Last week Nov. 2019
-41,Volley ball (M),Division,,As per govt. calendar
-42,Volleyball (W),Direct Division,,As per govt. calendar
-43,"Weight  lifting  (M&W),
-& Best Physique (M)",Direct,,IIIrd week Oct. 2019
-44,Wrestling (M),Direct Division,,As per govt. calendar
-45,Wrestling (W),Direct Division,,As per govt. calendar
-46,Yoga (M&W),Direct Division,,As per govt. calendar
-47,Teachers Tournament,Direct Division,,As per govt. calendar
+Malkhamb (M&W)",Direct,"Ex. Sports Committee, DAVV., Indore",Ist week Feb. 2020
+19,Handball (M),Direct,"UTD Sports Association, DAVV, Indore",IIIrd week Dec. 2019
+20,Handball (W),Direct,"MB Khalsa College, Indore",IInd week Dec. 2019
+21,Hockey (M),Direct Division,"Govt. PG College, Barwani",14-17 Oct.2019
+22,Hockey (W),Direct Division,"MJB Govt. Girls PG College, Indore",09-11 Nov. 2019
+23,Hockey '5' (M),Direct,"Ex. Sports Committee, DAVV., Indore",IInd week Feb. 2020
+24,Judo (M&W),Direct Division,"Indore Christian College, Indore",07-09 Nov. 2019
+25,Kabaddi (M),Division,"Maharaja Ranjit Singh Coll, Indore",09-11 Nov. 2019
+26,Kabaddi (W),Direct Division,"Kasturbagram Rural Institute, Indore",09-11 Nov. 2019
+27,Kho-Kho (M),Division,"Govt. PG College, Dhar",09-11 Nov. 2019
+28,Kho-Kho (W),Direct Division,"MLB Govt. Girls PG College, Indore",09-11 Nov. 2019
+29,Power lifting (M&W),Direct,"MRS College, Indore",Last week Jan. 2020
+30,Roll ball (M&W),Direct,"Ex. Sports Committee, DAVV., Indore",Last week Jan. 2020
+31,Shooting (M&W),Direct,"IPS Academy, Indore",IInd week Oct. 2019
+32,Softball (Men),Direct,"I.K. College, Indore",Ist week Oct. 2019
+33,Softball (Women),Direct,"MJB Govt. Girls PG College, Indore",IInd week Feb. 2020
+34,Squash Rkts. (M),Direct,"Ex. Sports Committee, DAVV., Indore",IInd week Jan. 2020
+35,Table Tennis (M),Division,"IIMR., Rau",28-30 Dec. 2019
+36,Table Tennis (W),Direct Division,"MKHS Gujarati Girls College, Indore",22-24 Dec. 2019
+37,Taekwondo (M&W),Direct,"Shri Vaishnav Management Inst., Indore",IInd week Feb. 2020
+38,Tennis (M),Direct,"Holker Science College, Indore",Last week Dec. 2019
+39,Tennis (W),Direct,"IPS Academy, Indore",Last week Nov. 2019
+40,Volley ball (M),Division,"Kishorilal Verma College, Pandhana",15-19 Nov. 2019
+41,Volleyball (W),Direct Division,"Holker Science College, Indore",09-11Oct. 2019
+42,"Weight lifting (M&W),
+& Best Physique (M)",Direct,"Vidyasagar College, Indore",IIIrd week Oct. 2019
+43,Wrestling (M&W),Direct Division,"ILVA College, Indore",11-13 Oct. 2019
+44,Yoga (M),Direct Division,"GACC., Indore",07-09 Jan. 2020
+45,Yoga (W),Direct Division,"Cloth Market Prof. Institute, Indore",07-09 Jan. 2020
+46,Teachers Tournament,Direct Division,"Holker Science College, Indore",03-05 Feb. 2020
