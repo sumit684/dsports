@@ -196,5 +196,6 @@
             
         </div>
         <?php include 'include/footer.html';?>
+<!--    Viewd Code      -->
     </body>
     </html>
